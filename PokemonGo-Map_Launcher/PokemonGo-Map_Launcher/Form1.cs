@@ -193,7 +193,7 @@ namespace PokemonGo_Map_Launcher
         {
             if (string.IsNullOrWhiteSpace(textBox3.Text))
             {
-                ProcessStartInfo pStartInfo = new ProcessStartInfo("cmd.exe", "/C pikaptcha -p " + textBox1.Text + " -c " + comboBox1.Text + @" & powershell.exe .\usernames.ps1");
+                ProcessStartInfo pStartInfo = new ProcessStartInfo("cmd.exe", "/C pikaptcha -p " + textBox1.Text + " -c " + comboBox1.Text + @" & python banned.py -f usernames.txt & powershell.exe .\usernames.ps1");
                 pStartInfo.CreateNoWindow = true;
                 pStartInfo.UseShellExecute = false;
                 pStartInfo.RedirectStandardInput = true;
@@ -211,7 +211,7 @@ namespace PokemonGo_Map_Launcher
             }
             else
             {
-                ProcessStartInfo pStartInfo = new ProcessStartInfo("cmd.exe", "/C pikaptcha -r " + textBox3.Text + " -p " + textBox1.Text + " -c " + comboBox1.Text + @" & powershell.exe .\usernames.ps1 & del usernames.txt");
+                ProcessStartInfo pStartInfo = new ProcessStartInfo("cmd.exe", "/C pikaptcha -r " + textBox3.Text + " -p " + textBox1.Text + " -c " + comboBox1.Text + @" & python banned.py -f usernames.txt & powershell.exe .\usernames.ps1");
                 pStartInfo.CreateNoWindow = true;
                 pStartInfo.UseShellExecute = false;
                 pStartInfo.RedirectStandardInput = true;

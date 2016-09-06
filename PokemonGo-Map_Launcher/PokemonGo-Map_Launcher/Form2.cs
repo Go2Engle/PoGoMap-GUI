@@ -21,7 +21,6 @@ namespace PokemonGo_Map_Launcher
 
         private void button1_Click(object sender, EventArgs e)
         {
-            richTextBox1.SaveFile(@".\testaccounts.txt", RichTextBoxStreamType.PlainText);
             richTextBox2.Text = "";
             label1.Text = "Running";
             label1.ForeColor = System.Drawing.Color.Green;
@@ -50,7 +49,7 @@ namespace PokemonGo_Map_Launcher
 
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
         {
-            ProcessStartInfo pStartInfo = new ProcessStartInfo("cmd.exe", "/c python banned.py -f testaccounts.txt");
+            ProcessStartInfo pStartInfo = new ProcessStartInfo("cmd.exe", @"/c python banned.py -f usernames.txt & powershell.exe .\usernames.ps1");
             pStartInfo.CreateNoWindow = true;
             pStartInfo.UseShellExecute = false;
             pStartInfo.RedirectStandardInput = true;
