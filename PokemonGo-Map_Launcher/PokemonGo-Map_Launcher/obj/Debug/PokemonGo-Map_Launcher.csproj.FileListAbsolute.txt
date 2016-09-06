@@ -1,0 +1,10 @@
+c:\users\cengle\documents\visual studio 2015\Projects\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\bin\Debug\PokemonGo-Map_Launcher.exe.config
+c:\users\cengle\documents\visual studio 2015\Projects\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\bin\Debug\PokemonGo-Map_Launcher.exe
+c:\users\cengle\documents\visual studio 2015\Projects\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\bin\Debug\PokemonGo-Map_Launcher.pdb
+c:\users\cengle\documents\visual studio 2015\Projects\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Debug\PokemonGo-Map_Launcher.csprojResolveAssemblyReference.cache
+c:\users\cengle\documents\visual studio 2015\Projects\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Debug\PokemonGo_Map_Launcher.Form1.resources
+c:\users\cengle\documents\visual studio 2015\Projects\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Debug\PokemonGo_Map_Launcher.Properties.Resources.resources
+c:\users\cengle\documents\visual studio 2015\Projects\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Debug\PokemonGo-Map_Launcher.csproj.GenerateResource.Cache
+c:\users\cengle\documents\visual studio 2015\Projects\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Debug\PokemonGo-Map_Launcher.exe
+c:\users\cengle\documents\visual studio 2015\Projects\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Debug\PokemonGo-Map_Launcher.pdb
+C:\Users\cengle\documents\visual studio 2015\Projects\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Debug\PokemonGo_Map_Launcher.Form2.resources
