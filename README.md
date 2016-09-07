@@ -15,7 +15,7 @@ Tools being used by my GUI:
  - Choose step limit (step limit must be commented out in your PokemonGo-Map config.ini for this to work)
  - Set starting location (location must be commented out in your PokemonGo-Map config.ini for this to work)
  - Update button to update your PokemonGo-Map setup
- - Quickly create accounts and automatically add them to your PokemonGo-Map config.ini
+ - Quickly create accounts and automatically add them to your PokemonGo-Map config.ini (Please check the wiki for instructions https://github.com/engle2192/PoGoMap-GUI/wiki)
  - Quickly check the accounts you are currently using and automatically delete banned or deleted accounts from your config.ini
 
 ## Installation
