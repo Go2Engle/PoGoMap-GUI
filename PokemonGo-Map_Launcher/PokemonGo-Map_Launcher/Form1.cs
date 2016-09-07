@@ -52,18 +52,30 @@ namespace PokemonGo_Map_Launcher
 
         private void button1_Click(object sender, EventArgs e)
         {
-            richTextBox1.Text = "";
-            runmapSS.RunWorkerAsync();
+            //richTextBox1.Text = "";
+            //runmapSS.RunWorkerAsync();
+            String command = @"/c python runserver.py --webhook-updates-only -l " + textBox2.Text + " -st " + comboBox2.Text + label2.Text + label3.Text + label4.Text + label5.Text;
+            ProcessStartInfo cmdsi = new ProcessStartInfo("cmd.exe");
+            cmdsi.Arguments = command;
+            Process cmd = Process.Start(cmdsi);
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            richTextBox1.Text = "";
-            update.RunWorkerAsync();
+            //richTextBox1.Text = "";
+            //update.RunWorkerAsync();
+            String command = @"/C git pull & pip install -r requirements.txt --upgrade & npm install & npm run build";
+            ProcessStartInfo cmdsi = new ProcessStartInfo("cmd.exe");
+            cmdsi.Arguments = command;
+            Process cmd = Process.Start(cmdsi);
         }
         private void button3_Click(object sender, EventArgs e)
         {
-            richTextBox1.Text = "";
-            runmapSPS.RunWorkerAsync();
+            //richTextBox1.Text = "";
+            //runmapSPS.RunWorkerAsync();
+            String command = @"/c python runserver.py -ss --webhook-updates-only -l " + textBox2.Text + " -st " + comboBox2.Text + label2.Text + label3.Text + label4.Text + label5.Text;
+            ProcessStartInfo cmdsi = new ProcessStartInfo("cmd.exe");
+            cmdsi.Arguments = command;
+            Process cmd = Process.Start(cmdsi);
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -89,32 +101,38 @@ namespace PokemonGo_Map_Launcher
 
         private void button6_Click(object sender, EventArgs e)
         {
-            richTextBox1.Text = "";
-            AccountCreation.RunWorkerAsync();
+            //richTextBox1.Text = "";
+            //AccountCreation.RunWorkerAsync();
+            String command = @"/C pikaptcha -p " + textBox1.Text + " -c " + comboBox1.Text + @" & python banned.py -f usernames.txt & powershell.exe .\usernames.ps1";
+            ProcessStartInfo cmdsi = new ProcessStartInfo("cmd.exe");
+            cmdsi.Arguments = command;
+            Process cmd = Process.Start(cmdsi);
         }
-        private void button7_Click(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process process = new System.Diagnostics.Process();
-            System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
-            startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
-            startInfo.FileName = "cmd.exe";
-            startInfo.Arguments = @"/C taskkill /F /IM python.exe /T";
-            process.StartInfo = startInfo;
-            process.Start();
-        }
+
         private void button8_Click(object sender, EventArgs e)
         {
             //String command = "/C RunNotifications.lnk";
             //ProcessStartInfo cmdsi = new ProcessStartInfo("cmd.exe");
             //cmdsi.Arguments = command;
             //Process cmd = Process.Start(cmdsi);
-            richTextBox2.Text = "";
-            Notifications.RunWorkerAsync();
+            //richTextBox2.Text = "";
+            //Notifications.RunWorkerAsync();
+            String command = @"/C RunNotifications.lnk";
+            ProcessStartInfo cmdsi = new ProcessStartInfo("cmd.exe");
+            cmdsi.Arguments = command;
+            Process cmd = Process.Start(cmdsi);
+        }
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Form2 f2 = new Form2();
+            f2.ShowDialog();
         }
 
         #endregion
 
         #region Background Workers
+
+        //Leaving background workers in code just incase I decide to use them in the future. For now it causes to much lag.
 
         private void Notifications_DoWork(object sender, DoWorkEventArgs e)
         {
@@ -232,6 +250,7 @@ namespace PokemonGo_Map_Launcher
         #endregion
 
         #region Handlers
+        //Not in use at the momment
         private void OutputHandler(Object source, DataReceivedEventArgs outLine)
         {
             // Collect the sort command output. 
@@ -270,7 +289,7 @@ namespace PokemonGo_Map_Launcher
 
         #endregion
 
-
+        #region CheckBoxes
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
@@ -320,10 +339,6 @@ namespace PokemonGo_Map_Launcher
             }
         }
 
-        private void button9_Click(object sender, EventArgs e)
-        {
-            Form2 f2 = new Form2();
-            f2.ShowDialog();
-        }
+        #endregion
     }
 }

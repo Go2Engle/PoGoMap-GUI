@@ -41,7 +41,6 @@
             this.runmapSS = new System.ComponentModel.BackgroundWorker();
             this.runmapSPS = new System.ComponentModel.BackgroundWorker();
             this.update = new System.ComponentModel.BackgroundWorker();
-            this.button7 = new System.Windows.Forms.Button();
             this.AccountCreation = new System.ComponentModel.BackgroundWorker();
             this.button8 = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
@@ -81,7 +80,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.White;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(12, 392);
+            this.button2.Location = new System.Drawing.Point(11, 433);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(276, 35);
             this.button2.TabIndex = 1;
@@ -107,7 +106,7 @@
             // 
             this.button4.BackColor = System.Drawing.Color.White;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(12, 351);
+            this.button4.Location = new System.Drawing.Point(11, 392);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(276, 35);
             this.button4.TabIndex = 4;
@@ -119,7 +118,7 @@
             // 
             this.button5.BackColor = System.Drawing.Color.White;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(12, 310);
+            this.button5.Location = new System.Drawing.Point(11, 351);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(276, 35);
             this.button5.TabIndex = 5;
@@ -186,7 +185,7 @@
             this.richTextBox2.ForeColor = System.Drawing.Color.White;
             this.richTextBox2.Location = new System.Drawing.Point(293, 12);
             this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(577, 173);
+            this.richTextBox2.Size = new System.Drawing.Size(0, 173);
             this.richTextBox2.TabIndex = 11;
             this.richTextBox2.Text = "";
             this.richTextBox2.TextChanged += new System.EventHandler(this.richTextBox2_TextChanged);
@@ -202,18 +201,6 @@
             // update
             // 
             this.update.DoWork += new System.ComponentModel.DoWorkEventHandler(this.update_DoWork);
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.White;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(11, 475);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(276, 35);
-            this.button7.TabIndex = 12;
-            this.button7.Text = "Kill Running Server";
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // AccountCreation
             // 
@@ -243,7 +230,7 @@
             this.richTextBox1.ForeColor = System.Drawing.Color.White;
             this.richTextBox1.Location = new System.Drawing.Point(293, 191);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(577, 320);
+            this.richTextBox1.Size = new System.Drawing.Size(0, 285);
             this.richTextBox1.TabIndex = 14;
             this.richTextBox1.Text = "";
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
@@ -400,7 +387,7 @@
             // 
             this.button9.BackColor = System.Drawing.Color.White;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Location = new System.Drawing.Point(11, 433);
+            this.button9.Location = new System.Drawing.Point(11, 310);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(276, 35);
             this.button9.TabIndex = 27;
@@ -433,7 +420,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(880, 515);
+            this.ClientSize = new System.Drawing.Size(295, 480);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.button9);
@@ -451,7 +438,6 @@
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button6);
@@ -464,6 +450,7 @@
             this.Controls.Add(this.button1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.ShowIcon = false;
             this.Text = "PokemonGo-Map";
@@ -488,7 +475,6 @@
         private System.ComponentModel.BackgroundWorker runmapSS;
         private System.ComponentModel.BackgroundWorker runmapSPS;
         private System.ComponentModel.BackgroundWorker update;
-        private System.Windows.Forms.Button button7;
         private System.ComponentModel.BackgroundWorker AccountCreation;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.RichTextBox richTextBox1;
