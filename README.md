@@ -10,6 +10,7 @@ Tools being used by my GUI:
  - PoGoAccountCheck (https://github.com/a-moss/PoGoAccountCheck)
 
 ## Features
+![Alt text](https://github.com/engle2192/PoGoMap-GUI/blob/master/Screenshots/MainWindow.PNG)
  - Run your map in spiral scan or spawn point scanning
  - Enable/Disable scan for poke stops, gyms, fixed locations, no search control
  - Choose step limit (step limit must be commented out in your PokemonGo-Map config.ini for this to work)
