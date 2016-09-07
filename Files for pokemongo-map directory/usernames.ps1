@@ -1,13 +1,13 @@
 $usernamesPath = ".\usernames.txt"
 $bannedpath = ".\banned.txt"
-$usernames = get-content -path $usernamesPath
-$banned = get-content -path $bannedpath
+$usernames = get-content -path $usernamesPath -ErrorAction Stop
+$banned = get-content -path $bannedpath -ErrorAction SilentlyContinue
 foreach($username in $banned)
     {
     $usernames = $usernames | where {$_ -notmatch $username}
     }
 [System.IO.File]::WriteAllLines($usernamesPath, $usernames)
-remove-item -Path $bannedpath -Force
+remove-item -Path $bannedpath -Force -ErrorAction SilentlyContinue
 $configPath = '.\config\config.ini'
 $config = get-content -path $configPath
 foreach($username in $usernames)
