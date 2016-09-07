@@ -30,7 +30,10 @@ Tools being used by my GUI:
 8. Run PokemonGo-Map_Launcher.exe
 
 ## Powershell instructions
-1. Run "Set-ItemProperty -Path HKLM:\Software\Policies\Microsoft\Windows\PowerShell -Name ExecutionPolicy -Value ByPass" in powershell launched as administrator
+1. Run below in powershell launched as administrator:
+
+    Set-ItemProperty -Path HKLM:\Software\Policies\Microsoft\Windows\PowerShell -Name ExecutionPolicy -Value ByPass
+
 2. If you get this error continue to step 3 other wise you are finished.
 ![Alt text](https://i0.wp.com/absolute-sharepoint.com/wp-content/uploads/2014/03/031714_2013_ChangethePo5.png?w=940)
 3. This is because your local group policy to allow scripts to run on the system is probably “not configured” . To configure it, run “gpedit.msc”
