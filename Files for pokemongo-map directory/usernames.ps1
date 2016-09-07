@@ -9,7 +9,7 @@ foreach($username in $banned)
 [System.IO.File]::WriteAllLines($usernamesPath, $usernames)
 remove-item -Path $bannedpath -Force
 $configPath = '.\config\config.ini'
-$config = get-content -path $MyPath
+$config = get-content -path $configPath
 foreach($username in $usernames)
     {
     $username = $username.split(':')
