@@ -145,7 +145,7 @@ namespace PokemonGo_Map_Launcher
             process1.Start();
             process1.BeginOutputReadLine();
             process1.BeginErrorReadLine();
-            process1.WaitForExit();
+            //process1.WaitForExit();
             if (runmapSS.CancellationPending)
             {
                 e.Cancel = true;
