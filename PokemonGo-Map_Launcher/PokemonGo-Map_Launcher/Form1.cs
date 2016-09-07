@@ -17,6 +17,7 @@ namespace PokemonGo_Map_Launcher
         public Form1()
         {
             InitializeComponent();
+            runmapSS.WorkerSupportsCancellation = true;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -94,13 +95,7 @@ namespace PokemonGo_Map_Launcher
         }
         private void button7_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process process = new System.Diagnostics.Process();
-            System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
-            startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
-            startInfo.FileName = "cmd.exe";
-            startInfo.Arguments = @"/C taskkill /F /IM python.exe /T";
-            process.StartInfo = startInfo;
-            process.Start();
+            runmapSS.CancelAsync();
         }
         private void button8_Click(object sender, EventArgs e)
         {
@@ -135,8 +130,7 @@ namespace PokemonGo_Map_Launcher
             process1.WaitForExit();
         }
         private void runmapSS_DoWork(object sender, DoWorkEventArgs e)
-        {
-            
+        { 
             ProcessStartInfo pStartInfo = new ProcessStartInfo("cmd.exe", "/c python runserver.py --webhook-updates-only -l " + textBox2.Text + " -st " + comboBox2.Text + label2.Text + label3.Text + label4.Text + label5.Text);
             pStartInfo.CreateNoWindow = true;
             pStartInfo.UseShellExecute = false;
@@ -152,6 +146,12 @@ namespace PokemonGo_Map_Launcher
             process1.BeginOutputReadLine();
             process1.BeginErrorReadLine();
             process1.WaitForExit();
+            if (runmapSS.CancellationPending)
+            {
+                e.Cancel = true;
+                return;
+            }
+
         }
         private void runmapSPS_DoWork(object sender, DoWorkEventArgs e)
         {
@@ -325,5 +325,7 @@ namespace PokemonGo_Map_Launcher
             Form2 f2 = new Form2();
             f2.ShowDialog();
         }
+
+
     }
 }

@@ -18,3 +18,13 @@ C:\Users\Spazz\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map
 C:\Users\Spazz\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Debug\PokemonGo-Map_Launcher.csproj.GenerateResource.Cache
 C:\Users\Spazz\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\bin\Debug\PokemonGo-Map_Launcher.exe
 C:\Users\Spazz\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\bin\Debug\PokemonGo-Map_Launcher.pdb
+C:\Users\cengle\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\bin\Debug\PokemonGo-Map_Launcher.exe.config
+C:\Users\cengle\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Debug\PokemonGo-Map_Launcher.exe
+C:\Users\cengle\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Debug\PokemonGo-Map_Launcher.pdb
+C:\Users\cengle\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\bin\Debug\PokemonGo-Map_Launcher.exe
+C:\Users\cengle\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\bin\Debug\PokemonGo-Map_Launcher.pdb
+C:\Users\cengle\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Debug\PokemonGo-Map_Launcher.csprojResolveAssemblyReference.cache
+C:\Users\cengle\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Debug\PokemonGo_Map_Launcher.Form1.resources
+C:\Users\cengle\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Debug\PokemonGo_Map_Launcher.Form2.resources
+C:\Users\cengle\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Debug\PokemonGo_Map_Launcher.Properties.Resources.resources
+C:\Users\cengle\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Debug\PokemonGo-Map_Launcher.csproj.GenerateResource.Cache
