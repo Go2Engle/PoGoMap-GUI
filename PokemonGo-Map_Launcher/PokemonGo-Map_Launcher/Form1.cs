@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
 using System.IO;
+using System.Runtime.InteropServices;
+using System.Threading;
 
 namespace PokemonGo_Map_Launcher
 {
@@ -28,54 +30,37 @@ namespace PokemonGo_Map_Launcher
             label5.Text = "";
             textBox2.Text = "17605";
         }
+        [DllImport("user32.dll")]
+        static extern IntPtr SetParent(IntPtr hWndChild, IntPtr hWndNewParent);
+        [DllImport("user32.dll", SetLastError = true)]
+        internal static extern bool MoveWindow(IntPtr hwnd, int X, int Y, int nWidth, int nHeight, bool bRepaint);
 
-        #region TextBoxes
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-            // set the current caret position to the end
-            richTextBox1.SelectionStart = richTextBox1.Text.Length;
-            // scroll it automatically
-            richTextBox1.ScrollToCaret();
-        }
-        private void richTextBox2_TextChanged(object sender, EventArgs e)
-        {
-            // set the current caret position to the end
-            richTextBox2.SelectionStart = richTextBox2.Text.Length;
-            // scroll it automatically
-            richTextBox2.ScrollToCaret();
-        }
-
-        #endregion
 
         #region Buttons
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //richTextBox1.Text = "";
-            //runmapSS.RunWorkerAsync();
-            String command = @"/c python runserver.py --webhook-updates-only -l " + textBox2.Text + " -st " + comboBox2.Text + label2.Text + label3.Text + label4.Text + label5.Text;
-            ProcessStartInfo cmdsi = new ProcessStartInfo("cmd.exe");
-            cmdsi.Arguments = command;
-            Process cmd = Process.Start(cmdsi);
+            //RunMapSS
+            Process p = Process.Start("cmd.exe", @"/c python runserver.py --webhook-updates-only -l " + textBox2.Text + " -st " + comboBox2.Text + label2.Text + label3.Text + label4.Text + label5.Text);
+            Thread.Sleep(150); // Allow the process to open it's window
+            SetParent(p.MainWindowHandle, this.Handle);
+            MoveWindow(p.MainWindowHandle, 290, 220, 825, 357, true);
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            //richTextBox1.Text = "";
-            //update.RunWorkerAsync();
-            String command = @"/C git pull & pip install -r requirements.txt --upgrade & npm install & npm run build";
-            ProcessStartInfo cmdsi = new ProcessStartInfo("cmd.exe");
-            cmdsi.Arguments = command;
-            Process cmd = Process.Start(cmdsi);
+            //Run Updates
+            Process p = Process.Start("cmd.exe", @"/C git pull & pip install -r requirements.txt --upgrade & npm install & npm run build");
+            Thread.Sleep(150); // Allow the process to open it's window
+            SetParent(p.MainWindowHandle, this.Handle);
+            MoveWindow(p.MainWindowHandle, 290, 0, 825, 218, true);
         }
         private void button3_Click(object sender, EventArgs e)
         {
-            //richTextBox1.Text = "";
-            //runmapSPS.RunWorkerAsync();
-            String command = @"/c python runserver.py -ss --webhook-updates-only -l " + textBox2.Text + " -st " + comboBox2.Text + label2.Text + label3.Text + label4.Text + label5.Text;
-            ProcessStartInfo cmdsi = new ProcessStartInfo("cmd.exe");
-            cmdsi.Arguments = command;
-            Process cmd = Process.Start(cmdsi);
+            //RunMapSPS
+            Process p = Process.Start("cmd.exe", @"/c python runserver.py -ss --webhook-updates-only -l " + textBox2.Text + " -st " + comboBox2.Text + label2.Text + label3.Text + label4.Text + label5.Text);
+            Thread.Sleep(150); // Allow the process to open it's window
+            SetParent(p.MainWindowHandle, this.Handle);
+            MoveWindow(p.MainWindowHandle, 290, 220, 825, 357, true);
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -101,191 +86,26 @@ namespace PokemonGo_Map_Launcher
 
         private void button6_Click(object sender, EventArgs e)
         {
-            //richTextBox1.Text = "";
-            //AccountCreation.RunWorkerAsync();
-            String command = @"/C pikaptcha -p " + textBox1.Text + " -c " + comboBox1.Text + @" & python banned.py -f usernames.txt & powershell.exe .\usernames.ps1";
-            ProcessStartInfo cmdsi = new ProcessStartInfo("cmd.exe");
-            cmdsi.Arguments = command;
-            Process cmd = Process.Start(cmdsi);
+            //Account Creation
+            Process p = Process.Start("cmd.exe", @"/C pikaptcha -p " + textBox1.Text + " -c " + comboBox1.Text + @" & python banned.py -f usernames.txt & powershell.exe .\usernames.ps1");
+            Thread.Sleep(150); // Allow the process to open it's window
+            SetParent(p.MainWindowHandle, this.Handle);
+            MoveWindow(p.MainWindowHandle, 290, 220, 825, 357, true);
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            //String command = "/C RunNotifications.lnk";
-            //ProcessStartInfo cmdsi = new ProcessStartInfo("cmd.exe");
-            //cmdsi.Arguments = command;
-            //Process cmd = Process.Start(cmdsi);
-            //richTextBox2.Text = "";
-            //Notifications.RunWorkerAsync();
-            String command = @"/C RunNotifications.lnk";
-            ProcessStartInfo cmdsi = new ProcessStartInfo("cmd.exe");
-            cmdsi.Arguments = command;
-            Process cmd = Process.Start(cmdsi);
+            //RunNotifications
+            Process p = Process.Start("cmd.exe", @"/C RunNotifications.lnk");
+            Thread.Sleep(150); // Allow the process to open it's window
+            SetParent(p.MainWindowHandle, this.Handle);
+            MoveWindow(p.MainWindowHandle, 290, 0, 825, 218, true);
         }
         private void button9_Click(object sender, EventArgs e)
         {
             Form2 f2 = new Form2();
             f2.ShowDialog();
         }
-
-        #endregion
-
-        #region Background Workers
-
-        //Leaving background workers in code just incase I decide to use them in the future. For now it causes to much lag.
-
-        private void Notifications_DoWork(object sender, DoWorkEventArgs e)
-        {
-            ProcessStartInfo pStartInfo = new ProcessStartInfo("cmd.exe", "/C RunNotifications.lnk");
-            pStartInfo.CreateNoWindow = true;
-            pStartInfo.UseShellExecute = false;
-            pStartInfo.RedirectStandardInput = true;
-            pStartInfo.RedirectStandardOutput = true;
-            pStartInfo.RedirectStandardError = true;
-            Process process1 = new Process();
-            process1.OutputDataReceived += new DataReceivedEventHandler(OutputHandler2);
-            process1.ErrorDataReceived += new DataReceivedEventHandler(ErrorHandler2);
-            process1.StartInfo = pStartInfo;
-            process1.SynchronizingObject = richTextBox2;
-            process1.Start();
-            process1.BeginOutputReadLine();
-            process1.BeginErrorReadLine();
-            process1.WaitForExit();
-        }
-        private void runmapSS_DoWork(object sender, DoWorkEventArgs e)
-        {
-            
-            ProcessStartInfo pStartInfo = new ProcessStartInfo("cmd.exe", "/c python runserver.py --webhook-updates-only -l " + textBox2.Text + " -st " + comboBox2.Text + label2.Text + label3.Text + label4.Text + label5.Text);
-            pStartInfo.CreateNoWindow = true;
-            pStartInfo.UseShellExecute = false;
-            pStartInfo.RedirectStandardInput = true;
-            pStartInfo.RedirectStandardOutput = true;
-            pStartInfo.RedirectStandardError = true;
-            Process process1 = new Process();
-            process1.OutputDataReceived += new DataReceivedEventHandler(OutputHandler);
-            process1.ErrorDataReceived += new DataReceivedEventHandler(ErrorHandler);
-            process1.StartInfo = pStartInfo;
-            process1.SynchronizingObject = richTextBox2;
-            process1.Start();
-            process1.BeginOutputReadLine();
-            process1.BeginErrorReadLine();
-            process1.WaitForExit();
-        }
-        private void runmapSPS_DoWork(object sender, DoWorkEventArgs e)
-        {
-            ProcessStartInfo pStartInfo = new ProcessStartInfo("cmd.exe", "/c python runserver.py -ss --webhook-updates-only -l " + textBox2.Text + " -st " + comboBox2.Text + label2.Text + label3.Text + label4.Text + label5.Text);
-            pStartInfo.CreateNoWindow = true;
-            pStartInfo.UseShellExecute = false;
-            pStartInfo.RedirectStandardInput = true;
-            pStartInfo.RedirectStandardOutput = true;
-            pStartInfo.RedirectStandardError = true;
-            Process process1 = new Process();
-            process1.OutputDataReceived += new DataReceivedEventHandler(OutputHandler);
-            process1.ErrorDataReceived += new DataReceivedEventHandler(ErrorHandler);
-            process1.StartInfo = pStartInfo;
-            process1.SynchronizingObject = richTextBox2;
-            process1.Start();
-            process1.BeginOutputReadLine();
-            process1.BeginErrorReadLine();
-            process1.WaitForExit();
-        }
-        private void update_DoWork(object sender, DoWorkEventArgs e)
-        {
-            ProcessStartInfo pStartInfo = new ProcessStartInfo("cmd.exe", "/C git pull & pip install -r requirements.txt --upgrade & npm install & npm run build");
-            pStartInfo.CreateNoWindow = true;
-            pStartInfo.UseShellExecute = false;
-            pStartInfo.RedirectStandardInput = true;
-            pStartInfo.RedirectStandardOutput = true;
-            pStartInfo.RedirectStandardError = true;
-            Process process1 = new Process();
-            process1.OutputDataReceived += new DataReceivedEventHandler(OutputHandler);
-            process1.ErrorDataReceived += new DataReceivedEventHandler(ErrorHandler);
-            process1.StartInfo = pStartInfo;
-            process1.SynchronizingObject = richTextBox2;
-            process1.Start();
-            process1.BeginOutputReadLine();
-            process1.BeginErrorReadLine();
-            process1.WaitForExit();
-        }
-        private void AccountCreation_DoWork(object sender, DoWorkEventArgs e)
-        {
-            if (string.IsNullOrWhiteSpace(textBox3.Text))
-            {
-                ProcessStartInfo pStartInfo = new ProcessStartInfo("cmd.exe", "/C pikaptcha -p " + textBox1.Text + " -c " + comboBox1.Text + @" & python banned.py -f usernames.txt & powershell.exe .\usernames.ps1");
-                pStartInfo.CreateNoWindow = true;
-                pStartInfo.UseShellExecute = false;
-                pStartInfo.RedirectStandardInput = true;
-                pStartInfo.RedirectStandardOutput = true;
-                pStartInfo.RedirectStandardError = true;
-                Process process1 = new Process();
-                process1.OutputDataReceived += new DataReceivedEventHandler(OutputHandler);
-                process1.ErrorDataReceived += new DataReceivedEventHandler(ErrorHandler);
-                process1.StartInfo = pStartInfo;
-                process1.SynchronizingObject = richTextBox2;
-                process1.Start();
-                process1.BeginOutputReadLine();
-                process1.BeginErrorReadLine();
-                process1.WaitForExit();
-            }
-            else
-            {
-                ProcessStartInfo pStartInfo = new ProcessStartInfo("cmd.exe", "/C pikaptcha -r " + textBox3.Text + " -p " + textBox1.Text + " -c " + comboBox1.Text + @" & python banned.py -f usernames.txt & powershell.exe .\usernames.ps1");
-                pStartInfo.CreateNoWindow = true;
-                pStartInfo.UseShellExecute = false;
-                pStartInfo.RedirectStandardInput = true;
-                pStartInfo.RedirectStandardOutput = true;
-                pStartInfo.RedirectStandardError = true;
-                Process process1 = new Process();
-                process1.OutputDataReceived += new DataReceivedEventHandler(OutputHandler);
-                process1.ErrorDataReceived += new DataReceivedEventHandler(ErrorHandler);
-                process1.StartInfo = pStartInfo;
-                process1.SynchronizingObject = richTextBox2;
-                process1.Start();
-                process1.BeginOutputReadLine();
-                process1.BeginErrorReadLine();
-                process1.WaitForExit();
-            }
-        }
-
-        #endregion
-
-        #region Handlers
-        //Not in use at the momment
-        private void OutputHandler(Object source, DataReceivedEventArgs outLine)
-        {
-            // Collect the sort command output. 
-            if (!String.IsNullOrEmpty(outLine.Data))
-            {
-                richTextBox1.AppendText(outLine.Data + "\r\n");
-            }
-        }
-
-        private void ErrorHandler(Object source, DataReceivedEventArgs outLine)
-        {
-            // Collect the sort command output. 
-            if (!String.IsNullOrEmpty(outLine.Data))
-            {
-                richTextBox1.AppendText(outLine.Data + "\r\n");
-            }
-        }
-        private void OutputHandler2(Object source, DataReceivedEventArgs outLine)
-        {
-            // Collect the sort command output. 
-            if (!String.IsNullOrEmpty(outLine.Data))
-            {
-                richTextBox2.AppendText(outLine.Data + "\r\n");
-            }
-        }
-
-        private void ErrorHandler2(Object source, DataReceivedEventArgs outLine)
-        {
-            // Collect the sort command output. 
-            if (!String.IsNullOrEmpty(outLine.Data))
-            {
-                richTextBox2.AppendText(outLine.Data + "\r\n");
-            }
-        }
-
 
         #endregion
 
@@ -340,5 +160,13 @@ namespace PokemonGo_Map_Launcher
         }
 
         #endregion
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("Are all your command windows close?", "IMPORTANT", MessageBoxButtons.YesNo) == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+        }
     }
 }
