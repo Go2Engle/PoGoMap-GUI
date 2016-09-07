@@ -9,13 +9,22 @@ Tools being used by my GUI:
  - PokeAlarm (https://github.com/kvangent/PokeAlarm)
  - PoGoAccountCheck (https://github.com/a-moss/PoGoAccountCheck)
 
+## Features
+ - Run your map in spiral scan or spawn point scanning
+ - Enable/Disable scan for poke stops, gyms, fixed locations, no search control
+ - Choose step limit (step limit must be commented out in your PokemonGo-Map config.ini for this to work)
+ - Set starting location (location must be commented out in your PokemonGo-Map config.ini for this to work)
+ - Update button to update your PokemonGo-Map setup
+ - Quickly create accounts and automatically add them to your PokemonGo-Map config.ini
+ - Quickly check the accounts you are currently using and automatically delete banned or deleted accounts from your config.ini
+
 ## Installation
 1. Have a fully running and working Pokemongo-Map (https://github.com/PokemonGoMap/PokemonGo-Map).
 2. Follow instructions from (https://github.com/sriyegna/Pikaptcha) to install Pikaptcha.
 3. Follow instructions from (https://github.com/kvangent/PokeAlarm) to install PokeAlarm.
 3. Download latest PoGoMap-GUI zip from releases section. (https://github.com/engle2192/PoGoMap-GUI/releases)
 4. Extract files from zip to the root of your PokemonGo-Map Directory.
-5. Copy RunNotifications.bat from "Files for pokemongo-map directory" to your PokeAlarm folder and edit it to your setup.
+5. Copy RunNotifications.bat from the root of your PokemonGo-Map to your PokeAlarm folder and edit it to fit your setup.
 6. Create a shortcut of RunNotifications.bat that is located in your PokeAlarm directory and place it in the root of your PokemonGo-Map Directory (Make sure the shortcut is called RunNotifications).
 7. Follow the bellow instructions to configure your computer to bypass execution policy for powershell scripts
 8. Run PokemonGo-Map_Launcher.exe
