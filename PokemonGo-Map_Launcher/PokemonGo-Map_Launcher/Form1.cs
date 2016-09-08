@@ -40,15 +40,16 @@ namespace PokemonGo_Map_Launcher
 
         private void test_Click(object sender, EventArgs e)
         {
-            Process p = Process.Start("cmd.exe");
-            Thread.Sleep(150); // Allow the process to open it's window
-            SetParent(p.MainWindowHandle, this.Handle);
-            MoveWindow(p.MainWindowHandle, 290, 218, 970, 357, true);
-
             Process p1 = Process.Start("cmd.exe");
             Thread.Sleep(150); // Allow the process to open it's window
-            SetParent(p1.MainWindowHandle, this.Handle);
-            MoveWindow(p1.MainWindowHandle, 290, 0, 970, 218, true);
+            SetParent(p1.MainWindowHandle, panel1.Handle);
+            MoveWindow(p1.MainWindowHandle, 0, 0, panel1.Width, panel1.Height, true);
+
+            Process p = Process.Start("cmd.exe");
+            Thread.Sleep(150); // Allow the process to open it's window
+            SetParent(p.MainWindowHandle, panel2.Handle);
+            MoveWindow(p.MainWindowHandle, 0, 0, panel2.Width, panel2.Height, true);
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -56,24 +57,24 @@ namespace PokemonGo_Map_Launcher
             //RunMapSS
             Process p = Process.Start("cmd.exe", @"/c python runserver.py --webhook-updates-only -l " + textBox2.Text + " -st " + comboBox2.Text + label2.Text + label3.Text + label4.Text + label5.Text);
             Thread.Sleep(150); // Allow the process to open it's window
-            SetParent(p.MainWindowHandle, this.Handle);
-            MoveWindow(p.MainWindowHandle, 290, 218, 970, 357, true);
+            SetParent(p.MainWindowHandle, panel2.Handle);
+            MoveWindow(p.MainWindowHandle, 0, 0, panel2.Width, panel2.Height, true);
         }
         private void button2_Click(object sender, EventArgs e)
         {
             //Run Updates
             Process p = Process.Start("cmd.exe", @"/C git pull & pip install -r requirements.txt --upgrade & npm install & npm run build");
             Thread.Sleep(150); // Allow the process to open it's window
-            SetParent(p.MainWindowHandle, this.Handle);
-            MoveWindow(p.MainWindowHandle, 290, 0, 970, 218, true);
+            SetParent(p.MainWindowHandle, panel1.Handle);
+            MoveWindow(p.MainWindowHandle, 0, 0, panel1.Width, panel1.Height, true);
         }
         private void button3_Click(object sender, EventArgs e)
         {
             //RunMapSPS
             Process p = Process.Start("cmd.exe", @"/c python runserver.py -ss --webhook-updates-only -l " + textBox2.Text + " -st " + comboBox2.Text + label2.Text + label3.Text + label4.Text + label5.Text);
             Thread.Sleep(150); // Allow the process to open it's window
-            SetParent(p.MainWindowHandle, this.Handle);
-            MoveWindow(p.MainWindowHandle, 290, 218, 970, 357, true);
+            SetParent(p.MainWindowHandle, panel2.Handle);
+            MoveWindow(p.MainWindowHandle, 0, 0, panel2.Width, panel2.Height, true);
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -104,15 +105,15 @@ namespace PokemonGo_Map_Launcher
             {
                 Process p = Process.Start("cmd.exe", @"/C pikaptcha -p " + textBox1.Text + " -c " + comboBox1.Text + @" & python banned.py -f usernames.txt & powershell.exe .\usernames.ps1");
                 Thread.Sleep(150); // Allow the process to open it's window
-                SetParent(p.MainWindowHandle, this.Handle);
-                MoveWindow(p.MainWindowHandle, 290, 218, 970, 357, true);
+                SetParent(p.MainWindowHandle, panel2.Handle);
+                MoveWindow(p.MainWindowHandle, 0, 0, panel2.Width, panel2.Height, true);
             }
             else
             {
                 Process p = Process.Start("cmd.exe", @"/C pikaptcha -r " + textBox3.Text + " -p " + textBox1.Text + " -c " + comboBox1.Text + @" & python banned.py -f usernames.txt & powershell.exe .\usernames.ps1");
                 Thread.Sleep(150); // Allow the process to open it's window
-                SetParent(p.MainWindowHandle, this.Handle);
-                MoveWindow(p.MainWindowHandle, 290, 218, 970, 357, true);
+                SetParent(p.MainWindowHandle, panel2.Handle);
+                MoveWindow(p.MainWindowHandle, 0, 0, panel2.Width, panel2.Height, true);
             }
         }
 
@@ -121,8 +122,8 @@ namespace PokemonGo_Map_Launcher
             //RunNotifications
             Process p = Process.Start("cmd.exe", @"/C RunNotifications.lnk");
             Thread.Sleep(150); // Allow the process to open it's window
-            SetParent(p.MainWindowHandle, this.Handle);
-            MoveWindow(p.MainWindowHandle, 290, 0, 970, 218, true);
+            SetParent(p.MainWindowHandle, panel1.Handle);
+            MoveWindow(p.MainWindowHandle, 0, 0, panel1.Width, panel1.Height, true);
         }
         private void button9_Click(object sender, EventArgs e)
         {
