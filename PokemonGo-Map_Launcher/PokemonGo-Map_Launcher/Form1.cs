@@ -63,13 +63,22 @@ namespace PokemonGo_Map_Launcher
         private void button2_Click(object sender, EventArgs e)
         {
             //Run Updates
-            Process p = Process.Start("cmd.exe", @"/C git pull & pip install -r requirements.txt --upgrade & npm install & npm run build");
-            Thread.Sleep(150); // Allow the process to open it's window
-            SetParent(p.MainWindowHandle, panel1.Handle);
-            MoveWindow(p.MainWindowHandle, 0, 0, panel1.Width, panel1.Height, true);
+            DialogResult result = MessageBox.Show("Are you sure you want to update?", "Confirm", MessageBoxButtons.YesNo);
+                if (result == DialogResult.Yes)
+            {
+                Process p = Process.Start("cmd.exe", @"/C git pull & pip install -r requirements.txt --upgrade & npm install & npm run build");
+                Thread.Sleep(150); // Allow the process to open it's window
+                SetParent(p.MainWindowHandle, panel1.Handle);
+                MoveWindow(p.MainWindowHandle, 0, 0, panel1.Width, panel1.Height, true);
+            }
+            else if (result == DialogResult.No)
+            {
+
+            }
         }
         private void button3_Click(object sender, EventArgs e)
         {
+            
             //RunMapSPS
             Process p = Process.Start("cmd.exe", @"/c python runserver.py -ss --webhook-updates-only -l " + textBox2.Text + " -st " + comboBox2.Text + label2.Text + label3.Text + label4.Text + label5.Text);
             Thread.Sleep(150); // Allow the process to open it's window
@@ -129,6 +138,11 @@ namespace PokemonGo_Map_Launcher
         {
             Form2 f2 = new Form2();
             f2.ShowDialog();
+        }
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Form3 f3 = new Form3();
+            f3.ShowDialog();
         }
 
         #endregion

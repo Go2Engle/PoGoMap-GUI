@@ -28,3 +28,4 @@ C:\Users\cengle\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Ma
 C:\Users\cengle\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Debug\PokemonGo_Map_Launcher.Form2.resources
 C:\Users\cengle\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Debug\PokemonGo_Map_Launcher.Properties.Resources.resources
 C:\Users\cengle\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Debug\PokemonGo-Map_Launcher.csproj.GenerateResource.Cache
+C:\Users\cengle\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Debug\PokemonGo_Map_Launcher.Form3.resources
