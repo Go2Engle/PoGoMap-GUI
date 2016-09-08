@@ -100,10 +100,20 @@ namespace PokemonGo_Map_Launcher
         private void button6_Click(object sender, EventArgs e)
         {
             //Account Creation
-            Process p = Process.Start("cmd.exe", @"/C pikaptcha -p " + textBox1.Text + " -c " + comboBox1.Text + @" & python banned.py -f usernames.txt & powershell.exe .\usernames.ps1");
-            Thread.Sleep(150); // Allow the process to open it's window
-            SetParent(p.MainWindowHandle, this.Handle);
-            MoveWindow(p.MainWindowHandle, 290, 218, 970, 357, true);
+            if (string.IsNullOrWhiteSpace(textBox3.Text))
+            {
+                Process p = Process.Start("cmd.exe", @"/C pikaptcha -p " + textBox1.Text + " -c " + comboBox1.Text + @" & python banned.py -f usernames.txt & powershell.exe .\usernames.ps1");
+                Thread.Sleep(150); // Allow the process to open it's window
+                SetParent(p.MainWindowHandle, this.Handle);
+                MoveWindow(p.MainWindowHandle, 290, 218, 970, 357, true);
+            }
+            else
+            {
+                Process p = Process.Start("cmd.exe", @"/C pikaptcha -r " + textBox3.Text + " -p " + textBox1.Text + " -c " + comboBox1.Text + @" & python banned.py -f usernames.txt & powershell.exe .\usernames.ps1");
+                Thread.Sleep(150); // Allow the process to open it's window
+                SetParent(p.MainWindowHandle, this.Handle);
+                MoveWindow(p.MainWindowHandle, 290, 218, 970, 357, true);
+            }
         }
 
         private void button8_Click(object sender, EventArgs e)
