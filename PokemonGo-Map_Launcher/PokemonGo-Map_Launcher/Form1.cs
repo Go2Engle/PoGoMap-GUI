@@ -28,7 +28,7 @@ namespace PokemonGo_Map_Launcher
             label3.Text = " -ng";
             label4.Text = "";
             label5.Text = "";
-            textBox2.Text = "17605";
+            
         }
         [DllImport("user32.dll")]
         static extern IntPtr SetParent(IntPtr hWndChild, IntPtr hWndNewParent);
@@ -38,13 +38,26 @@ namespace PokemonGo_Map_Launcher
 
         #region Buttons
 
+        private void test_Click(object sender, EventArgs e)
+        {
+            Process p = Process.Start("cmd.exe");
+            Thread.Sleep(150); // Allow the process to open it's window
+            SetParent(p.MainWindowHandle, this.Handle);
+            MoveWindow(p.MainWindowHandle, 290, 218, 970, 357, true);
+
+            Process p1 = Process.Start("cmd.exe");
+            Thread.Sleep(150); // Allow the process to open it's window
+            SetParent(p1.MainWindowHandle, this.Handle);
+            MoveWindow(p1.MainWindowHandle, 290, 0, 970, 218, true);
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             //RunMapSS
             Process p = Process.Start("cmd.exe", @"/c python runserver.py --webhook-updates-only -l " + textBox2.Text + " -st " + comboBox2.Text + label2.Text + label3.Text + label4.Text + label5.Text);
             Thread.Sleep(150); // Allow the process to open it's window
             SetParent(p.MainWindowHandle, this.Handle);
-            MoveWindow(p.MainWindowHandle, 290, 220, 825, 357, true);
+            MoveWindow(p.MainWindowHandle, 290, 218, 970, 357, true);
         }
         private void button2_Click(object sender, EventArgs e)
         {
@@ -52,7 +65,7 @@ namespace PokemonGo_Map_Launcher
             Process p = Process.Start("cmd.exe", @"/C git pull & pip install -r requirements.txt --upgrade & npm install & npm run build");
             Thread.Sleep(150); // Allow the process to open it's window
             SetParent(p.MainWindowHandle, this.Handle);
-            MoveWindow(p.MainWindowHandle, 290, 0, 825, 218, true);
+            MoveWindow(p.MainWindowHandle, 290, 0, 970, 218, true);
         }
         private void button3_Click(object sender, EventArgs e)
         {
@@ -60,7 +73,7 @@ namespace PokemonGo_Map_Launcher
             Process p = Process.Start("cmd.exe", @"/c python runserver.py -ss --webhook-updates-only -l " + textBox2.Text + " -st " + comboBox2.Text + label2.Text + label3.Text + label4.Text + label5.Text);
             Thread.Sleep(150); // Allow the process to open it's window
             SetParent(p.MainWindowHandle, this.Handle);
-            MoveWindow(p.MainWindowHandle, 290, 220, 825, 357, true);
+            MoveWindow(p.MainWindowHandle, 290, 218, 970, 357, true);
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -90,7 +103,7 @@ namespace PokemonGo_Map_Launcher
             Process p = Process.Start("cmd.exe", @"/C pikaptcha -p " + textBox1.Text + " -c " + comboBox1.Text + @" & python banned.py -f usernames.txt & powershell.exe .\usernames.ps1");
             Thread.Sleep(150); // Allow the process to open it's window
             SetParent(p.MainWindowHandle, this.Handle);
-            MoveWindow(p.MainWindowHandle, 290, 220, 825, 357, true);
+            MoveWindow(p.MainWindowHandle, 290, 218, 970, 357, true);
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -99,7 +112,7 @@ namespace PokemonGo_Map_Launcher
             Process p = Process.Start("cmd.exe", @"/C RunNotifications.lnk");
             Thread.Sleep(150); // Allow the process to open it's window
             SetParent(p.MainWindowHandle, this.Handle);
-            MoveWindow(p.MainWindowHandle, 290, 0, 825, 218, true);
+            MoveWindow(p.MainWindowHandle, 290, 0, 970, 218, true);
         }
         private void button9_Click(object sender, EventArgs e)
         {
@@ -163,10 +176,16 @@ namespace PokemonGo_Map_Launcher
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
+            Properties.Settings.Default.CaptchaKEY = textBox3.Text;
+            Properties.Settings.Default.StartLOC = textBox2.Text;
+            Properties.Settings.Default.Password = textBox1.Text;
+            Properties.Settings.Default.Save();
             if (MessageBox.Show("Are all your command windows close?", "IMPORTANT", MessageBoxButtons.YesNo) == DialogResult.No)
             {
                 e.Cancel = true;
             }
         }
+
+
     }
 }
