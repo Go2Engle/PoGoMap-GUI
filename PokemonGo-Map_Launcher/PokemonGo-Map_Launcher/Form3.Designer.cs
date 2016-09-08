@@ -48,7 +48,7 @@
             this.btnStartDownload.Name = "btnStartDownload";
             this.btnStartDownload.Size = new System.Drawing.Size(153, 23);
             this.btnStartDownload.TabIndex = 1;
-            this.btnStartDownload.Text = "button1";
+            this.btnStartDownload.Text = "Start Download";
             this.btnStartDownload.UseVisualStyleBackColor = true;
             this.btnStartDownload.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -89,8 +89,12 @@
             this.Controls.Add(this.labelSpeed);
             this.Controls.Add(this.btnStartDownload);
             this.Controls.Add(this.progressBar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form3";
-            this.Text = "Form3";
+            this.ShowIcon = false;
+            this.Text = "Download PreReqs";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -25,9 +25,11 @@ namespace PokemonGo_Map_Launcher
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //DownloadFile("http://github.com/git-for-windows/git/releases/download/v2.10.0.windows.1/Git-2.10.0-64-bit.exe", @"C:\temp");
+            btnStartDownload.Text = "Download In Process";
+            btnStartDownload.Enabled = false;
+            DownloadFile("http://github.com/git-for-windows/git/releases/download/v2.10.0.windows.1/Git-2.10.0-64-bit.exe", @"C:\temp\github.exe");            
         }
-        
+
         #region Working on this
         public void DownloadFile(string urlAddress, string location)
         {
@@ -82,17 +84,21 @@ namespace PokemonGo_Map_Launcher
             if (e.Cancelled == true)
             {
                 MessageBox.Show("Download has been canceled.");
+                btnStartDownload.Text = "Start Download";
+                btnStartDownload.Enabled = true;
             }
             else
             {
                 MessageBox.Show("Download completed!");
+                btnStartDownload.Text = "Start Download";
+                btnStartDownload.Enabled = true;
             }
         }
         #endregion
 
         private void Form3_Load(object sender, EventArgs e)
         {
-           // DownloadFile ("https://github.com/git-for-windows/git/releases/download/v2.10.0.windows.1/Git-2.10.0-64-bit.exe", @"c:\temp");
+           
         }
     }
 }
