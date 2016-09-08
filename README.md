@@ -1,7 +1,7 @@
 # PoGoMap-GUI
 
 ## Description
-This is a GUI tool created to ease the proccess of running your pokemongo-map and creating new accounts to scan with. This combines a few tools created by other users on github. This is a windows only tool. Sorry for my horrible coding but so far it seems to get the job done!
+This is a GUI tool created to ease the process of running your pokemongo-map and creating new accounts to scan with. This combines a few tools created by other users on github. This is a windows only tool. Sorry for my horrible coding but so far it seems to get the job done!
 
 Tools being used by my GUI:
  - Pokemongo-Map (https://github.com/PokemonGoMap/PokemonGo-Map)
