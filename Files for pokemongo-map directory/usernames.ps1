@@ -6,6 +6,7 @@ foreach($username in $banned)
     {
     $usernames = $usernames | where {$_ -notmatch $username}
     }
+$usernames = $usernames | where {$_ -notlike ""}
 [System.IO.File]::WriteAllLines($usernamesPath, $usernames)
 remove-item -Path $bannedpath -Force -ErrorAction SilentlyContinue
 $configPath = '.\config\config.ini'
