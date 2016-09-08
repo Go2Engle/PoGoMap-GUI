@@ -10,7 +10,7 @@ Tools being used by my GUI:
  - PoGoAccountCheck (https://github.com/a-moss/PoGoAccountCheck)
 
 ## Features
-![Alt text](https://github.com/engle2192/PoGoMap-GUI/blob/master/Screenshots/MainWindow.PNG)
+![Alt text](https://github.com/engle2192/PoGoMap-GUI/blob/master/Screenshots/MainGUI.PNG)
  - Run your map in spiral scan or spawn point scanning
  - Enable/Disable scan for poke stops, gyms, fixed locations, no search control
  - Choose step limit (step limit must be commented out in your PokemonGo-Map config.ini for this to work)
@@ -18,6 +18,8 @@ Tools being used by my GUI:
  - Update button to update your PokemonGo-Map setup
  - Quickly create accounts and automatically add them to your PokemonGo-Map config.ini (Please check the wiki for instructions https://github.com/engle2192/PoGoMap-GUI/wiki)
  - Quickly check the accounts you are currently using and automatically delete banned or deleted accounts from your config.ini
+ - Command windows now dock in the GUI
+ - 2Captcha Key, Password, and Location field will save through application restarts
 
 ## Installation
 1. Have a fully running and working Pokemongo-Map (https://github.com/PokemonGoMap/PokemonGo-Map).
