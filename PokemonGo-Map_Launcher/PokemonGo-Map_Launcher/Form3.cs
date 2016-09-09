@@ -181,27 +181,8 @@ namespace PokemonGo_Map_Launcher
         }
         #endregion
 
-        private void DLPoGoMap_Click(object sender, EventArgs e)
-        {
-            String command = @"/C git clone https://github.com/PokemonGoMap/PokemonGo-Map.git & cd PokemonGo-Map & pip install -r requirements.txt";
-            ProcessStartInfo cmdsi = new ProcessStartInfo("cmd.exe");
-            cmdsi.Arguments = command;
-            Process cmd = Process.Start(cmdsi);
-            cmd.WaitForExit();
-            DLPoGoMap.Enabled = false;
-            DLPoGoMap.Text = "Done";                
-        }
 
-        private void DLPokeAlarm_Click(object sender, EventArgs e)
-        {
-            String command = @"/C git clone https://github.com/kvangent/PokeAlarm.git & cd PokeAlarm & pip install -r requirements.txt";
-            ProcessStartInfo cmdsi = new ProcessStartInfo("cmd.exe");
-            cmdsi.Arguments = command;
-            Process cmd = Process.Start(cmdsi);
-            cmd.WaitForExit();
-            DLPokeAlarm.Enabled = false;
-            DLPokeAlarm.Text = "Done";
-        }
+
 
         private void DLAccountCreator_Click(object sender, EventArgs e)
         {
@@ -222,6 +203,29 @@ namespace PokemonGo_Map_Launcher
         private void DownloadPJS_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("http://phantomjs.org/download.html");            
+        }
+
+        private void PoGoConfig_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This may take some time to run.");
+            System.Diagnostics.Process process = new System.Diagnostics.Process();
+            System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+            startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Normal;
+            startInfo.FileName = "cmd.exe";
+            startInfo.Arguments = @"/C cd PokemonGo-Map & pip install -r requirements.txt & npm install & cd config & .\config.ini";
+            process.StartInfo = startInfo;
+            process.Start();
+        }
+
+        private void PokeAlarmConfig_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process process = new System.Diagnostics.Process();
+            System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+            startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Normal;
+            startInfo.FileName = "cmd.exe";
+            startInfo.Arguments = @"/C cd PokeAlarm & pip install -r requirements.txt & .\alarms.json";
+            process.StartInfo = startInfo;
+            process.Start();
         }
     }
 }

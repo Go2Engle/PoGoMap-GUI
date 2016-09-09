@@ -55,7 +55,7 @@ namespace PokemonGo_Map_Launcher
         private void button1_Click(object sender, EventArgs e)
         {
             //RunMapSS
-            Process p = Process.Start("cmd.exe", @"/c python runserver.py --db-threads 10 --webhook-updates-only -l " + textBox2.Text + " -st " + comboBox2.Text + label2.Text + label3.Text + label4.Text + label5.Text);
+            Process p = Process.Start("cmd.exe", @"/c cd PokemonGo-Map & python runserver.py --webhook-updates-only -l " + textBox2.Text + " -st " + comboBox2.Text + label2.Text + label3.Text + label4.Text + label5.Text + " & pause");
             Thread.Sleep(150); // Allow the process to open it's window
             SetParent(p.MainWindowHandle, panel2.Handle);
             MoveWindow(p.MainWindowHandle, 0, 0, panel2.Width, panel2.Height, true);
@@ -66,7 +66,7 @@ namespace PokemonGo_Map_Launcher
             DialogResult result = MessageBox.Show("Are you sure you want to update?", "Confirm", MessageBoxButtons.YesNo);
                 if (result == DialogResult.Yes)
             {
-                Process p = Process.Start("cmd.exe", @"/C git pull & pip install -r requirements.txt --upgrade & npm install & npm run build");
+                Process p = Process.Start("cmd.exe", @"/C cd PokemonGo-Map & git pull & pip install -r requirements.txt --upgrade & npm install & npm run build & echo Finish Updating & pause");
                 Thread.Sleep(150); // Allow the process to open it's window
                 SetParent(p.MainWindowHandle, panel1.Handle);
                 MoveWindow(p.MainWindowHandle, 0, 0, panel1.Width, panel1.Height, true);
@@ -80,7 +80,7 @@ namespace PokemonGo_Map_Launcher
         {
             
             //RunMapSPS
-            Process p = Process.Start("cmd.exe", @"/c python runserver.py -ss --db-threads 10 --webhook-updates-only -l " + textBox2.Text + " -st " + comboBox2.Text + label2.Text + label3.Text + label4.Text + label5.Text);
+            Process p = Process.Start("cmd.exe", @"/c cd PokemonGo-Map & python runserver.py -ss --webhook-updates-only -l " + textBox2.Text + " -st " + comboBox2.Text + label2.Text + label3.Text + label4.Text + label5.Text + " & pause");
             Thread.Sleep(150); // Allow the process to open it's window
             SetParent(p.MainWindowHandle, panel2.Handle);
             MoveWindow(p.MainWindowHandle, 0, 0, panel2.Width, panel2.Height, true);
@@ -92,7 +92,17 @@ namespace PokemonGo_Map_Launcher
             System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
             startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
             startInfo.FileName = "cmd.exe";
-            startInfo.Arguments = @"/C .\config\config.ini";
+            startInfo.Arguments = @"/C .\PokemonGo-Map\config\config.ini";
+            process.StartInfo = startInfo;
+            process.Start();
+        }
+        private void button10_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process process = new System.Diagnostics.Process();
+            System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+            startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+            startInfo.FileName = "cmd.exe";
+            startInfo.Arguments = @"/C .\PokeAlarm\alarms.json";
             process.StartInfo = startInfo;
             process.Start();
         }
@@ -112,14 +122,14 @@ namespace PokemonGo_Map_Launcher
             //Account Creation
             if (string.IsNullOrWhiteSpace(textBox3.Text))
             {
-                Process p = Process.Start("cmd.exe", @"/C pikaptcha -p " + textBox1.Text + " -c " + comboBox1.Text + @" & python banned.py -f usernames.txt & powershell.exe .\usernames.ps1");
+                Process p = Process.Start("cmd.exe", @"/C cd PokemonGo-Map & pikaptcha -p " + textBox1.Text + " -c " + comboBox1.Text + @" & python banned.py -f usernames.txt & powershell.exe .\usernames.ps1 & pause");
                 Thread.Sleep(150); // Allow the process to open it's window
                 SetParent(p.MainWindowHandle, panel2.Handle);
                 MoveWindow(p.MainWindowHandle, 0, 0, panel2.Width, panel2.Height, true);
             }
             else
             {
-                Process p = Process.Start("cmd.exe", @"/C pikaptcha -r " + textBox3.Text + " -p " + textBox1.Text + " -c " + comboBox1.Text + @" & python banned.py -f usernames.txt & powershell.exe .\usernames.ps1");
+                Process p = Process.Start("cmd.exe", @"/C cd PokemonGo-Map & pikaptcha -r " + textBox3.Text + " -p " + textBox1.Text + " -c " + comboBox1.Text + @" & python banned.py -f usernames.txt & powershell.exe .\usernames.ps1 & pause");
                 Thread.Sleep(150); // Allow the process to open it's window
                 SetParent(p.MainWindowHandle, panel2.Handle);
                 MoveWindow(p.MainWindowHandle, 0, 0, panel2.Width, panel2.Height, true);
@@ -129,15 +139,17 @@ namespace PokemonGo_Map_Launcher
         private void button8_Click(object sender, EventArgs e)
         {
             //RunNotifications
-            Process p = Process.Start("cmd.exe", @"/C RunNotifications.lnk");
+            Process p = Process.Start("cmd.exe", @"/C cd PokeAlarm & RunNotifications.bat");
             Thread.Sleep(150); // Allow the process to open it's window
             SetParent(p.MainWindowHandle, panel1.Handle);
             MoveWindow(p.MainWindowHandle, 0, 0, panel1.Width, panel1.Height, true);
         }
         private void button9_Click(object sender, EventArgs e)
         {
-            Form2 f2 = new Form2();
-            f2.ShowDialog();
+            Process p = Process.Start("cmd.exe", @"/c cd PokemonGo-Map & python banned.py -f usernames.txt & powershell.exe .\usernames.ps1 & Pause");
+            Thread.Sleep(150); // Allow the process to open it's window
+            SetParent(p.MainWindowHandle, panel2.Handle);
+            MoveWindow(p.MainWindowHandle, 0, 0, panel2.Width, panel2.Height, true);
         }
         private void button7_Click(object sender, EventArgs e)
         {
@@ -205,7 +217,7 @@ namespace PokemonGo_Map_Launcher
             Properties.Settings.Default.StartLOC = textBox2.Text;
             Properties.Settings.Default.Password = textBox1.Text;
             Properties.Settings.Default.Save();
-            if (MessageBox.Show("Are all your command windows close?", "IMPORTANT", MessageBoxButtons.YesNo) == DialogResult.No)
+            if (MessageBox.Show("Are all your command windows closed?", "IMPORTANT", MessageBoxButtons.YesNo) == DialogResult.No)
             {
                 e.Cancel = true;
             }
