@@ -117,4 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label3.Text" xml:space="preserve">
+    <value>If you intend to manually solve captcha Download Chromedriver. 
+Unzip the file and place it in "C:\Python27\Scripts".
+
+If you plan to use the automatic solver Download PhantomJS. 
+You need to open the .zip file, open the phantomjs-2.x.x-windows 
+folder, open the bin folder, and put phantomjs.exe in 
+"C:\Python27\Scripts".</value>
+  </data>
 </root>
