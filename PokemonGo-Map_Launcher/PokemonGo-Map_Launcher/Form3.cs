@@ -19,86 +19,196 @@ namespace PokemonGo_Map_Launcher
         {
             InitializeComponent();
         }
-        WebClient webClient;               // Our WebClient that will be doing the downloading for us
-        Stopwatch sw = new Stopwatch();    // The stopwatch which we will be using to calculate the download speed
-        public string DPath = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
 
+        public string DPath = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+        public string PythonCPPL = Environment.ExpandEnvironmentVariables(@"%LOCALAPPDATA%\Programs\Common\Microsoft\Visual C++ for Python");
+
+        #region GitHub
         private void button1_Click(object sender, EventArgs e)
         {
-            btnStartDownload.Text = "Download In Process";
+            WebClient client = new WebClient();
+            client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_DownloadProgressChanged);
+            client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_DownloadFileCompleted);
+            // Starts the download
+            client.DownloadFileAsync(new Uri("http://github.com/git-for-windows/git/releases/download/v2.10.0.windows.1/Git-2.10.0-64-bit.exe"), DPath + @"\github.exe");
+            btnStartDownload.Text = "Downloading";
             btnStartDownload.Enabled = false;
-            DownloadFile("http://github.com/git-for-windows/git/releases/download/v2.10.0.windows.1/Git-2.10.0-64-bit.exe", @"C:\temp\github.exe");            
+            buttonNPM.Text = "Downloading";
+            buttonNPM.Enabled = false;
+            buttonPythonCPP.Text = "Downloading";
+            buttonPythonCPP.Enabled = false;
+            buttonPython.Text = "Downloading";
+            buttonPython.Enabled = false;
         }
-
-        #region Working on this
-        public void DownloadFile(string urlAddress, string location)
+        void client_DownloadProgressChanged(object sender, DownloadProgressChangedEventArgs e)
         {
-            using (webClient = new WebClient())
-            {
-                webClient.DownloadProgressChanged += new DownloadProgressChangedEventHandler(ProgressChanged);
-                webClient.DownloadFileCompleted += new AsyncCompletedEventHandler(Completed);
-                
-
-                // The variable that will be holding the url address (making sure it starts with http://)
-                Uri URL = urlAddress.StartsWith("http://", StringComparison.OrdinalIgnoreCase) ? new Uri(urlAddress) : new Uri("http://" + urlAddress);
-
-                // Start the stopwatch which we will be using to calculate the download speed
-                sw.Start();
-
-                try
-                {
-                    // Start downloading the file
-                    webClient.DownloadFileAsync(URL, location);
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message);
-                }
-            }
+            double bytesIn = double.Parse(e.BytesReceived.ToString());
+            double totalBytes = double.Parse(e.TotalBytesToReceive.ToString());
+            double percentage = bytesIn / totalBytes * 100;
+            progressBar.Value = int.Parse(Math.Truncate(percentage).ToString());
         }
-
-        // The event that will fire whenever the progress of the WebClient is changed
-        private void ProgressChanged(object sender, DownloadProgressChangedEventArgs e)
+        void client_DownloadFileCompleted(object sender, AsyncCompletedEventArgs e)
         {
-            // Calculate download speed and output it to labelSpeed.
-            labelSpeed.Text = string.Format("{0} kb/s", (e.BytesReceived / 1024d / sw.Elapsed.TotalSeconds).ToString("0.00"));
-
-            // Update the progressbar percentage only when the value is not the same.
-            progressBar.Value = e.ProgressPercentage;
-
-            // Show the percentage on our label.
-            labelPerc.Text = e.ProgressPercentage.ToString() + "%";
-
-            // Update the label with how much data have been downloaded so far and the total size of the file we are currently downloading
-            labelDownloaded.Text = string.Format("{0} MB's / {1} MB's",
-                (e.BytesReceived / 1024d / 1024d).ToString("0.00"),
-                (e.TotalBytesToReceive / 1024d / 1024d).ToString("0.00"));
-        }
-
-        // The event that will trigger when the WebClient is completed
-        private void Completed(object sender, AsyncCompletedEventArgs e)
-        {
-            // Reset the stopwatch.
-            sw.Reset();
-
-            if (e.Cancelled == true)
-            {
-                MessageBox.Show("Download has been canceled.");
-                btnStartDownload.Text = "Start Download";
-                btnStartDownload.Enabled = true;
-            }
-            else
-            {
-                MessageBox.Show("Download completed!");
-                btnStartDownload.Text = "Start Download";
-                btnStartDownload.Enabled = true;
-            }
+            MessageBox.Show("Download Completed");
+            btnStartDownload.Text = "Start Download";
+            btnStartDownload.Enabled = true;
+            buttonNPM.Text = "Start Download";
+            buttonNPM.Enabled = true;
+            buttonPythonCPP.Text = "Start Download";
+            buttonPythonCPP.Enabled = true;
+            buttonPython.Text = "Start Download";
+            buttonPython.Enabled = true;
         }
         #endregion
 
+
+
+
+        #region Python
+        private void buttonPython_Click(object sender, EventArgs e)
+        {
+            WebClient client = new WebClient();
+            client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_DownloadProgressChanged1);
+            client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_DownloadFileCompleted1);
+            // Starts the download
+            client.DownloadFileAsync(new Uri("https://www.python.org/ftp/python/2.7.12/python-2.7.12.amd64.msi"), DPath + @"\python.msi");
+            btnStartDownload.Text = "Downloading";
+            btnStartDownload.Enabled = false;
+            buttonNPM.Text = "Downloading";
+            buttonNPM.Enabled = false;
+            buttonPythonCPP.Text = "Downloading";
+            buttonPythonCPP.Enabled = false;
+            buttonPython.Text = "Downloading";
+            buttonPython.Enabled = false;
+        }
+        void client_DownloadProgressChanged1(object sender, DownloadProgressChangedEventArgs e)
+        {
+            double bytesIn = double.Parse(e.BytesReceived.ToString());
+            double totalBytes = double.Parse(e.TotalBytesToReceive.ToString());
+            double percentage = bytesIn / totalBytes * 100;
+            progressBar1.Value = int.Parse(Math.Truncate(percentage).ToString());
+        }
+        void client_DownloadFileCompleted1(object sender, AsyncCompletedEventArgs e)
+        {
+            MessageBox.Show("Download Completed");
+            btnStartDownload.Text = "Start Download";
+            btnStartDownload.Enabled = true;
+            buttonNPM.Text = "Start Download";
+            buttonNPM.Enabled = true;
+            buttonPythonCPP.Text = "Start Download";
+            buttonPythonCPP.Enabled = true;
+            buttonPython.Text = "Start Download";
+            buttonPython.Enabled = true;
+        }
+        #endregion
+
+
+
+
+        #region PythonCPP
+        private void buttonPythonCPP_Click(object sender, EventArgs e)
+        {
+            WebClient client = new WebClient();
+            client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_DownloadProgressChanged2);
+            client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_DownloadFileCompleted2);
+            // Starts the download
+            client.DownloadFileAsync(new Uri("https://download.microsoft.com/download/7/9/6/796EF2E4-801B-4FC4-AB28-B59FBF6D907B/VCForPython27.msi"), DPath + @"\pythonCPP.msi");
+            btnStartDownload.Text = "Downloading";
+            btnStartDownload.Enabled = false;
+            buttonNPM.Text = "Downloading";
+            buttonNPM.Enabled = false;
+            buttonPythonCPP.Text = "Downloading";
+            buttonPythonCPP.Enabled = false;
+            buttonPython.Text = "Downloading";
+            buttonPython.Enabled = false;
+        }
+        void client_DownloadProgressChanged2(object sender, DownloadProgressChangedEventArgs e)
+        {
+            double bytesIn = double.Parse(e.BytesReceived.ToString());
+            double totalBytes = double.Parse(e.TotalBytesToReceive.ToString());
+            double percentage = bytesIn / totalBytes * 100;
+            progressBar2.Value = int.Parse(Math.Truncate(percentage).ToString());
+        }
+        void client_DownloadFileCompleted2(object sender, AsyncCompletedEventArgs e)
+        {
+            MessageBox.Show("Download Completed");
+            btnStartDownload.Text = "Start Download";
+            btnStartDownload.Enabled = true;
+            buttonNPM.Text = "Start Download";
+            buttonNPM.Enabled = true;
+            buttonPythonCPP.Text = "Start Download";
+            buttonPythonCPP.Enabled = true;
+            buttonPython.Text = "Start Download";
+            buttonPython.Enabled = true;
+        }
+        #endregion
+
+
+
+
+        #region NPM
+        private void buttonNPM_Click(object sender, EventArgs e)
+        {
+            WebClient client = new WebClient();
+            client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_DownloadProgressChanged3);
+            client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_DownloadFileCompleted3);
+            // Starts the download
+            client.DownloadFileAsync(new Uri("https://nodejs.org/dist/v4.5.0/node-v4.5.0-x64.msi"), DPath + @"\NPM.msi");
+            btnStartDownload.Text = "Downloading";
+            btnStartDownload.Enabled = false;
+            buttonNPM.Text = "Downloading";
+            buttonNPM.Enabled = false;
+            buttonPythonCPP.Text = "Downloading";
+            buttonPythonCPP.Enabled = false;
+            buttonPython.Text = "Downloading";
+            buttonPython.Enabled = false;
+        }
+        void client_DownloadProgressChanged3(object sender, DownloadProgressChangedEventArgs e)
+        {
+            double bytesIn = double.Parse(e.BytesReceived.ToString());
+            double totalBytes = double.Parse(e.TotalBytesToReceive.ToString());
+            double percentage = bytesIn / totalBytes * 100;
+            progressBar3.Value = int.Parse(Math.Truncate(percentage).ToString());
+        }
+        void client_DownloadFileCompleted3(object sender, AsyncCompletedEventArgs e)
+        {
+            MessageBox.Show("Download Completed");
+            btnStartDownload.Text = "Start Download";
+            btnStartDownload.Enabled = true;
+            buttonNPM.Text = "Start Download";
+            buttonNPM.Enabled = true;
+            buttonPythonCPP.Text = "Start Download";
+            buttonPythonCPP.Enabled = true;
+            buttonPython.Text = "Start Download";
+            buttonPython.Enabled = true;
+        }
+        #endregion
+
+
+
+
         private void Form3_Load(object sender, EventArgs e)
         {
-           
+           if(Directory.Exists(@"C:\Python27"))
+            {
+                buttonPython.Enabled = false;
+                buttonPython.Text = "Already Installed";
+            }
+            if (Directory.Exists(@"C:\Program Files\nodejs"))
+            {
+                buttonNPM.Enabled = false;
+                buttonNPM.Text = "Already Installed";
+            }
+            if (Directory.Exists(PythonCPPL))
+            {
+                buttonPythonCPP.Enabled = false;
+                buttonPythonCPP.Text = "Already Installed";
+            }
+            if (Directory.Exists(@"C:\Program Files\Git"))
+            {
+                btnStartDownload.Enabled = false;
+                btnStartDownload.Text = "Already Installed";
+            }
         }
     }
 }
