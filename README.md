@@ -8,6 +8,7 @@ Tools being used by my GUI:
  - Pikaptcha (https://github.com/sriyegna/Pikaptcha)
  - PokeAlarm (https://github.com/kvangent/PokeAlarm)
  - PoGoAccountCheck (https://github.com/a-moss/PoGoAccountCheck)
+ - Pokemongo-Map IVs and movesets (https://github.com/MangoScango/PokemonGo-Map/tree/IVs-and-Moves)
 
 ## Features
 ![Alt text](https://github.com/engle2192/PoGoMap-GUI/blob/master/Screenshots/MainGUI.PNG)
