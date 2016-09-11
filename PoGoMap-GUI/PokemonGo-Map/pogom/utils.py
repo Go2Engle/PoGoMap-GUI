@@ -69,6 +69,14 @@ def get_args():
     parser.add_argument('-sd', '--scan-delay',
                         help='Time delay between requests in scan threads',
                         type=float, default=10)
+    parser.add_argument('-enc', '--encounter',
+                        help='Start an encounter to gather IVs and moves',
+                        action='store_true', default=False)
+    parser.add_argument('-ed', '--encounter-delay',
+                        help='Time delay between encounter pokemon in scan threads',
+                        type=float, default=1)
+    parser.add_argument('-eblk', '--encounter-blacklist', action='append', default=[],
+                        help=' Pokemon to never encounter')
     parser.add_argument('-ld', '--login-delay',
                         help='Time delay between each login attempt',
                         type=float, default=5)
@@ -276,12 +284,27 @@ def get_args():
             print(sys.argv[0] + ": Error: no accounts specified. Use -a, -u, and -p or --accountcsv to add accounts")
             sys.exit(1)
 
+        args.encounter_blacklist = [int(i) for i in args.encounter_blacklist]
+
+        # Decide which scanning mode to use
+        if args.spawnpoint_scanning:
+            args.scheduler = 'SpawnScan'
+        elif args.spawnpoints_only:
+            args.scheduler = 'HexSearchSpawnpoint'
+        else:
+            args.scheduler = 'HexSearch'
+
     return args
 
 
 def now():
     # The fact that you need this helper...
     return int(time.time())
+
+
+# gets the current time past the hour
+def cur_sec():
+    return (60 * time.gmtime().tm_min) + time.gmtime().tm_sec
 
 
 def i8ln(word):
