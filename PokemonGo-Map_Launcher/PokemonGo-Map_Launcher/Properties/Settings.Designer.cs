@@ -58,5 +58,29 @@ namespace PokemonGo_Map_Launcher.Properties {
                 this["Password"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("5000")]
+        public string MapPort {
+            get {
+                return ((string)(this["MapPort"]));
+            }
+            set {
+                this["MapPort"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("4000")]
+        public string NotificationsPort {
+            get {
+                return ((string)(this["NotificationsPort"]));
+            }
+            set {
+                this["NotificationsPort"] = value;
+            }
+        }
     }
 }

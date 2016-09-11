@@ -11,6 +11,9 @@ using System.Diagnostics;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Threading;
+using System.Net;
+using System.Net.Sockets;
+using System.Net.NetworkInformation;
 
 namespace PokemonGo_Map_Launcher
 {
@@ -28,12 +31,26 @@ namespace PokemonGo_Map_Launcher
             label3.Text = " -ng";
             label4.Text = "";
             label5.Text = "";
+            label11.Text = "";
             
         }
         [DllImport("user32.dll")]
         static extern IntPtr SetParent(IntPtr hWndChild, IntPtr hWndNewParent);
         [DllImport("user32.dll", SetLastError = true)]
         internal static extern bool MoveWindow(IntPtr hwnd, int X, int Y, int nWidth, int nHeight, bool bRepaint);
+
+        public static string GetLocalIPAddress()
+        {
+            var host = Dns.GetHostEntry(Dns.GetHostName());
+            foreach (var ip in host.AddressList)
+            {
+                if (ip.AddressFamily == AddressFamily.InterNetwork)
+                {
+                    return ip.ToString();
+                }
+            }
+            throw new Exception("Local IP Address Not Found!");
+        }
 
 
         #region Buttons
@@ -55,7 +72,7 @@ namespace PokemonGo_Map_Launcher
         private void button1_Click(object sender, EventArgs e)
         {
             //RunMapSS
-            Process p = Process.Start("cmd.exe", @"/c cd PokemonGo-Map & python runserver.py --webhook-updates-only -enc -l " + textBox2.Text + " -st " + comboBox2.Text + label2.Text + label3.Text + label4.Text + label5.Text + " & pause");
+            Process p = Process.Start("cmd.exe", @"/c cd PokemonGo-Map & python runserver.py --webhook-updates-only -enc -l " + textBox2.Text + " -st " + comboBox2.Text + label2.Text + label3.Text + label4.Text + label5.Text + label11.Text + " -H " + GetLocalIPAddress() + " -P " + textBox4.Text + " -wh http://" + GetLocalIPAddress() + ":" + textBox5.Text + "& pause");
             Thread.Sleep(150); // Allow the process to open it's window
             SetParent(p.MainWindowHandle, panel2.Handle);
             MoveWindow(p.MainWindowHandle, 0, 0, panel2.Width, panel2.Height, true);
@@ -76,15 +93,7 @@ namespace PokemonGo_Map_Launcher
 
             }
         }
-        private void button3_Click(object sender, EventArgs e)
-        {
-            
-            //RunMapSPS
-            Process p = Process.Start("cmd.exe", @"/c cd PokemonGo-Map & python runserver.py -ss --webhook-updates-only -enc -l " + textBox2.Text + " -st " + comboBox2.Text + label2.Text + label3.Text + label4.Text + label5.Text + " & pause");
-            Thread.Sleep(150); // Allow the process to open it's window
-            SetParent(p.MainWindowHandle, panel2.Handle);
-            MoveWindow(p.MainWindowHandle, 0, 0, panel2.Width, panel2.Height, true);
-        }
+
 
         private void button4_Click(object sender, EventArgs e)
         {
@@ -156,6 +165,10 @@ namespace PokemonGo_Map_Launcher
             Form3 f3 = new Form3();
             f3.ShowDialog();
         }
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://" + GetLocalIPAddress() + ":5000");
+        }
 
         #endregion
 
@@ -208,6 +221,18 @@ namespace PokemonGo_Map_Launcher
                 label5.Text = "";
             }
         }
+        private void checkBox5_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox5.Checked)
+            {
+                label11.Text = " -ss";
+            }
+            else
+            {
+                label2.Text = "";
+            }
+        }
+
 
         #endregion
 
@@ -216,6 +241,8 @@ namespace PokemonGo_Map_Launcher
             Properties.Settings.Default.CaptchaKEY = textBox3.Text;
             Properties.Settings.Default.StartLOC = textBox2.Text;
             Properties.Settings.Default.Password = textBox1.Text;
+            Properties.Settings.Default.MapPort = textBox4.Text;
+            Properties.Settings.Default.NotificationsPort = textBox5.Text;
             Properties.Settings.Default.Save();
             if (MessageBox.Show("Are all your command windows closed?", "IMPORTANT", MessageBoxButtons.YesNo) == DialogResult.No)
             {

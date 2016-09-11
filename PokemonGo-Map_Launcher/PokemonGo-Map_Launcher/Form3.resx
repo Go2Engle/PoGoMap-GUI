@@ -117,16 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label3.Text" xml:space="preserve">
-    <value>If you intend to manually solve captcha Download Chromedriver. 
-Unzip the file and place it in "C:\Python27\Scripts".
-
-If you plan to use the automatic solver Download PhantomJS. 
-You need to open the .zip file, open the phantomjs-2.x.x-windows 
-folder, open the bin folder, and put phantomjs.exe in 
-"C:\Python27\Scripts".</value>
-  </data>
   <data name="richTextBox1.Text" xml:space="preserve">
-    <value>After you have finished Step 1 and 2 you will need to configure your config files. The PoGoMap config will install the Map requierments and at the end launch the configuration screen. In order for everything to work correctly you will need to enter your google maps API key and enter your IP adress and port 5000 under the Webserver settings. The last thing you need to change is the webhook address IP address to your own IP. Leave it on port 4000. Save and close this config and click the Edit PokeAlarm config. This will install the PokeAlarm requierments and open its config file. This file will be personal prefrence so please visit (https://github.com/kvangent/PokeAlarm) for configuration help. If you dont plan on using notifications just close this file. After this is completed the last step is to navigate to your poke alarm folder and edit the RunNotifications.bat file and enter your IP address and leave the port set to 4000.</value>
+    <value>After running through steps 1, 2, 3, and 4 you are almost ready to run your map! Back on the main GUI use the account creator to create some accounts. Enter the password you used for the accounts into the PoGo Map config.ini file and your set to go! If you would like to get push notifications set up please follow the instructions on the creators git hub here (https://github.com/kvangent/PokeAlarm). As your accounts get banned just stop your server and create some more! The bad accounts will be removed automatically when creating new accounts or when using the check accounts button! If you have any issues please create an issue request on Github!</value>
   </data>
 </root>

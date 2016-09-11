@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
 using System.IO;
+using System.Net;
+using System.Net.Sockets;
+using System.Net.NetworkInformation;
 
 namespace PokemonGo_Map_Launcher
 {
@@ -19,53 +22,23 @@ namespace PokemonGo_Map_Launcher
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        public static string GetLocalIPAddress()
         {
-            richTextBox2.Text = "";
-            label1.Text = "Running";
-            label1.ForeColor = System.Drawing.Color.Green;
-            backgroundWorker1.RunWorkerAsync();
-        }
-
-        #region Handlers
-        private void OutputHandler(Object source, DataReceivedEventArgs outLine)
-        {
-            // Collect the sort command output. 
-            if (!String.IsNullOrEmpty(outLine.Data))
+            var host = Dns.GetHostEntry(Dns.GetHostName());
+            foreach (var ip in host.AddressList)
             {
-                richTextBox2.AppendText(outLine.Data + "\r\n");
+                if (ip.AddressFamily == AddressFamily.InterNetwork)
+                {
+                    return ip.ToString();
+                }
             }
+            throw new Exception("Local IP Address Not Found!");
         }
 
-        private void ErrorHandler(Object source, DataReceivedEventArgs outLine)
+        string URL = "http://" + GetLocalIPAddress() + ":5000";
+        private void Form2_Load(object sender, EventArgs e)
         {
-            // Collect the sort command output. 
-            if (!String.IsNullOrEmpty(outLine.Data))
-            {
-                richTextBox2.AppendText(outLine.Data + "\r\n");
-            }
-        }
-        #endregion
-
-        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
-        {
-            ProcessStartInfo pStartInfo = new ProcessStartInfo("cmd.exe", @"/c python banned.py -f usernames.txt & powershell.exe .\usernames.ps1");
-            pStartInfo.CreateNoWindow = true;
-            pStartInfo.UseShellExecute = false;
-            pStartInfo.RedirectStandardInput = true;
-            pStartInfo.RedirectStandardOutput = true;
-            pStartInfo.RedirectStandardError = true;
-            Process process1 = new Process();
-            process1.OutputDataReceived += new DataReceivedEventHandler(OutputHandler);
-            process1.ErrorDataReceived += new DataReceivedEventHandler(ErrorHandler);
-            process1.StartInfo = pStartInfo;
-            process1.SynchronizingObject = richTextBox2;
-            process1.Start();
-            process1.BeginOutputReadLine();
-            process1.BeginErrorReadLine();
-            process1.WaitForExit();
-            label1.Text = "Not Running";
-            label1.ForeColor = System.Drawing.Color.Red;
+            webBrowser1.Navigate(URL);
         }
     }
 }

@@ -45,6 +45,22 @@ namespace PokemonGo_Map_Launcher
                 btnStartDownload.Enabled = false;
                 btnStartDownload.Text = "Already Installed";
             }
+            if (File.Exists(@"C:\python27\scripts\chromedriver.exe"))
+            {
+                DLChromeDriver.Enabled = false;
+                DLChromeDriver.Text = "Already Installed";
+            }
+            if (File.Exists(@"C:\python27\scripts\phantomjs.exe"))
+            {
+                DownloadPJS.Enabled = false;
+                DownloadPJS.Text = "Already Installed";
+            }
+            if (File.Exists(@"C:\python27\scripts\pikaptcha.exe"))
+            {
+                DLAccountCreator.Enabled = false;
+                DLAccountCreator.Text = "Already Installed";
+            }
+
         }
 
         #region GitHub
@@ -182,6 +198,54 @@ namespace PokemonGo_Map_Launcher
         #endregion
 
 
+        #region Chrome Driver
+        private void DLChromeDriver_Click(object sender, EventArgs e)
+        {
+            WebClient client = new WebClient();
+            client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_DownloadProgressChanged4);
+            client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_DownloadFileCompleted4);
+            // Starts the download
+            client.DownloadFileAsync(new Uri("http://go2engle.com/downloads/chromedriver.exe"), @"C:\python27\scripts\chromedriver.exe");
+            DLChromeDriver.Text = "Downloading";
+            DLChromeDriver.Enabled = false;
+        }
+        void client_DownloadProgressChanged4(object sender, DownloadProgressChangedEventArgs e)
+        {
+            double bytesIn = double.Parse(e.BytesReceived.ToString());
+            double totalBytes = double.Parse(e.TotalBytesToReceive.ToString());
+            double percentage = bytesIn / totalBytes * 100;
+            progressBar4.Value = int.Parse(Math.Truncate(percentage).ToString());
+        }
+        void client_DownloadFileCompleted4(object sender, AsyncCompletedEventArgs e)
+        {
+            DLChromeDriver.Text = "Installed";
+        }
+        #endregion
+
+
+        #region DownloadPJS
+        private void DownloadPJS_Click(object sender, EventArgs e)
+        {
+            WebClient client = new WebClient();
+            client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_DownloadProgressChanged5);
+            client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_DownloadFileCompleted5);
+            // Starts the download
+            client.DownloadFileAsync(new Uri("http://go2engle.com/downloads/phantomjs.exe"), @"C:\python27\scripts\phantomjs.exe");
+            DownloadPJS.Text = "Downloading";
+            DownloadPJS.Enabled = false;
+        }
+        void client_DownloadProgressChanged5(object sender, DownloadProgressChangedEventArgs e)
+        {
+            double bytesIn = double.Parse(e.BytesReceived.ToString());
+            double totalBytes = double.Parse(e.TotalBytesToReceive.ToString());
+            double percentage = bytesIn / totalBytes * 100;
+            progressBar5.Value = int.Parse(Math.Truncate(percentage).ToString());
+        }
+        void client_DownloadFileCompleted5(object sender, AsyncCompletedEventArgs e)
+        {
+            DownloadPJS.Text = "Installed";
+        }
+        #endregion
 
 
         private void DLAccountCreator_Click(object sender, EventArgs e)
@@ -195,15 +259,6 @@ namespace PokemonGo_Map_Launcher
             DLAccountCreator.Text = "Done";
         }
 
-        private void DLChromeDriver_Click(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start("http://chromedriver.storage.googleapis.com/2.23/chromedriver_win32.zip");
-        }
-
-        private void DownloadPJS_Click(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start("http://phantomjs.org/download.html");            
-        }
 
         private void PoGoConfig_Click(object sender, EventArgs e)
         {
@@ -212,7 +267,7 @@ namespace PokemonGo_Map_Launcher
             System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
             startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Normal;
             startInfo.FileName = "cmd.exe";
-            startInfo.Arguments = @"/C cd PokemonGo-Map & pip install -r requirements.txt & npm install & cd config & .\config.ini";
+            startInfo.Arguments = @"/C cd PokemonGo-Map & pip install -r requirements.txt & npm install";
             process.StartInfo = startInfo;
             process.Start();
         }
@@ -223,9 +278,22 @@ namespace PokemonGo_Map_Launcher
             System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
             startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Normal;
             startInfo.FileName = "cmd.exe";
-            startInfo.Arguments = @"/C cd PokeAlarm & pip install -r requirements.txt & .\alarms.json";
+            startInfo.Arguments = @"/C cd PokeAlarm & pip install -r requirements.txt";
             process.StartInfo = startInfo;
             process.Start();
+        }
+
+        private void GMapsAPI_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process process = new System.Diagnostics.Process();
+            System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+            startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+            startInfo.FileName = "cmd.exe";
+            startInfo.Arguments = @"/C cd PokemonGo-Map & cd config & MapsAPI.bat " + textBox1.Text;
+            process.StartInfo = startInfo;
+            process.Start();
+            process.WaitForExit();
+            MessageBox.Show("API Key has been updated");
         }
     }
 }
