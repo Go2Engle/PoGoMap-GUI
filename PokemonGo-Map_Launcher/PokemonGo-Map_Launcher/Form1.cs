@@ -131,6 +131,9 @@ namespace PokemonGo_Map_Launcher
             //Account Creation
             if (string.IsNullOrWhiteSpace(textBox3.Text))
             {
+                var lines = File.ReadAllLines(@".\PokemonGo-map\config\config.ini");
+                lines[4] = "password:[" + textBox1.Text + "]";
+                File.WriteAllLines(@".\PokemonGo-map\config\config.ini", lines);
                 Process p = Process.Start("cmd.exe", @"/C cd PokemonGo-Map & pikaptcha -p " + textBox1.Text + " -c " + comboBox1.Text + @" & python banned.py -f usernames.txt & powershell -executionpolicy unrestricted .\usernames.ps1 & pause");
                 Thread.Sleep(150); // Allow the process to open it's window
                 SetParent(p.MainWindowHandle, panel2.Handle);
@@ -138,6 +141,9 @@ namespace PokemonGo_Map_Launcher
             }
             else
             {
+                var lines = File.ReadAllLines(@".\PokemonGo-map\config\config.ini");
+                lines[4] = "password:[" + textBox1.Text + "]";
+                File.WriteAllLines(@".\PokemonGo-map\config\config.ini", lines);
                 Process p = Process.Start("cmd.exe", @"/C cd PokemonGo-Map & pikaptcha -r " + textBox3.Text + " -p " + textBox1.Text + " -c " + comboBox1.Text + @" & python banned.py -f usernames.txt & powershell -executionpolicy unrestricted .\usernames.ps1 & pause");
                 Thread.Sleep(150); // Allow the process to open it's window
                 SetParent(p.MainWindowHandle, panel2.Handle);
