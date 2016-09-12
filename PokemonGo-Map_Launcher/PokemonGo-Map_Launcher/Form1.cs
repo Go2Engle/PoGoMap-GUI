@@ -131,14 +131,14 @@ namespace PokemonGo_Map_Launcher
             //Account Creation
             if (string.IsNullOrWhiteSpace(textBox3.Text))
             {
-                Process p = Process.Start("cmd.exe", @"/C cd PokemonGo-Map & pikaptcha -p " + textBox1.Text + " -c " + comboBox1.Text + @" & python banned.py -f usernames.txt & powershell.exe .\usernames.ps1 & pause");
+                Process p = Process.Start("cmd.exe", @"/C cd PokemonGo-Map & pikaptcha -p " + textBox1.Text + " -c " + comboBox1.Text + @" & python banned.py -f usernames.txt & powershell -executionpolicy unrestricted .\usernames.ps1 & pause");
                 Thread.Sleep(150); // Allow the process to open it's window
                 SetParent(p.MainWindowHandle, panel2.Handle);
                 MoveWindow(p.MainWindowHandle, 0, 0, panel2.Width, panel2.Height, true);
             }
             else
             {
-                Process p = Process.Start("cmd.exe", @"/C cd PokemonGo-Map & pikaptcha -r " + textBox3.Text + " -p " + textBox1.Text + " -c " + comboBox1.Text + @" & python banned.py -f usernames.txt & powershell.exe .\usernames.ps1 & pause");
+                Process p = Process.Start("cmd.exe", @"/C cd PokemonGo-Map & pikaptcha -r " + textBox3.Text + " -p " + textBox1.Text + " -c " + comboBox1.Text + @" & python banned.py -f usernames.txt & powershell -executionpolicy unrestricted .\usernames.ps1 & pause");
                 Thread.Sleep(150); // Allow the process to open it's window
                 SetParent(p.MainWindowHandle, panel2.Handle);
                 MoveWindow(p.MainWindowHandle, 0, 0, panel2.Width, panel2.Height, true);
@@ -155,7 +155,7 @@ namespace PokemonGo_Map_Launcher
         }
         private void button9_Click(object sender, EventArgs e)
         {
-            Process p = Process.Start("cmd.exe", @"/c cd PokemonGo-Map & python banned.py -f usernames.txt & powershell.exe .\usernames.ps1 & Pause");
+            Process p = Process.Start("cmd.exe", @"/c cd PokemonGo-Map & python banned.py -f usernames.txt & powershell -executionpolicy unrestricted .\usernames.ps1 & Pause");
             Thread.Sleep(150); // Allow the process to open it's window
             SetParent(p.MainWindowHandle, panel2.Handle);
             MoveWindow(p.MainWindowHandle, 0, 0, panel2.Width, panel2.Height, true);
@@ -167,7 +167,7 @@ namespace PokemonGo_Map_Launcher
         }
         private void button2_Click_1(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://" + GetLocalIPAddress() + ":5000");
+            System.Diagnostics.Process.Start("http://" + GetLocalIPAddress() + ":" + textBox5.Text);
         }
 
         #endregion
