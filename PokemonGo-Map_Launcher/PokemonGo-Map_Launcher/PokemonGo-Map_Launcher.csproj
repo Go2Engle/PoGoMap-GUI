@@ -121,6 +121,7 @@
     <None Include="Resources\unnamed.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\pokemon-go.jpg" />
     <Content Include="unnamed.ico" />
   </ItemGroup>
   <ItemGroup>

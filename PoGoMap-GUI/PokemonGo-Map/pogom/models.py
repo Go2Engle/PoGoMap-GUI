@@ -19,7 +19,6 @@ from base64 import b64encode
 from cachetools import TTLCache
 from cachetools import cached
 
-
 from . import config
 from .utils import get_pokemon_name, get_pokemon_rarity, get_pokemon_types, get_args
 from .transform import transform_from_wgs_to_gcj, get_new_coords
@@ -97,8 +96,8 @@ class Pokemon(BaseModel):
     def get_encountered_pokemon(encounter_id):
         query = (Pokemon
                  .select()
-                 .where(Pokemon.encounter_id == b64encode(str(encounter_id)) &
-                        Pokemon.disappear_time > datetime.utcnow())
+                 .where((Pokemon.encounter_id == b64encode(str(encounter_id))) &
+                        (Pokemon.disappear_time > datetime.utcnow()))
                  .dicts()
                  )
         pokemon = []
@@ -629,6 +628,7 @@ def parse_map(args, map_dict, step_location, db_update_queue, wh_update_queue, a
     pokemons = {}
     pokestops = {}
     gyms = {}
+    skipped = 0
 
     cells = map_dict['responses']['GET_MAP_OBJECTS']['map_cells']
     for cell in cells:
@@ -637,6 +637,7 @@ def parse_map(args, map_dict, step_location, db_update_queue, wh_update_queue, a
 
                 # Don't parse pokemon we've already encountered. Avoids IVs getting nulled out on rescanning.
                 if Pokemon.get_encountered_pokemon(p['encounter_id']):
+                    skipped += 1
                     continue
 
                 # time_till_hidden_ms was overflowing causing a negative integer.
@@ -654,7 +655,8 @@ def parse_map(args, map_dict, step_location, db_update_queue, wh_update_queue, a
 
                 # Scan for IVs and moves
                 encounter_result = None
-                if args.encounter and not p['pokemon_data']['pokemon_id'] in args.encounter_blacklist:
+                if (args.encounter and p['pokemon_data']['pokemon_id'] in args.encounter_whitelist or
+                        p['pokemon_data']['pokemon_id'] not in args.encounter_blacklist and not args.encounter_whitelist):
                     time.sleep(args.encounter_delay)
                     encounter_result = api.encounter(encounter_id=p['encounter_id'],
                                                      spawn_point_id=p['spawn_point_id'],
@@ -764,7 +766,7 @@ def parse_map(args, map_dict, step_location, db_update_queue, wh_update_queue, a
         db_update_queue.put((Gym, gyms))
 
     log.info('Parsing found %d pokemons, %d pokestops, and %d gyms',
-             len(pokemons),
+             len(pokemons) + skipped,
              len(pokestops),
              len(gyms))
 
@@ -775,7 +777,7 @@ def parse_map(args, map_dict, step_location, db_update_queue, wh_update_queue, a
     }}))
 
     return {
-        'count': len(pokemons) + len(pokestops) + len(gyms),
+        'count': len(pokemons) + skipped + len(pokestops) + len(gyms),
         'gyms': gyms,
     }
 

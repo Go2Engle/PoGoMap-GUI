@@ -185,9 +185,7 @@ def main():
     if args.no_gyms:
         log.info('Parsing of Gyms disabled')
     if args.encounter:
-        log.info('Encountering pokemon for more details')
-        if args.encounter_blacklist:
-            log.info("Not encountering {}".format(args.encounter_blacklist))
+        log.info('Encountering pokemon enabled')
 
     config['LOCALE'] = args.locale
     config['CHINA'] = args.china
@@ -223,9 +221,10 @@ def main():
         t.start()
 
     # db clearner; really only need one ever
-    t = Thread(target=clean_db_loop, name='db-cleaner', args=(args,))
-    t.daemon = True
-    t.start()
+    if not args.disable_clean:
+        t = Thread(target=clean_db_loop, name='db-cleaner', args=(args,))
+        t.daemon = True
+        t.start()
 
     # WH Updates
     wh_updates_queue = Queue()

@@ -75,8 +75,11 @@ def get_args():
     parser.add_argument('-ed', '--encounter-delay',
                         help='Time delay between encounter pokemon in scan threads',
                         type=float, default=1)
-    parser.add_argument('-eblk', '--encounter-blacklist', action='append', default=[],
-                        help=' Pokemon to never encounter')
+    encounter_list = parser.add_mutually_exclusive_group()
+    encounter_list.add_argument('-ewht', '--encounter-whitelist', action='append', default=[],
+                                help='List of pokemon to encounter for more stats')
+    encounter_list.add_argument('-eblk', '--encounter-blacklist', action='append', default=[],
+                                help='List of pokemon to NOT encounter for more stats')
     parser.add_argument('-ld', '--login-delay',
                         help='Time delay between each login attempt',
                         type=float, default=5)
@@ -163,6 +166,8 @@ def get_args():
     parser.add_argument('-wh', '--webhook', help='Define URL(s) to POST webhook information to',
                         nargs='*', default=False, dest='webhooks')
     parser.add_argument('-gi', '--gym-info', help='Get all details about gyms (causes an additional API hit for every gym)',
+                        action='store_true', default=False)
+    parser.add_argument('--disable-clean', help='Disable clean db loop',
                         action='store_true', default=False)
     parser.add_argument('--webhook-updates-only', help='Only send updates (pokémon & lured pokéstops)',
                         action='store_true', default=False)
@@ -285,6 +290,7 @@ def get_args():
             sys.exit(1)
 
         args.encounter_blacklist = [int(i) for i in args.encounter_blacklist]
+        args.encounter_whitelist = [int(i) for i in args.encounter_whitelist]
 
         # Decide which scanning mode to use
         if args.spawnpoint_scanning:

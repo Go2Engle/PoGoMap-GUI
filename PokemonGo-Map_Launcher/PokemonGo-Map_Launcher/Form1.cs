@@ -148,11 +148,12 @@ namespace PokemonGo_Map_Launcher
         private void button8_Click(object sender, EventArgs e)
         {
             //RunNotifications
-            Process p = Process.Start("cmd.exe", @"/C cd PokeAlarm & RunNotifications.bat");
+            Process p = Process.Start("cmd.exe", @"/C cd PokeAlarm & python runwebhook.py -H " + GetLocalIPAddress() + " -P " + textBox5.Text + " & pause");
             Thread.Sleep(150); // Allow the process to open it's window
             SetParent(p.MainWindowHandle, panel1.Handle);
             MoveWindow(p.MainWindowHandle, 0, 0, panel1.Width, panel1.Height, true);
         }
+      
         private void button9_Click(object sender, EventArgs e)
         {
             Process p = Process.Start("cmd.exe", @"/c cd PokemonGo-Map & python banned.py -f usernames.txt & powershell -executionpolicy unrestricted .\usernames.ps1 & Pause");
@@ -167,7 +168,7 @@ namespace PokemonGo_Map_Launcher
         }
         private void button2_Click_1(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://" + GetLocalIPAddress() + ":" + textBox5.Text);
+            System.Diagnostics.Process.Start("http://" + GetLocalIPAddress() + ":" + textBox4.Text);
         }
 
         #endregion

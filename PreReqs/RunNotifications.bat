@@ -1,3 +1,3 @@
 @echo off
-python runwebhook.py -H YOUR_IP -P YOUR_WEBHOOK_PORT
+python runwebhook.py -H %1 -P %2
 pause
