@@ -24,10 +24,9 @@ Tools being used by my GUI:
 ## Installation
 3. Download latest PoGoMap-GUI zip from releases section. (https://github.com/engle2192/PoGoMap-GUI/releases)
 4. Extract files to a folder.
-7. Follow the bellow instructions to configure your computer to bypass execution policy for powershell scripts
 8. Run PokemonGo-Map_Launcher.exe
-9. Click the "Download PreReqs" at the bottom. Follow steps 1-3 on the new window that opens.
-10. After those steps are complete you should now be able to run your map! Dont forget to add a starting zip code location! To view your map open a browser and go to http://YOUR_IP:5000
+9. Click the "Download PreReqs" at the bottom. Follow steps 1-4 on the new window that opens.
+10. After those steps are complete you should now be able to run your map! Dont forget to add a starting zip code location! If you run into any powershell errors please follow the Powershell instructions below.
 
 ## Powershell instructions
 1. Run below in powershell launched as administrator:
