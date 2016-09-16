@@ -29,7 +29,7 @@ Tools being used by my GUI:
  - Google Maps API instructions (https://developers.google.com/maps/documentation/javascript/get-api-key)
 
 ## Installation
-1. Download latest PoGoMap-GUI zip from releases section. (https://github.com/engle2192/PoGoMap-GUI/releases)
+1. Download latest PoGoMap-GUI zip. (https://github.com/engle2192/PoGoMap-GUI/releases/tag/3.0)
 2. Extract files to a folder.
 3. Run PokemonGo-Map_Launcher.exe
 4. Click the "Install" button at the bottom. Follow steps.
