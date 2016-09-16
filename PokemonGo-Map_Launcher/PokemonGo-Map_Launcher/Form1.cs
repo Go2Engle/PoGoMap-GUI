@@ -72,8 +72,8 @@ namespace PokemonGo_Map_Launcher
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //RunMapSS
-            Process p = Process.Start("cmd.exe", @"/c cd PokemonGo-Map & python runserver.py --webhook-updates-only -enc -l " + textBox2.Text + " -st " + comboBox2.Text + label2.Text + label3.Text + label4.Text + label5.Text + label11.Text + " -H " + GetLocalIPAddress() + " -P " + textBox4.Text + " -wh http://" + GetLocalIPAddress() + ":" + textBox5.Text + "& pause");
+
+            Process p = Process.Start("cmd.exe", @"/c cd PokemonGo-Map & python runserver.py -enc -l " + textBox2.Text + " -st " + comboBox2.Text + label2.Text + label3.Text + label4.Text + label13.Text + label5.Text + label11.Text + " -H " + GetLocalIPAddress() + " -P " + textBox4.Text + " -wh http://" + GetLocalIPAddress() + ":" + textBox5.Text + "& pause");
             Thread.Sleep(150); // Allow the process to open it's window
             SetParent(p.MainWindowHandle, panel2.Handle);
             MoveWindow(p.MainWindowHandle, 0, 0, panel2.Width, panel2.Height, true);

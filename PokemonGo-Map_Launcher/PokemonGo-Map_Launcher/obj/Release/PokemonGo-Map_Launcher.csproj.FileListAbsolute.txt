@@ -8,3 +8,4 @@ C:\Users\Chris\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map
 C:\Users\Chris\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Release\PokemonGo-Map_Launcher.csproj.GenerateResource.Cache
 C:\Users\Chris\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Release\PokemonGo-Map_Launcher.exe
 C:\Users\Chris\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Release\PokemonGo-Map_Launcher.pdb
+C:\Users\Chris\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Release\PokemonGo-Map_Launcher.csprojResolveAssemblyReference.cache
