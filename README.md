@@ -1,4 +1,6 @@
 # PoGoMap-GUI
+## NEWS
+Working on pretty huge update to add an in app updater!
 
 ## Description
 This is a GUI tool created to ease the process of running your pokemongo-map and creating new accounts to scan with. This combines a few tools created by other fantastic users on github! Without there tools I would have no need to create this tool. This is a windows only tool. Sorry for my horrible coding but so far it seems to get the job done!
