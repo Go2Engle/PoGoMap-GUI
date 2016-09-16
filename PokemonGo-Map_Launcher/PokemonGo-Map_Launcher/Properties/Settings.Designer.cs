@@ -1933,7 +1933,7 @@ namespace PokemonGo_Map_Launcher.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("YOUR_PUSH_API_KEY")]
+        [global::System.Configuration.DefaultSettingValueAttribute("\"YOUR_PUSH_API_KEY\"")]
         public string pushapi {
             get {
                 return ((string)(this["pushapi"]));
@@ -1945,7 +1945,7 @@ namespace PokemonGo_Map_Launcher.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("YOUR_API_KEY")]
+        [global::System.Configuration.DefaultSettingValueAttribute("\"YOUR_API_KEY\"")]
         public string slackapi {
             get {
                 return ((string)(this["slackapi"]));
@@ -1957,7 +1957,7 @@ namespace PokemonGo_Map_Launcher.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("YOUR_ACCESS_TOKEN")]
+        [global::System.Configuration.DefaultSettingValueAttribute("\"YOUR_ACCESS_TOKEN\"")]
         public string access_token {
             get {
                 return ((string)(this["access_token"]));
@@ -1969,7 +1969,7 @@ namespace PokemonGo_Map_Launcher.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("YOUR_ACCESS_SECRET")]
+        [global::System.Configuration.DefaultSettingValueAttribute("\"YOUR_ACCESS_SECRET\"")]
         public string access_secret {
             get {
                 return ((string)(this["access_secret"]));
@@ -1981,7 +1981,7 @@ namespace PokemonGo_Map_Launcher.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("YOUR_CONSUMER_KEY")]
+        [global::System.Configuration.DefaultSettingValueAttribute("\"YOUR_CONSUMER_KEY\"")]
         public string consumer_key {
             get {
                 return ((string)(this["consumer_key"]));
@@ -1993,7 +1993,7 @@ namespace PokemonGo_Map_Launcher.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("YOUR_CONSUMER_SECRET")]
+        [global::System.Configuration.DefaultSettingValueAttribute("\"YOUR_CONSUMER_SECRET\"")]
         public string consumer_secret {
             get {
                 return ((string)(this["consumer_secret"]));

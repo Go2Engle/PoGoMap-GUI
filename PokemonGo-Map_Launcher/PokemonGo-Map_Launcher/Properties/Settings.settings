@@ -480,22 +480,22 @@
       <Value Profile="(Default)">False</Value>
     </Setting>
     <Setting Name="pushapi" Type="System.String" Scope="User">
-      <Value Profile="(Default)">YOUR_PUSH_API_KEY</Value>
+      <Value Profile="(Default)">"YOUR_PUSH_API_KEY"</Value>
     </Setting>
     <Setting Name="slackapi" Type="System.String" Scope="User">
-      <Value Profile="(Default)">YOUR_API_KEY</Value>
+      <Value Profile="(Default)">"YOUR_API_KEY"</Value>
     </Setting>
     <Setting Name="access_token" Type="System.String" Scope="User">
-      <Value Profile="(Default)">YOUR_ACCESS_TOKEN</Value>
+      <Value Profile="(Default)">"YOUR_ACCESS_TOKEN"</Value>
     </Setting>
     <Setting Name="access_secret" Type="System.String" Scope="User">
-      <Value Profile="(Default)">YOUR_ACCESS_SECRET</Value>
+      <Value Profile="(Default)">"YOUR_ACCESS_SECRET"</Value>
     </Setting>
     <Setting Name="consumer_key" Type="System.String" Scope="User">
-      <Value Profile="(Default)">YOUR_CONSUMER_KEY</Value>
+      <Value Profile="(Default)">"YOUR_CONSUMER_KEY"</Value>
     </Setting>
     <Setting Name="consumer_secret" Type="System.String" Scope="User">
-      <Value Profile="(Default)">YOUR_CONSUMER_SECRET</Value>
+      <Value Profile="(Default)">"YOUR_CONSUMER_SECRET"</Value>
     </Setting>
   </Settings>
 </SettingsFile>
