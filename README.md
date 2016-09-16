@@ -25,13 +25,13 @@ Tools being used by my GUI:
  - Notifications now has its own GUI! No more need to edit config files!
 
 ## Pre-Installation
-1. You will need your google maps API key, and any API key you wish you use for notifications if you plan to use them. The Google maps API is a must no matter what below is a link on how to get your Maps API key.
+1. You will need your google maps API key, and any API key you wish you use for notifications if you plan to use them. The Google maps API is a must no matter what below is a link on how to get your Maps API key. After clicking the link click get a key and follow the instructions.
  - Google Maps API instructions (https://developers.google.com/maps/documentation/javascript/get-api-key)
 
 ## Installation
 1. Download latest PoGoMap-GUI zip. (https://github.com/engle2192/PoGoMap-GUI/releases/tag/3.0)
 2. Extract files to a folder.
-3. Run PokemonGo-Map_Launcher.exe
+3. Run PokemonGo-Map_Launcher.exe as administrator for first run. (Right click > Run as administrator)
 4. Click the "Install" button at the bottom. Follow steps.
 5. After those steps are complete you should now be able to run your map! Dont forget to add a starting zip code location! If you run into any powershell errors please follow the Powershell instructions below.
 
