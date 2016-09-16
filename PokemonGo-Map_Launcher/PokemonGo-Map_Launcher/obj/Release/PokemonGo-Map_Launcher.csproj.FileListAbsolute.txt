@@ -1,0 +1,10 @@
+C:\Users\Chris\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\bin\Release\PokemonGo-Map_Launcher.exe.config
+C:\Users\Chris\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\bin\Release\PokemonGo-Map_Launcher.exe
+C:\Users\Chris\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\bin\Release\PokemonGo-Map_Launcher.pdb
+C:\Users\Chris\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Release\PokemonGo_Map_Launcher.Form1.resources
+C:\Users\Chris\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Release\PokemonGo_Map_Launcher.Form2.resources
+C:\Users\Chris\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Release\PokemonGo_Map_Launcher.Form3.resources
+C:\Users\Chris\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Release\PokemonGo_Map_Launcher.Properties.Resources.resources
+C:\Users\Chris\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Release\PokemonGo-Map_Launcher.csproj.GenerateResource.Cache
+C:\Users\Chris\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Release\PokemonGo-Map_Launcher.exe
+C:\Users\Chris\Documents\GitHub\PoGoMap-GUI\PokemonGo-Map_Launcher\PokemonGo-Map_Launcher\obj\Release\PokemonGo-Map_Launcher.pdb

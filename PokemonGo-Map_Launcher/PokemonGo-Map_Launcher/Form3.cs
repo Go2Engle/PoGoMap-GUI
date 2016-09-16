@@ -295,5 +295,19 @@ namespace PokemonGo_Map_Launcher
             process.WaitForExit();
             MessageBox.Show("API Key has been updated");
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            var lines = File.ReadAllLines(@".\PokemonGo-map\config\config.ini");
+            lines[4] = "password:[" + textBox2.Text + "]";
+            File.WriteAllLines(@".\PokemonGo-map\config\config.ini", lines);
+            Process p = Process.Start("cmd.exe", @"/C cd PokemonGo-Map & pikaptcha -p " + textBox2.Text + @" -c & python banned.py -f usernames.txt & powershell -executionpolicy unrestricted .\usernames.ps1 & pause");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 f2 = new Form2();
+            f2.ShowDialog();
+        }
     }
 }

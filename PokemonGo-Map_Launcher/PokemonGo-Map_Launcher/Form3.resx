@@ -117,7 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="richTextBox1.Text" xml:space="preserve">
-    <value>After running through steps 1, 2, 3, and 4 you are almost ready to run your map! Back on the main GUI use the account creator to create some accounts. Enter the password you used for the accounts into the PoGo Map config.ini file and your set to go! If you would like to get push notifications set up please follow the instructions on the creators git hub here (https://github.com/kvangent/PokeAlarm). As your accounts get banned just stop your server and create some more! The bad accounts will be removed automatically when creating new accounts or when using the check accounts button! If you have any issues please create an issue request on Github!</value>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Your now ready to run your map! if you notice your accounts are
+getting banned just create some more from the main GUI! Be sure
+to use the same password you originaly used! if you have any 
+questions please post on GIT Hub!</value>
   </data>
 </root>

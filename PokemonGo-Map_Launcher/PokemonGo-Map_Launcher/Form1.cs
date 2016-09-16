@@ -32,7 +32,8 @@ namespace PokemonGo_Map_Launcher
             label4.Text = "";
             label5.Text = "";
             label11.Text = "";
-            
+            label13.Text = " --webhook-updates-only";
+
         }
         [DllImport("user32.dll")]
         static extern IntPtr SetParent(IntPtr hWndChild, IntPtr hWndNewParent);
@@ -107,13 +108,8 @@ namespace PokemonGo_Map_Launcher
         }
         private void button10_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process process = new System.Diagnostics.Process();
-            System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
-            startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
-            startInfo.FileName = "cmd.exe";
-            startInfo.Arguments = @"/C .\PokeAlarm\alarms.json";
-            process.StartInfo = startInfo;
-            process.Start();
+            Form2 f2 = new Form2();
+            f2.ShowDialog();
         }
         private void button5_Click(object sender, EventArgs e)
         {
@@ -236,7 +232,19 @@ namespace PokemonGo_Map_Launcher
             }
             else
             {
-                label2.Text = "";
+                label11.Text = "";
+            }
+        }
+
+        private void checkBox6_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox6.Checked)
+            {
+                label13.Text = "";
+            }
+            else
+            {
+                label13.Text = " --webhook-updates-only";
             }
         }
 
@@ -257,6 +265,14 @@ namespace PokemonGo_Map_Launcher
             }
         }
 
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/engle2192/PoGoMap-GUI/releases");
+        }
 
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/engle2192/PoGoMap-GUI/issues");
+        }
     }
 }

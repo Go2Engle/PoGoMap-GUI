@@ -63,9 +63,29 @@ namespace PokemonGo_Map_Launcher.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pokemon_go {
+        internal static System.Drawing.Bitmap GO_Egg {
             get {
-                object obj = ResourceManager.GetObject("pokemon-go", resourceCulture);
+                object obj = ResourceManager.GetObject("GO_Egg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GO_Eggcropped {
+            get {
+                object obj = ResourceManager.GetObject("GO_Eggcropped", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pokeball {
+            get {
+                object obj = ResourceManager.GetObject("Pokeball", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
