@@ -59,13 +59,13 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox12 = new System.Windows.Forms.GroupBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.groupBox13 = new System.Windows.Forms.GroupBox();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
@@ -388,6 +388,22 @@
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "Step 5";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 38);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(56, 13);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Password:";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(66, 35);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(257, 20);
+            this.textBox2.TabIndex = 3;
+            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(6, 63);
@@ -403,9 +419,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(6, 15);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(136, 13);
+            this.label2.Size = new System.Drawing.Size(145, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Create your first accounts...";
+            this.label2.Text = "Create your first 5 accounts...";
             // 
             // groupBox12
             // 
@@ -436,22 +452,6 @@
             this.label3.Size = new System.Drawing.Size(150, 13);
             this.label3.TabIndex = 1;
             this.label3.Text = "Edit your notification settings...";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(66, 35);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(257, 20);
-            this.textBox2.TabIndex = 3;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 38);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(56, 13);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Password:";
             // 
             // groupBox13
             // 
