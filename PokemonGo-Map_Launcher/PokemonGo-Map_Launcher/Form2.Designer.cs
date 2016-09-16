@@ -32,481 +32,481 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.Bulbasaur = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.Ivysaur = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.Venusaur = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.Charmander = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.Charmeleon = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel7 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.Charizard = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel8 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.Squirtle = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel9 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.Wartortle = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel10 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.Blastoise = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel11 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.Caterpie = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel12 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.Metapod = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel13 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.Butterfree = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel14 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.Weedle = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel15 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.Kakuna = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel16 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.Beedrill = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel17 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.Pidgey = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel18 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.Pidgeotto = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel19 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.Pidgeot = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel20 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.Rattata = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel21 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.Raticate = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel22 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.Spearow = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel23 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.Fearow = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel24 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.Ekans = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel25 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.Arbok = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel26 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.Pikachu = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel27 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox26 = new System.Windows.Forms.PictureBox();
+            this.Raichu = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel28 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox27 = new System.Windows.Forms.PictureBox();
+            this.Sandshrew = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel29 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox28 = new System.Windows.Forms.PictureBox();
+            this.Sandslash = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel30 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox29 = new System.Windows.Forms.PictureBox();
+            this.Nidoran = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel31 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox30 = new System.Windows.Forms.PictureBox();
+            this.Nidorina = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel32 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox31 = new System.Windows.Forms.PictureBox();
+            this.Nidoqueen = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel33 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox32 = new System.Windows.Forms.PictureBox();
+            this.NidoranM = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel34 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox33 = new System.Windows.Forms.PictureBox();
+            this.Nidorino = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel35 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox34 = new System.Windows.Forms.PictureBox();
+            this.Nidoking = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel36 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox35 = new System.Windows.Forms.PictureBox();
+            this.Clefairy = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel37 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox36 = new System.Windows.Forms.PictureBox();
+            this.Clefable = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel38 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox37 = new System.Windows.Forms.PictureBox();
+            this.Vulpix = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel39 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox38 = new System.Windows.Forms.PictureBox();
+            this.Ninetales = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel40 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox39 = new System.Windows.Forms.PictureBox();
+            this.Jigglypuff = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel41 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox40 = new System.Windows.Forms.PictureBox();
+            this.Wigglytuff = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel42 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox41 = new System.Windows.Forms.PictureBox();
+            this.Zubat = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel43 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox42 = new System.Windows.Forms.PictureBox();
+            this.Golbat = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel44 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox43 = new System.Windows.Forms.PictureBox();
+            this.Oddish = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel45 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox44 = new System.Windows.Forms.PictureBox();
+            this.Gloom = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel46 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox45 = new System.Windows.Forms.PictureBox();
+            this.Vileplume = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel47 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox46 = new System.Windows.Forms.PictureBox();
+            this.Paras = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel48 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox47 = new System.Windows.Forms.PictureBox();
+            this.Parasect = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel49 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox48 = new System.Windows.Forms.PictureBox();
+            this.Venonat = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel50 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox49 = new System.Windows.Forms.PictureBox();
+            this.Venomoth = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel51 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox50 = new System.Windows.Forms.PictureBox();
+            this.Diglett = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel52 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox51 = new System.Windows.Forms.PictureBox();
+            this.Dugtrio = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel53 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox52 = new System.Windows.Forms.PictureBox();
+            this.Meowth = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel54 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox53 = new System.Windows.Forms.PictureBox();
+            this.Persian = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel55 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox54 = new System.Windows.Forms.PictureBox();
+            this.Psyduck = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel56 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox55 = new System.Windows.Forms.PictureBox();
+            this.Golduck = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel57 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox56 = new System.Windows.Forms.PictureBox();
+            this.Mankey = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel58 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox57 = new System.Windows.Forms.PictureBox();
+            this.Primeape = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel59 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox58 = new System.Windows.Forms.PictureBox();
+            this.Growlithe = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel60 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox59 = new System.Windows.Forms.PictureBox();
+            this.Arcanine = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel61 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox60 = new System.Windows.Forms.PictureBox();
+            this.Poliwag = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel62 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox61 = new System.Windows.Forms.PictureBox();
+            this.Poliwhirl = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel63 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox62 = new System.Windows.Forms.PictureBox();
+            this.Poliwrath = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel64 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox63 = new System.Windows.Forms.PictureBox();
+            this.Abra = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel65 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox64 = new System.Windows.Forms.PictureBox();
+            this.Kadabra = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel66 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox65 = new System.Windows.Forms.PictureBox();
+            this.Alakazam = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel67 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox66 = new System.Windows.Forms.PictureBox();
+            this.Machop = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel68 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox67 = new System.Windows.Forms.PictureBox();
+            this.Machoke = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel69 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox68 = new System.Windows.Forms.PictureBox();
+            this.Machamp = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel70 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox69 = new System.Windows.Forms.PictureBox();
+            this.Bellsprout = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel71 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox70 = new System.Windows.Forms.PictureBox();
+            this.Weepinbell = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel72 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox71 = new System.Windows.Forms.PictureBox();
+            this.Victreebel = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel73 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox72 = new System.Windows.Forms.PictureBox();
+            this.Tentacool = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel74 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox73 = new System.Windows.Forms.PictureBox();
+            this.Tentacruel = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel75 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox74 = new System.Windows.Forms.PictureBox();
+            this.Geodude = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel76 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox75 = new System.Windows.Forms.PictureBox();
+            this.Graveler = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel77 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox76 = new System.Windows.Forms.PictureBox();
+            this.Golem = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel78 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox77 = new System.Windows.Forms.PictureBox();
+            this.Ponyta = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel79 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox78 = new System.Windows.Forms.PictureBox();
+            this.Rapidash = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel80 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox79 = new System.Windows.Forms.PictureBox();
+            this.Slowpoke = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel81 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox80 = new System.Windows.Forms.PictureBox();
+            this.Slowbro = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel82 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox81 = new System.Windows.Forms.PictureBox();
+            this.Magnemite = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel83 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox82 = new System.Windows.Forms.PictureBox();
+            this.Magneton = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel84 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox83 = new System.Windows.Forms.PictureBox();
+            this.Farfetch = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel85 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox84 = new System.Windows.Forms.PictureBox();
+            this.Doduo = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel86 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox85 = new System.Windows.Forms.PictureBox();
+            this.Dodrio = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel87 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox86 = new System.Windows.Forms.PictureBox();
+            this.Seel = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel88 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox87 = new System.Windows.Forms.PictureBox();
+            this.Dewgong = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel89 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox88 = new System.Windows.Forms.PictureBox();
+            this.Grimer = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel90 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox89 = new System.Windows.Forms.PictureBox();
+            this.Muk = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel91 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox90 = new System.Windows.Forms.PictureBox();
+            this.Shellder = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel92 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox91 = new System.Windows.Forms.PictureBox();
+            this.Cloyster = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel93 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox92 = new System.Windows.Forms.PictureBox();
+            this.Gastly = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel94 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox93 = new System.Windows.Forms.PictureBox();
+            this.Haunter = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel95 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox94 = new System.Windows.Forms.PictureBox();
+            this.Gengar = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel96 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox95 = new System.Windows.Forms.PictureBox();
+            this.Onix = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel97 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox96 = new System.Windows.Forms.PictureBox();
+            this.Drowzee = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel98 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox97 = new System.Windows.Forms.PictureBox();
+            this.Hypno = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel99 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox98 = new System.Windows.Forms.PictureBox();
+            this.Krabby = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel100 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox99 = new System.Windows.Forms.PictureBox();
+            this.Kingler = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel101 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox100 = new System.Windows.Forms.PictureBox();
+            this.Voltorb = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel102 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox101 = new System.Windows.Forms.PictureBox();
+            this.Electrode = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel103 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox102 = new System.Windows.Forms.PictureBox();
+            this.Exeggcute = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel104 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox103 = new System.Windows.Forms.PictureBox();
+            this.Exeggutor = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel105 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox104 = new System.Windows.Forms.PictureBox();
+            this.Cubone = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel106 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox105 = new System.Windows.Forms.PictureBox();
+            this.Marowak = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel107 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox106 = new System.Windows.Forms.PictureBox();
+            this.Hitmonlee = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel108 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox107 = new System.Windows.Forms.PictureBox();
+            this.Hitmonchan = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel109 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox108 = new System.Windows.Forms.PictureBox();
+            this.Lickitung = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel110 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox109 = new System.Windows.Forms.PictureBox();
+            this.Koffing = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel111 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox110 = new System.Windows.Forms.PictureBox();
+            this.Weezing = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel112 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox111 = new System.Windows.Forms.PictureBox();
+            this.Rhyhorn = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel113 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox112 = new System.Windows.Forms.PictureBox();
+            this.Rhydon = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel114 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox113 = new System.Windows.Forms.PictureBox();
+            this.Chansey = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel115 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox114 = new System.Windows.Forms.PictureBox();
+            this.Tangela = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel116 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox115 = new System.Windows.Forms.PictureBox();
+            this.Kangaskhan = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel117 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox116 = new System.Windows.Forms.PictureBox();
+            this.Horsea = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel118 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox117 = new System.Windows.Forms.PictureBox();
+            this.Seadra = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel119 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox118 = new System.Windows.Forms.PictureBox();
+            this.Goldeen = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel120 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox119 = new System.Windows.Forms.PictureBox();
+            this.Seaking = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel121 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox120 = new System.Windows.Forms.PictureBox();
+            this.Staryu = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel122 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox121 = new System.Windows.Forms.PictureBox();
+            this.Starmie = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel123 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox122 = new System.Windows.Forms.PictureBox();
+            this.MrMime = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel124 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox123 = new System.Windows.Forms.PictureBox();
+            this.Scyther = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel125 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox124 = new System.Windows.Forms.PictureBox();
+            this.Jynx = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel126 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox125 = new System.Windows.Forms.PictureBox();
+            this.Electabuzz = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel127 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox126 = new System.Windows.Forms.PictureBox();
+            this.Magmar = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel128 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox127 = new System.Windows.Forms.PictureBox();
+            this.Pinsir = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel129 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox128 = new System.Windows.Forms.PictureBox();
+            this.Tauros = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel130 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox129 = new System.Windows.Forms.PictureBox();
+            this.Magikarp = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel131 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox130 = new System.Windows.Forms.PictureBox();
+            this.Gyarados = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel132 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox131 = new System.Windows.Forms.PictureBox();
+            this.Lapras = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel133 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox132 = new System.Windows.Forms.PictureBox();
+            this.Ditto = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel134 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox133 = new System.Windows.Forms.PictureBox();
+            this.Eevee = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel135 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox134 = new System.Windows.Forms.PictureBox();
+            this.Vaporeon = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel136 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox135 = new System.Windows.Forms.PictureBox();
+            this.Jolteon = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel137 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox136 = new System.Windows.Forms.PictureBox();
+            this.Flareon = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel138 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox137 = new System.Windows.Forms.PictureBox();
+            this.Porygon = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel139 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox138 = new System.Windows.Forms.PictureBox();
+            this.Omanyte = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel140 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox139 = new System.Windows.Forms.PictureBox();
+            this.Omastar = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel141 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox140 = new System.Windows.Forms.PictureBox();
+            this.Kabuto = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel142 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox141 = new System.Windows.Forms.PictureBox();
+            this.Kabutops = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel143 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox142 = new System.Windows.Forms.PictureBox();
+            this.Aerodactyl = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel144 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox143 = new System.Windows.Forms.PictureBox();
+            this.Snorlax = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel145 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox144 = new System.Windows.Forms.PictureBox();
+            this.Articuno = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel146 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox145 = new System.Windows.Forms.PictureBox();
+            this.Zapdos = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel147 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox146 = new System.Windows.Forms.PictureBox();
+            this.Moltres = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel149 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox148 = new System.Windows.Forms.PictureBox();
+            this.Dratini = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel150 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox149 = new System.Windows.Forms.PictureBox();
+            this.Dragonair = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel151 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox150 = new System.Windows.Forms.PictureBox();
+            this.Dragonite = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel152 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox151 = new System.Windows.Forms.PictureBox();
+            this.Mewtwo = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel153 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox152 = new System.Windows.Forms.PictureBox();
+            this.Mew = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.label8 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.push_api = new System.Windows.Forms.TextBox();
+            this.enable_push = new System.Windows.Forms.CheckBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label9 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.Bulbasaur = new System.Windows.Forms.CheckBox();
-            this.Ivysaur = new System.Windows.Forms.CheckBox();
-            this.Venusaur = new System.Windows.Forms.CheckBox();
-            this.Charmander = new System.Windows.Forms.CheckBox();
-            this.Charmeleon = new System.Windows.Forms.CheckBox();
-            this.Charizard = new System.Windows.Forms.CheckBox();
-            this.Squirtle = new System.Windows.Forms.CheckBox();
-            this.Wartortle = new System.Windows.Forms.CheckBox();
-            this.Blastoise = new System.Windows.Forms.CheckBox();
-            this.Caterpie = new System.Windows.Forms.CheckBox();
-            this.Metapod = new System.Windows.Forms.CheckBox();
-            this.Butterfree = new System.Windows.Forms.CheckBox();
-            this.Weedle = new System.Windows.Forms.CheckBox();
-            this.Kakuna = new System.Windows.Forms.CheckBox();
-            this.Beedrill = new System.Windows.Forms.CheckBox();
-            this.Pidgey = new System.Windows.Forms.CheckBox();
-            this.Pidgeotto = new System.Windows.Forms.CheckBox();
-            this.Pidgeot = new System.Windows.Forms.CheckBox();
-            this.Rattata = new System.Windows.Forms.CheckBox();
-            this.Raticate = new System.Windows.Forms.CheckBox();
-            this.Spearow = new System.Windows.Forms.CheckBox();
-            this.Fearow = new System.Windows.Forms.CheckBox();
-            this.Ekans = new System.Windows.Forms.CheckBox();
-            this.Arbok = new System.Windows.Forms.CheckBox();
-            this.Pikachu = new System.Windows.Forms.CheckBox();
-            this.Raichu = new System.Windows.Forms.CheckBox();
-            this.Sandshrew = new System.Windows.Forms.CheckBox();
-            this.Sandslash = new System.Windows.Forms.CheckBox();
-            this.Nidoran = new System.Windows.Forms.CheckBox();
-            this.Nidorina = new System.Windows.Forms.CheckBox();
-            this.Nidoqueen = new System.Windows.Forms.CheckBox();
-            this.NidoranM = new System.Windows.Forms.CheckBox();
-            this.Nidorino = new System.Windows.Forms.CheckBox();
-            this.Nidoking = new System.Windows.Forms.CheckBox();
-            this.Clefairy = new System.Windows.Forms.CheckBox();
-            this.Clefable = new System.Windows.Forms.CheckBox();
-            this.Vulpix = new System.Windows.Forms.CheckBox();
-            this.Ninetales = new System.Windows.Forms.CheckBox();
-            this.Jigglypuff = new System.Windows.Forms.CheckBox();
-            this.Wigglytuff = new System.Windows.Forms.CheckBox();
-            this.Zubat = new System.Windows.Forms.CheckBox();
-            this.Golbat = new System.Windows.Forms.CheckBox();
-            this.Oddish = new System.Windows.Forms.CheckBox();
-            this.Gloom = new System.Windows.Forms.CheckBox();
-            this.Vileplume = new System.Windows.Forms.CheckBox();
-            this.Paras = new System.Windows.Forms.CheckBox();
-            this.Parasect = new System.Windows.Forms.CheckBox();
-            this.Venonat = new System.Windows.Forms.CheckBox();
-            this.Venomoth = new System.Windows.Forms.CheckBox();
-            this.Diglett = new System.Windows.Forms.CheckBox();
-            this.Dugtrio = new System.Windows.Forms.CheckBox();
-            this.Meowth = new System.Windows.Forms.CheckBox();
-            this.Persian = new System.Windows.Forms.CheckBox();
-            this.Psyduck = new System.Windows.Forms.CheckBox();
-            this.Golduck = new System.Windows.Forms.CheckBox();
-            this.Mankey = new System.Windows.Forms.CheckBox();
-            this.Primeape = new System.Windows.Forms.CheckBox();
-            this.Growlithe = new System.Windows.Forms.CheckBox();
-            this.Arcanine = new System.Windows.Forms.CheckBox();
-            this.Poliwag = new System.Windows.Forms.CheckBox();
-            this.Poliwhirl = new System.Windows.Forms.CheckBox();
-            this.Poliwrath = new System.Windows.Forms.CheckBox();
-            this.Abra = new System.Windows.Forms.CheckBox();
-            this.Kadabra = new System.Windows.Forms.CheckBox();
-            this.Alakazam = new System.Windows.Forms.CheckBox();
-            this.Machop = new System.Windows.Forms.CheckBox();
-            this.Machoke = new System.Windows.Forms.CheckBox();
-            this.Machamp = new System.Windows.Forms.CheckBox();
-            this.Bellsprout = new System.Windows.Forms.CheckBox();
-            this.Weepinbell = new System.Windows.Forms.CheckBox();
-            this.Victreebel = new System.Windows.Forms.CheckBox();
-            this.Tentacool = new System.Windows.Forms.CheckBox();
-            this.Tentacruel = new System.Windows.Forms.CheckBox();
-            this.Geodude = new System.Windows.Forms.CheckBox();
-            this.Graveler = new System.Windows.Forms.CheckBox();
-            this.Golem = new System.Windows.Forms.CheckBox();
-            this.Ponyta = new System.Windows.Forms.CheckBox();
-            this.Rapidash = new System.Windows.Forms.CheckBox();
-            this.Slowpoke = new System.Windows.Forms.CheckBox();
-            this.Slowbro = new System.Windows.Forms.CheckBox();
-            this.Magnemite = new System.Windows.Forms.CheckBox();
-            this.Magneton = new System.Windows.Forms.CheckBox();
-            this.Farfetch = new System.Windows.Forms.CheckBox();
-            this.Doduo = new System.Windows.Forms.CheckBox();
-            this.Dodrio = new System.Windows.Forms.CheckBox();
-            this.Seel = new System.Windows.Forms.CheckBox();
-            this.Dewgong = new System.Windows.Forms.CheckBox();
-            this.Grimer = new System.Windows.Forms.CheckBox();
-            this.Muk = new System.Windows.Forms.CheckBox();
-            this.Shellder = new System.Windows.Forms.CheckBox();
-            this.Cloyster = new System.Windows.Forms.CheckBox();
-            this.Gastly = new System.Windows.Forms.CheckBox();
-            this.Haunter = new System.Windows.Forms.CheckBox();
-            this.Gengar = new System.Windows.Forms.CheckBox();
-            this.Onix = new System.Windows.Forms.CheckBox();
-            this.Drowzee = new System.Windows.Forms.CheckBox();
-            this.Hypno = new System.Windows.Forms.CheckBox();
-            this.Krabby = new System.Windows.Forms.CheckBox();
-            this.Kingler = new System.Windows.Forms.CheckBox();
-            this.Voltorb = new System.Windows.Forms.CheckBox();
-            this.Electrode = new System.Windows.Forms.CheckBox();
-            this.Exeggcute = new System.Windows.Forms.CheckBox();
-            this.Exeggutor = new System.Windows.Forms.CheckBox();
-            this.Cubone = new System.Windows.Forms.CheckBox();
-            this.Marowak = new System.Windows.Forms.CheckBox();
-            this.Hitmonlee = new System.Windows.Forms.CheckBox();
-            this.Hitmonchan = new System.Windows.Forms.CheckBox();
-            this.Lickitung = new System.Windows.Forms.CheckBox();
-            this.Koffing = new System.Windows.Forms.CheckBox();
-            this.Weezing = new System.Windows.Forms.CheckBox();
-            this.Rhyhorn = new System.Windows.Forms.CheckBox();
-            this.Rhydon = new System.Windows.Forms.CheckBox();
-            this.Chansey = new System.Windows.Forms.CheckBox();
-            this.Tangela = new System.Windows.Forms.CheckBox();
-            this.Kangaskhan = new System.Windows.Forms.CheckBox();
-            this.Horsea = new System.Windows.Forms.CheckBox();
-            this.Seadra = new System.Windows.Forms.CheckBox();
-            this.Goldeen = new System.Windows.Forms.CheckBox();
-            this.Seaking = new System.Windows.Forms.CheckBox();
-            this.Staryu = new System.Windows.Forms.CheckBox();
-            this.Starmie = new System.Windows.Forms.CheckBox();
-            this.MrMime = new System.Windows.Forms.CheckBox();
-            this.Scyther = new System.Windows.Forms.CheckBox();
-            this.Jynx = new System.Windows.Forms.CheckBox();
-            this.Electabuzz = new System.Windows.Forms.CheckBox();
-            this.Magmar = new System.Windows.Forms.CheckBox();
-            this.Pinsir = new System.Windows.Forms.CheckBox();
-            this.Tauros = new System.Windows.Forms.CheckBox();
-            this.Magikarp = new System.Windows.Forms.CheckBox();
-            this.Gyarados = new System.Windows.Forms.CheckBox();
-            this.Lapras = new System.Windows.Forms.CheckBox();
-            this.Ditto = new System.Windows.Forms.CheckBox();
-            this.Eevee = new System.Windows.Forms.CheckBox();
-            this.Vaporeon = new System.Windows.Forms.CheckBox();
-            this.Jolteon = new System.Windows.Forms.CheckBox();
-            this.Flareon = new System.Windows.Forms.CheckBox();
-            this.Porygon = new System.Windows.Forms.CheckBox();
-            this.Omanyte = new System.Windows.Forms.CheckBox();
-            this.Omastar = new System.Windows.Forms.CheckBox();
-            this.Kabuto = new System.Windows.Forms.CheckBox();
-            this.Kabutops = new System.Windows.Forms.CheckBox();
-            this.Aerodactyl = new System.Windows.Forms.CheckBox();
-            this.Snorlax = new System.Windows.Forms.CheckBox();
-            this.Articuno = new System.Windows.Forms.CheckBox();
-            this.Zapdos = new System.Windows.Forms.CheckBox();
-            this.Moltres = new System.Windows.Forms.CheckBox();
-            this.Dratini = new System.Windows.Forms.CheckBox();
-            this.Dragonair = new System.Windows.Forms.CheckBox();
-            this.Dragonite = new System.Windows.Forms.CheckBox();
-            this.Mewtwo = new System.Windows.Forms.CheckBox();
-            this.Mew = new System.Windows.Forms.CheckBox();
-            this.push_api = new System.Windows.Forms.TextBox();
-            this.enable_push = new System.Windows.Forms.CheckBox();
             this.consumer_secret = new System.Windows.Forms.TextBox();
             this.consumer_key = new System.Windows.Forms.TextBox();
             this.access_secret = new System.Windows.Forms.TextBox();
             this.access_token = new System.Windows.Forms.TextBox();
             this.enable_twitter = new System.Windows.Forms.CheckBox();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.slack_api = new System.Windows.Forms.TextBox();
             this.enable_slack = new System.Windows.Forms.CheckBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
@@ -999,6 +999,19 @@
             this.flowLayoutPanel2.Size = new System.Drawing.Size(95, 84);
             this.flowLayoutPanel2.TabIndex = 165;
             // 
+            // Bulbasaur
+            // 
+            this.Bulbasaur.AutoSize = true;
+            this.Bulbasaur.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.bulbasaur;
+            this.Bulbasaur.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Bulbasaur.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "bulbasaur", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Bulbasaur.Location = new System.Drawing.Point(3, 58);
+            this.Bulbasaur.Name = "Bulbasaur";
+            this.Bulbasaur.Size = new System.Drawing.Size(73, 17);
+            this.Bulbasaur.TabIndex = 0;
+            this.Bulbasaur.Text = "Bulbasaur";
+            this.Bulbasaur.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel3
             // 
             this.flowLayoutPanel3.Controls.Add(this.pictureBox2);
@@ -1018,6 +1031,19 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 164;
             this.pictureBox2.TabStop = false;
+            // 
+            // Ivysaur
+            // 
+            this.Ivysaur.AutoSize = true;
+            this.Ivysaur.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Ivysaur;
+            this.Ivysaur.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Ivysaur.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Ivysaur", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Ivysaur.Location = new System.Drawing.Point(3, 58);
+            this.Ivysaur.Name = "Ivysaur";
+            this.Ivysaur.Size = new System.Drawing.Size(60, 17);
+            this.Ivysaur.TabIndex = 2;
+            this.Ivysaur.Text = "Ivysaur";
+            this.Ivysaur.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel4
             // 
@@ -1039,6 +1065,19 @@
             this.pictureBox3.TabIndex = 165;
             this.pictureBox3.TabStop = false;
             // 
+            // Venusaur
+            // 
+            this.Venusaur.AutoSize = true;
+            this.Venusaur.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Venusaur;
+            this.Venusaur.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Venusaur.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Venusaur", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Venusaur.Location = new System.Drawing.Point(3, 58);
+            this.Venusaur.Name = "Venusaur";
+            this.Venusaur.Size = new System.Drawing.Size(71, 17);
+            this.Venusaur.TabIndex = 3;
+            this.Venusaur.Text = "Venusaur";
+            this.Venusaur.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel5
             // 
             this.flowLayoutPanel5.Controls.Add(this.pictureBox4);
@@ -1058,6 +1097,19 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 166;
             this.pictureBox4.TabStop = false;
+            // 
+            // Charmander
+            // 
+            this.Charmander.AutoSize = true;
+            this.Charmander.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Charmander;
+            this.Charmander.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Charmander.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Charmander", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Charmander.Location = new System.Drawing.Point(3, 58);
+            this.Charmander.Name = "Charmander";
+            this.Charmander.Size = new System.Drawing.Size(83, 17);
+            this.Charmander.TabIndex = 4;
+            this.Charmander.Text = "Charmander";
+            this.Charmander.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel6
             // 
@@ -1079,6 +1131,19 @@
             this.pictureBox5.TabIndex = 167;
             this.pictureBox5.TabStop = false;
             // 
+            // Charmeleon
+            // 
+            this.Charmeleon.AutoSize = true;
+            this.Charmeleon.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Charmeleon;
+            this.Charmeleon.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Charmeleon.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Charmeleon", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Charmeleon.Location = new System.Drawing.Point(3, 58);
+            this.Charmeleon.Name = "Charmeleon";
+            this.Charmeleon.Size = new System.Drawing.Size(82, 17);
+            this.Charmeleon.TabIndex = 5;
+            this.Charmeleon.Text = "Charmeleon";
+            this.Charmeleon.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel7
             // 
             this.flowLayoutPanel7.Controls.Add(this.pictureBox6);
@@ -1098,6 +1163,19 @@
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 168;
             this.pictureBox6.TabStop = false;
+            // 
+            // Charizard
+            // 
+            this.Charizard.AutoSize = true;
+            this.Charizard.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Charizard;
+            this.Charizard.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Charizard.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Charizard", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Charizard.Location = new System.Drawing.Point(3, 58);
+            this.Charizard.Name = "Charizard";
+            this.Charizard.Size = new System.Drawing.Size(70, 17);
+            this.Charizard.TabIndex = 6;
+            this.Charizard.Text = "Charizard";
+            this.Charizard.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel8
             // 
@@ -1119,6 +1197,19 @@
             this.pictureBox7.TabIndex = 169;
             this.pictureBox7.TabStop = false;
             // 
+            // Squirtle
+            // 
+            this.Squirtle.AutoSize = true;
+            this.Squirtle.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Squirtle;
+            this.Squirtle.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Squirtle.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Squirtle", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Squirtle.Location = new System.Drawing.Point(3, 58);
+            this.Squirtle.Name = "Squirtle";
+            this.Squirtle.Size = new System.Drawing.Size(61, 17);
+            this.Squirtle.TabIndex = 7;
+            this.Squirtle.Text = "Squirtle";
+            this.Squirtle.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel9
             // 
             this.flowLayoutPanel9.Controls.Add(this.pictureBox8);
@@ -1138,6 +1229,19 @@
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 170;
             this.pictureBox8.TabStop = false;
+            // 
+            // Wartortle
+            // 
+            this.Wartortle.AutoSize = true;
+            this.Wartortle.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Wartortle;
+            this.Wartortle.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Wartortle.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Wartortle", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Wartortle.Location = new System.Drawing.Point(3, 58);
+            this.Wartortle.Name = "Wartortle";
+            this.Wartortle.Size = new System.Drawing.Size(69, 17);
+            this.Wartortle.TabIndex = 8;
+            this.Wartortle.Text = "Wartortle";
+            this.Wartortle.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel10
             // 
@@ -1159,6 +1263,19 @@
             this.pictureBox9.TabIndex = 171;
             this.pictureBox9.TabStop = false;
             // 
+            // Blastoise
+            // 
+            this.Blastoise.AutoSize = true;
+            this.Blastoise.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Blastoise;
+            this.Blastoise.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Blastoise.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Blastoise", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Blastoise.Location = new System.Drawing.Point(3, 58);
+            this.Blastoise.Name = "Blastoise";
+            this.Blastoise.Size = new System.Drawing.Size(68, 17);
+            this.Blastoise.TabIndex = 9;
+            this.Blastoise.Text = "Blastoise";
+            this.Blastoise.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel11
             // 
             this.flowLayoutPanel11.Controls.Add(this.pictureBox10);
@@ -1178,6 +1295,19 @@
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 172;
             this.pictureBox10.TabStop = false;
+            // 
+            // Caterpie
+            // 
+            this.Caterpie.AutoSize = true;
+            this.Caterpie.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Caterpie;
+            this.Caterpie.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Caterpie.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Caterpie", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Caterpie.Location = new System.Drawing.Point(3, 58);
+            this.Caterpie.Name = "Caterpie";
+            this.Caterpie.Size = new System.Drawing.Size(65, 17);
+            this.Caterpie.TabIndex = 10;
+            this.Caterpie.Text = "Caterpie";
+            this.Caterpie.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel12
             // 
@@ -1199,6 +1329,19 @@
             this.pictureBox11.TabIndex = 173;
             this.pictureBox11.TabStop = false;
             // 
+            // Metapod
+            // 
+            this.Metapod.AutoSize = true;
+            this.Metapod.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Metapod;
+            this.Metapod.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Metapod.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Metapod", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Metapod.Location = new System.Drawing.Point(3, 58);
+            this.Metapod.Name = "Metapod";
+            this.Metapod.Size = new System.Drawing.Size(68, 17);
+            this.Metapod.TabIndex = 11;
+            this.Metapod.Text = "Metapod";
+            this.Metapod.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel13
             // 
             this.flowLayoutPanel13.Controls.Add(this.pictureBox12);
@@ -1218,6 +1361,19 @@
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox12.TabIndex = 174;
             this.pictureBox12.TabStop = false;
+            // 
+            // Butterfree
+            // 
+            this.Butterfree.AutoSize = true;
+            this.Butterfree.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Butterfree;
+            this.Butterfree.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Butterfree.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Butterfree", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Butterfree.Location = new System.Drawing.Point(3, 58);
+            this.Butterfree.Name = "Butterfree";
+            this.Butterfree.Size = new System.Drawing.Size(72, 17);
+            this.Butterfree.TabIndex = 12;
+            this.Butterfree.Text = "Butterfree";
+            this.Butterfree.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel14
             // 
@@ -1239,6 +1395,19 @@
             this.pictureBox13.TabIndex = 175;
             this.pictureBox13.TabStop = false;
             // 
+            // Weedle
+            // 
+            this.Weedle.AutoSize = true;
+            this.Weedle.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Weedle;
+            this.Weedle.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Weedle.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Weedle", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Weedle.Location = new System.Drawing.Point(3, 58);
+            this.Weedle.Name = "Weedle";
+            this.Weedle.Size = new System.Drawing.Size(63, 17);
+            this.Weedle.TabIndex = 13;
+            this.Weedle.Text = "Weedle";
+            this.Weedle.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel15
             // 
             this.flowLayoutPanel15.Controls.Add(this.pictureBox14);
@@ -1258,6 +1427,19 @@
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox14.TabIndex = 176;
             this.pictureBox14.TabStop = false;
+            // 
+            // Kakuna
+            // 
+            this.Kakuna.AutoSize = true;
+            this.Kakuna.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Kakuna;
+            this.Kakuna.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Kakuna.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Kakuna", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Kakuna.Location = new System.Drawing.Point(3, 58);
+            this.Kakuna.Name = "Kakuna";
+            this.Kakuna.Size = new System.Drawing.Size(63, 17);
+            this.Kakuna.TabIndex = 14;
+            this.Kakuna.Text = "Kakuna";
+            this.Kakuna.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel16
             // 
@@ -1279,6 +1461,19 @@
             this.pictureBox15.TabIndex = 176;
             this.pictureBox15.TabStop = false;
             // 
+            // Beedrill
+            // 
+            this.Beedrill.AutoSize = true;
+            this.Beedrill.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Beedrill;
+            this.Beedrill.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Beedrill.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Beedrill", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Beedrill.Location = new System.Drawing.Point(3, 58);
+            this.Beedrill.Name = "Beedrill";
+            this.Beedrill.Size = new System.Drawing.Size(60, 17);
+            this.Beedrill.TabIndex = 15;
+            this.Beedrill.Text = "Beedrill";
+            this.Beedrill.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel17
             // 
             this.flowLayoutPanel17.Controls.Add(this.pictureBox16);
@@ -1298,6 +1493,19 @@
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox16.TabIndex = 176;
             this.pictureBox16.TabStop = false;
+            // 
+            // Pidgey
+            // 
+            this.Pidgey.AutoSize = true;
+            this.Pidgey.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Pidgey;
+            this.Pidgey.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Pidgey.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Pidgey", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Pidgey.Location = new System.Drawing.Point(3, 58);
+            this.Pidgey.Name = "Pidgey";
+            this.Pidgey.Size = new System.Drawing.Size(58, 17);
+            this.Pidgey.TabIndex = 16;
+            this.Pidgey.Text = "Pidgey";
+            this.Pidgey.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel18
             // 
@@ -1319,6 +1527,19 @@
             this.pictureBox17.TabIndex = 176;
             this.pictureBox17.TabStop = false;
             // 
+            // Pidgeotto
+            // 
+            this.Pidgeotto.AutoSize = true;
+            this.Pidgeotto.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Pidgeotto;
+            this.Pidgeotto.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Pidgeotto.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Pidgeotto", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Pidgeotto.Location = new System.Drawing.Point(3, 58);
+            this.Pidgeotto.Name = "Pidgeotto";
+            this.Pidgeotto.Size = new System.Drawing.Size(71, 17);
+            this.Pidgeotto.TabIndex = 17;
+            this.Pidgeotto.Text = "Pidgeotto";
+            this.Pidgeotto.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel19
             // 
             this.flowLayoutPanel19.Controls.Add(this.pictureBox18);
@@ -1338,6 +1559,19 @@
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox18.TabIndex = 176;
             this.pictureBox18.TabStop = false;
+            // 
+            // Pidgeot
+            // 
+            this.Pidgeot.AutoSize = true;
+            this.Pidgeot.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Pidgeot;
+            this.Pidgeot.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Pidgeot.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Pidgeot", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Pidgeot.Location = new System.Drawing.Point(3, 58);
+            this.Pidgeot.Name = "Pidgeot";
+            this.Pidgeot.Size = new System.Drawing.Size(62, 17);
+            this.Pidgeot.TabIndex = 18;
+            this.Pidgeot.Text = "Pidgeot";
+            this.Pidgeot.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel20
             // 
@@ -1359,6 +1593,19 @@
             this.pictureBox19.TabIndex = 176;
             this.pictureBox19.TabStop = false;
             // 
+            // Rattata
+            // 
+            this.Rattata.AutoSize = true;
+            this.Rattata.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Rattata;
+            this.Rattata.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Rattata.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Rattata", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Rattata.Location = new System.Drawing.Point(3, 58);
+            this.Rattata.Name = "Rattata";
+            this.Rattata.Size = new System.Drawing.Size(61, 17);
+            this.Rattata.TabIndex = 20;
+            this.Rattata.Text = "Rattata";
+            this.Rattata.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel21
             // 
             this.flowLayoutPanel21.Controls.Add(this.pictureBox20);
@@ -1379,6 +1626,19 @@
             this.pictureBox20.TabIndex = 176;
             this.pictureBox20.TabStop = false;
             // 
+            // Raticate
+            // 
+            this.Raticate.AutoSize = true;
+            this.Raticate.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Raticate;
+            this.Raticate.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Raticate.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Raticate", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Raticate.Location = new System.Drawing.Point(3, 58);
+            this.Raticate.Name = "Raticate";
+            this.Raticate.Size = new System.Drawing.Size(66, 17);
+            this.Raticate.TabIndex = 21;
+            this.Raticate.Text = "Raticate";
+            this.Raticate.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel22
             // 
             this.flowLayoutPanel22.Controls.Add(this.pictureBox21);
@@ -1398,6 +1658,19 @@
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox21.TabIndex = 176;
             this.pictureBox21.TabStop = false;
+            // 
+            // Spearow
+            // 
+            this.Spearow.AutoSize = true;
+            this.Spearow.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Spearow;
+            this.Spearow.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Spearow.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Spearow", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Spearow.Location = new System.Drawing.Point(3, 58);
+            this.Spearow.Name = "Spearow";
+            this.Spearow.Size = new System.Drawing.Size(68, 17);
+            this.Spearow.TabIndex = 22;
+            this.Spearow.Text = "Spearow";
+            this.Spearow.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel23
             // 
@@ -1420,6 +1693,19 @@
             this.pictureBox22.TabIndex = 176;
             this.pictureBox22.TabStop = false;
             // 
+            // Fearow
+            // 
+            this.Fearow.AutoSize = true;
+            this.Fearow.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Fearow;
+            this.Fearow.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Fearow.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Fearow", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Fearow.Location = new System.Drawing.Point(3, 58);
+            this.Fearow.Name = "Fearow";
+            this.Fearow.Size = new System.Drawing.Size(61, 17);
+            this.Fearow.TabIndex = 19;
+            this.Fearow.Text = "Fearow";
+            this.Fearow.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel24
             // 
             this.flowLayoutPanel24.Controls.Add(this.pictureBox23);
@@ -1440,6 +1726,19 @@
             this.pictureBox23.TabIndex = 176;
             this.pictureBox23.TabStop = false;
             // 
+            // Ekans
+            // 
+            this.Ekans.AutoSize = true;
+            this.Ekans.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Ekans;
+            this.Ekans.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Ekans.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Ekans", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Ekans.Location = new System.Drawing.Point(3, 58);
+            this.Ekans.Name = "Ekans";
+            this.Ekans.Size = new System.Drawing.Size(56, 17);
+            this.Ekans.TabIndex = 23;
+            this.Ekans.Text = "Ekans";
+            this.Ekans.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel25
             // 
             this.flowLayoutPanel25.Controls.Add(this.pictureBox24);
@@ -1459,6 +1758,19 @@
             this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox24.TabIndex = 176;
             this.pictureBox24.TabStop = false;
+            // 
+            // Arbok
+            // 
+            this.Arbok.AutoSize = true;
+            this.Arbok.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Arbok;
+            this.Arbok.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Arbok.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Arbok", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Arbok.Location = new System.Drawing.Point(3, 58);
+            this.Arbok.Name = "Arbok";
+            this.Arbok.Size = new System.Drawing.Size(54, 17);
+            this.Arbok.TabIndex = 24;
+            this.Arbok.Text = "Arbok";
+            this.Arbok.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel26
             // 
@@ -1481,6 +1793,19 @@
             this.pictureBox25.TabIndex = 176;
             this.pictureBox25.TabStop = false;
             // 
+            // Pikachu
+            // 
+            this.Pikachu.AutoSize = true;
+            this.Pikachu.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Pikachu;
+            this.Pikachu.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Pikachu.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Pikachu", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Pikachu.Location = new System.Drawing.Point(3, 58);
+            this.Pikachu.Name = "Pikachu";
+            this.Pikachu.Size = new System.Drawing.Size(65, 17);
+            this.Pikachu.TabIndex = 25;
+            this.Pikachu.Text = "Pikachu";
+            this.Pikachu.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel27
             // 
             this.flowLayoutPanel27.Controls.Add(this.pictureBox26);
@@ -1500,6 +1825,19 @@
             this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox26.TabIndex = 176;
             this.pictureBox26.TabStop = false;
+            // 
+            // Raichu
+            // 
+            this.Raichu.AutoSize = true;
+            this.Raichu.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Raichu;
+            this.Raichu.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Raichu.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Raichu", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Raichu.Location = new System.Drawing.Point(3, 58);
+            this.Raichu.Name = "Raichu";
+            this.Raichu.Size = new System.Drawing.Size(60, 17);
+            this.Raichu.TabIndex = 26;
+            this.Raichu.Text = "Raichu";
+            this.Raichu.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel28
             // 
@@ -1521,6 +1859,19 @@
             this.pictureBox27.TabIndex = 176;
             this.pictureBox27.TabStop = false;
             // 
+            // Sandshrew
+            // 
+            this.Sandshrew.AutoSize = true;
+            this.Sandshrew.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Sandshrew;
+            this.Sandshrew.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Sandshrew.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Sandshrew", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Sandshrew.Location = new System.Drawing.Point(3, 58);
+            this.Sandshrew.Name = "Sandshrew";
+            this.Sandshrew.Size = new System.Drawing.Size(79, 17);
+            this.Sandshrew.TabIndex = 27;
+            this.Sandshrew.Text = "Sandshrew";
+            this.Sandshrew.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel29
             // 
             this.flowLayoutPanel29.Controls.Add(this.pictureBox28);
@@ -1540,6 +1891,19 @@
             this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox28.TabIndex = 176;
             this.pictureBox28.TabStop = false;
+            // 
+            // Sandslash
+            // 
+            this.Sandslash.AutoSize = true;
+            this.Sandslash.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Sandslash;
+            this.Sandslash.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Sandslash.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Sandslash", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Sandslash.Location = new System.Drawing.Point(3, 58);
+            this.Sandslash.Name = "Sandslash";
+            this.Sandslash.Size = new System.Drawing.Size(75, 17);
+            this.Sandslash.TabIndex = 28;
+            this.Sandslash.Text = "Sandslash";
+            this.Sandslash.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel30
             // 
@@ -1561,6 +1925,19 @@
             this.pictureBox29.TabIndex = 176;
             this.pictureBox29.TabStop = false;
             // 
+            // Nidoran
+            // 
+            this.Nidoran.AutoSize = true;
+            this.Nidoran.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.NidoranF;
+            this.Nidoran.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Nidoran.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "NidoranF", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Nidoran.Location = new System.Drawing.Point(3, 58);
+            this.Nidoran.Name = "Nidoran";
+            this.Nidoran.Size = new System.Drawing.Size(69, 17);
+            this.Nidoran.TabIndex = 29;
+            this.Nidoran.Text = "Nidoran♀";
+            this.Nidoran.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel31
             // 
             this.flowLayoutPanel31.Controls.Add(this.pictureBox30);
@@ -1580,6 +1957,19 @@
             this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox30.TabIndex = 176;
             this.pictureBox30.TabStop = false;
+            // 
+            // Nidorina
+            // 
+            this.Nidorina.AutoSize = true;
+            this.Nidorina.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Nidorina;
+            this.Nidorina.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Nidorina.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Nidorina", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Nidorina.Location = new System.Drawing.Point(3, 58);
+            this.Nidorina.Name = "Nidorina";
+            this.Nidorina.Size = new System.Drawing.Size(65, 17);
+            this.Nidorina.TabIndex = 30;
+            this.Nidorina.Text = "Nidorina";
+            this.Nidorina.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel32
             // 
@@ -1601,6 +1991,19 @@
             this.pictureBox31.TabIndex = 176;
             this.pictureBox31.TabStop = false;
             // 
+            // Nidoqueen
+            // 
+            this.Nidoqueen.AutoSize = true;
+            this.Nidoqueen.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Nidoqueen;
+            this.Nidoqueen.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Nidoqueen.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Nidoqueen", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Nidoqueen.Location = new System.Drawing.Point(3, 58);
+            this.Nidoqueen.Name = "Nidoqueen";
+            this.Nidoqueen.Size = new System.Drawing.Size(78, 17);
+            this.Nidoqueen.TabIndex = 31;
+            this.Nidoqueen.Text = "Nidoqueen";
+            this.Nidoqueen.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel33
             // 
             this.flowLayoutPanel33.Controls.Add(this.pictureBox32);
@@ -1620,6 +2023,19 @@
             this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox32.TabIndex = 176;
             this.pictureBox32.TabStop = false;
+            // 
+            // NidoranM
+            // 
+            this.NidoranM.AutoSize = true;
+            this.NidoranM.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.NidoranM;
+            this.NidoranM.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.NidoranM.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "NidoranM", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.NidoranM.Location = new System.Drawing.Point(3, 58);
+            this.NidoranM.Name = "NidoranM";
+            this.NidoranM.Size = new System.Drawing.Size(71, 17);
+            this.NidoranM.TabIndex = 32;
+            this.NidoranM.Text = "Nidoran♂";
+            this.NidoranM.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel34
             // 
@@ -1641,6 +2057,19 @@
             this.pictureBox33.TabIndex = 176;
             this.pictureBox33.TabStop = false;
             // 
+            // Nidorino
+            // 
+            this.Nidorino.AutoSize = true;
+            this.Nidorino.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Nidorino;
+            this.Nidorino.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Nidorino.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Nidorino", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Nidorino.Location = new System.Drawing.Point(3, 58);
+            this.Nidorino.Name = "Nidorino";
+            this.Nidorino.Size = new System.Drawing.Size(65, 17);
+            this.Nidorino.TabIndex = 33;
+            this.Nidorino.Text = "Nidorino";
+            this.Nidorino.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel35
             // 
             this.flowLayoutPanel35.Controls.Add(this.pictureBox34);
@@ -1660,6 +2089,19 @@
             this.pictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox34.TabIndex = 176;
             this.pictureBox34.TabStop = false;
+            // 
+            // Nidoking
+            // 
+            this.Nidoking.AutoSize = true;
+            this.Nidoking.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Nidoking;
+            this.Nidoking.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Nidoking.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Nidoking", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Nidoking.Location = new System.Drawing.Point(3, 58);
+            this.Nidoking.Name = "Nidoking";
+            this.Nidoking.Size = new System.Drawing.Size(68, 17);
+            this.Nidoking.TabIndex = 34;
+            this.Nidoking.Text = "Nidoking";
+            this.Nidoking.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel36
             // 
@@ -1681,6 +2123,19 @@
             this.pictureBox35.TabIndex = 176;
             this.pictureBox35.TabStop = false;
             // 
+            // Clefairy
+            // 
+            this.Clefairy.AutoSize = true;
+            this.Clefairy.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Clefairy;
+            this.Clefairy.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Clefairy.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Clefairy", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Clefairy.Location = new System.Drawing.Point(3, 58);
+            this.Clefairy.Name = "Clefairy";
+            this.Clefairy.Size = new System.Drawing.Size(60, 17);
+            this.Clefairy.TabIndex = 35;
+            this.Clefairy.Text = "Clefairy";
+            this.Clefairy.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel37
             // 
             this.flowLayoutPanel37.Controls.Add(this.pictureBox36);
@@ -1700,6 +2155,19 @@
             this.pictureBox36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox36.TabIndex = 176;
             this.pictureBox36.TabStop = false;
+            // 
+            // Clefable
+            // 
+            this.Clefable.AutoSize = true;
+            this.Clefable.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Clefable;
+            this.Clefable.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Clefable.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Clefable", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Clefable.Location = new System.Drawing.Point(3, 58);
+            this.Clefable.Name = "Clefable";
+            this.Clefable.Size = new System.Drawing.Size(64, 17);
+            this.Clefable.TabIndex = 36;
+            this.Clefable.Text = "Clefable";
+            this.Clefable.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel38
             // 
@@ -1721,6 +2189,19 @@
             this.pictureBox37.TabIndex = 176;
             this.pictureBox37.TabStop = false;
             // 
+            // Vulpix
+            // 
+            this.Vulpix.AutoSize = true;
+            this.Vulpix.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Vulpix;
+            this.Vulpix.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Vulpix.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Vulpix", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Vulpix.Location = new System.Drawing.Point(3, 58);
+            this.Vulpix.Name = "Vulpix";
+            this.Vulpix.Size = new System.Drawing.Size(54, 17);
+            this.Vulpix.TabIndex = 45;
+            this.Vulpix.Text = "Vulpix";
+            this.Vulpix.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel39
             // 
             this.flowLayoutPanel39.Controls.Add(this.pictureBox38);
@@ -1740,6 +2221,19 @@
             this.pictureBox38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox38.TabIndex = 176;
             this.pictureBox38.TabStop = false;
+            // 
+            // Ninetales
+            // 
+            this.Ninetales.AutoSize = true;
+            this.Ninetales.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Ninetales;
+            this.Ninetales.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Ninetales.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Ninetales", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Ninetales.Location = new System.Drawing.Point(3, 58);
+            this.Ninetales.Name = "Ninetales";
+            this.Ninetales.Size = new System.Drawing.Size(70, 17);
+            this.Ninetales.TabIndex = 44;
+            this.Ninetales.Text = "Ninetales";
+            this.Ninetales.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel40
             // 
@@ -1761,6 +2255,19 @@
             this.pictureBox39.TabIndex = 176;
             this.pictureBox39.TabStop = false;
             // 
+            // Jigglypuff
+            // 
+            this.Jigglypuff.AutoSize = true;
+            this.Jigglypuff.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Jigglypuff;
+            this.Jigglypuff.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Jigglypuff.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Jigglypuff", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Jigglypuff.Location = new System.Drawing.Point(3, 58);
+            this.Jigglypuff.Name = "Jigglypuff";
+            this.Jigglypuff.Size = new System.Drawing.Size(70, 17);
+            this.Jigglypuff.TabIndex = 43;
+            this.Jigglypuff.Text = "Jigglypuff";
+            this.Jigglypuff.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel41
             // 
             this.flowLayoutPanel41.Controls.Add(this.pictureBox40);
@@ -1780,6 +2287,19 @@
             this.pictureBox40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox40.TabIndex = 176;
             this.pictureBox40.TabStop = false;
+            // 
+            // Wigglytuff
+            // 
+            this.Wigglytuff.AutoSize = true;
+            this.Wigglytuff.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Wigglytuff;
+            this.Wigglytuff.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Wigglytuff.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Wigglytuff", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Wigglytuff.Location = new System.Drawing.Point(3, 58);
+            this.Wigglytuff.Name = "Wigglytuff";
+            this.Wigglytuff.Size = new System.Drawing.Size(73, 17);
+            this.Wigglytuff.TabIndex = 42;
+            this.Wigglytuff.Text = "Wigglytuff";
+            this.Wigglytuff.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel42
             // 
@@ -1801,6 +2321,19 @@
             this.pictureBox41.TabIndex = 176;
             this.pictureBox41.TabStop = false;
             // 
+            // Zubat
+            // 
+            this.Zubat.AutoSize = true;
+            this.Zubat.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Zubat;
+            this.Zubat.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Zubat.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Zubat", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Zubat.Location = new System.Drawing.Point(3, 58);
+            this.Zubat.Name = "Zubat";
+            this.Zubat.Size = new System.Drawing.Size(54, 17);
+            this.Zubat.TabIndex = 41;
+            this.Zubat.Text = "Zubat";
+            this.Zubat.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel43
             // 
             this.flowLayoutPanel43.Controls.Add(this.pictureBox42);
@@ -1820,6 +2353,19 @@
             this.pictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox42.TabIndex = 176;
             this.pictureBox42.TabStop = false;
+            // 
+            // Golbat
+            // 
+            this.Golbat.AutoSize = true;
+            this.Golbat.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Golbat;
+            this.Golbat.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Golbat.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Golbat", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Golbat.Location = new System.Drawing.Point(3, 58);
+            this.Golbat.Name = "Golbat";
+            this.Golbat.Size = new System.Drawing.Size(57, 17);
+            this.Golbat.TabIndex = 40;
+            this.Golbat.Text = "Golbat";
+            this.Golbat.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel44
             // 
@@ -1841,6 +2387,19 @@
             this.pictureBox43.TabIndex = 176;
             this.pictureBox43.TabStop = false;
             // 
+            // Oddish
+            // 
+            this.Oddish.AutoSize = true;
+            this.Oddish.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Oddish;
+            this.Oddish.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Oddish.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Oddish", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Oddish.Location = new System.Drawing.Point(3, 58);
+            this.Oddish.Name = "Oddish";
+            this.Oddish.Size = new System.Drawing.Size(59, 17);
+            this.Oddish.TabIndex = 39;
+            this.Oddish.Text = "Oddish";
+            this.Oddish.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel45
             // 
             this.flowLayoutPanel45.Controls.Add(this.pictureBox44);
@@ -1860,6 +2419,19 @@
             this.pictureBox44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox44.TabIndex = 176;
             this.pictureBox44.TabStop = false;
+            // 
+            // Gloom
+            // 
+            this.Gloom.AutoSize = true;
+            this.Gloom.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Gloom;
+            this.Gloom.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Gloom.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Gloom", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Gloom.Location = new System.Drawing.Point(3, 58);
+            this.Gloom.Name = "Gloom";
+            this.Gloom.Size = new System.Drawing.Size(56, 17);
+            this.Gloom.TabIndex = 38;
+            this.Gloom.Text = "Gloom";
+            this.Gloom.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel46
             // 
@@ -1881,6 +2453,19 @@
             this.pictureBox45.TabIndex = 176;
             this.pictureBox45.TabStop = false;
             // 
+            // Vileplume
+            // 
+            this.Vileplume.AutoSize = true;
+            this.Vileplume.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Vileplume;
+            this.Vileplume.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Vileplume.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Vileplume", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Vileplume.Location = new System.Drawing.Point(3, 58);
+            this.Vileplume.Name = "Vileplume";
+            this.Vileplume.Size = new System.Drawing.Size(71, 17);
+            this.Vileplume.TabIndex = 37;
+            this.Vileplume.Text = "Vileplume";
+            this.Vileplume.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel47
             // 
             this.flowLayoutPanel47.Controls.Add(this.pictureBox46);
@@ -1900,6 +2485,19 @@
             this.pictureBox46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox46.TabIndex = 176;
             this.pictureBox46.TabStop = false;
+            // 
+            // Paras
+            // 
+            this.Paras.AutoSize = true;
+            this.Paras.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Paras;
+            this.Paras.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Paras.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Paras", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Paras.Location = new System.Drawing.Point(3, 58);
+            this.Paras.Name = "Paras";
+            this.Paras.Size = new System.Drawing.Size(53, 17);
+            this.Paras.TabIndex = 46;
+            this.Paras.Text = "Paras";
+            this.Paras.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel48
             // 
@@ -1921,6 +2519,19 @@
             this.pictureBox47.TabIndex = 176;
             this.pictureBox47.TabStop = false;
             // 
+            // Parasect
+            // 
+            this.Parasect.AutoSize = true;
+            this.Parasect.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Parasect;
+            this.Parasect.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Parasect.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Parasect", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Parasect.Location = new System.Drawing.Point(3, 58);
+            this.Parasect.Name = "Parasect";
+            this.Parasect.Size = new System.Drawing.Size(68, 17);
+            this.Parasect.TabIndex = 47;
+            this.Parasect.Text = "Parasect";
+            this.Parasect.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel49
             // 
             this.flowLayoutPanel49.Controls.Add(this.pictureBox48);
@@ -1940,6 +2551,19 @@
             this.pictureBox48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox48.TabIndex = 176;
             this.pictureBox48.TabStop = false;
+            // 
+            // Venonat
+            // 
+            this.Venonat.AutoSize = true;
+            this.Venonat.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Venonat;
+            this.Venonat.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Venonat.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Venonat", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Venonat.Location = new System.Drawing.Point(3, 58);
+            this.Venonat.Name = "Venonat";
+            this.Venonat.Size = new System.Drawing.Size(66, 17);
+            this.Venonat.TabIndex = 48;
+            this.Venonat.Text = "Venonat";
+            this.Venonat.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel50
             // 
@@ -1961,6 +2585,19 @@
             this.pictureBox49.TabIndex = 176;
             this.pictureBox49.TabStop = false;
             // 
+            // Venomoth
+            // 
+            this.Venomoth.AutoSize = true;
+            this.Venomoth.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Venomoth;
+            this.Venomoth.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Venomoth.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Venomoth", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Venomoth.Location = new System.Drawing.Point(3, 58);
+            this.Venomoth.Name = "Venomoth";
+            this.Venomoth.Size = new System.Drawing.Size(74, 17);
+            this.Venomoth.TabIndex = 49;
+            this.Venomoth.Text = "Venomoth";
+            this.Venomoth.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel51
             // 
             this.flowLayoutPanel51.Controls.Add(this.pictureBox50);
@@ -1980,6 +2617,19 @@
             this.pictureBox50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox50.TabIndex = 176;
             this.pictureBox50.TabStop = false;
+            // 
+            // Diglett
+            // 
+            this.Diglett.AutoSize = true;
+            this.Diglett.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Diglett;
+            this.Diglett.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Diglett.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Diglett", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Diglett.Location = new System.Drawing.Point(3, 58);
+            this.Diglett.Name = "Diglett";
+            this.Diglett.Size = new System.Drawing.Size(56, 17);
+            this.Diglett.TabIndex = 50;
+            this.Diglett.Text = "Diglett";
+            this.Diglett.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel52
             // 
@@ -2001,6 +2651,19 @@
             this.pictureBox51.TabIndex = 176;
             this.pictureBox51.TabStop = false;
             // 
+            // Dugtrio
+            // 
+            this.Dugtrio.AutoSize = true;
+            this.Dugtrio.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Dugtrio;
+            this.Dugtrio.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Dugtrio.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Dugtrio", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Dugtrio.Location = new System.Drawing.Point(3, 58);
+            this.Dugtrio.Name = "Dugtrio";
+            this.Dugtrio.Size = new System.Drawing.Size(60, 17);
+            this.Dugtrio.TabIndex = 51;
+            this.Dugtrio.Text = "Dugtrio";
+            this.Dugtrio.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel53
             // 
             this.flowLayoutPanel53.Controls.Add(this.pictureBox52);
@@ -2020,6 +2683,19 @@
             this.pictureBox52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox52.TabIndex = 176;
             this.pictureBox52.TabStop = false;
+            // 
+            // Meowth
+            // 
+            this.Meowth.AutoSize = true;
+            this.Meowth.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Meowth;
+            this.Meowth.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Meowth.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Meowth", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Meowth.Location = new System.Drawing.Point(3, 58);
+            this.Meowth.Name = "Meowth";
+            this.Meowth.Size = new System.Drawing.Size(64, 17);
+            this.Meowth.TabIndex = 52;
+            this.Meowth.Text = "Meowth";
+            this.Meowth.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel54
             // 
@@ -2041,6 +2717,19 @@
             this.pictureBox53.TabIndex = 176;
             this.pictureBox53.TabStop = false;
             // 
+            // Persian
+            // 
+            this.Persian.AutoSize = true;
+            this.Persian.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Persian;
+            this.Persian.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Persian.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Persian", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Persian.Location = new System.Drawing.Point(3, 58);
+            this.Persian.Name = "Persian";
+            this.Persian.Size = new System.Drawing.Size(61, 17);
+            this.Persian.TabIndex = 53;
+            this.Persian.Text = "Persian";
+            this.Persian.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel55
             // 
             this.flowLayoutPanel55.Controls.Add(this.pictureBox54);
@@ -2060,6 +2749,19 @@
             this.pictureBox54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox54.TabIndex = 176;
             this.pictureBox54.TabStop = false;
+            // 
+            // Psyduck
+            // 
+            this.Psyduck.AutoSize = true;
+            this.Psyduck.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Psyduck;
+            this.Psyduck.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Psyduck.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Psyduck", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Psyduck.Location = new System.Drawing.Point(3, 58);
+            this.Psyduck.Name = "Psyduck";
+            this.Psyduck.Size = new System.Drawing.Size(67, 17);
+            this.Psyduck.TabIndex = 54;
+            this.Psyduck.Text = "Psyduck";
+            this.Psyduck.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel56
             // 
@@ -2081,6 +2783,19 @@
             this.pictureBox55.TabIndex = 176;
             this.pictureBox55.TabStop = false;
             // 
+            // Golduck
+            // 
+            this.Golduck.AutoSize = true;
+            this.Golduck.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Golduck;
+            this.Golduck.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Golduck.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Golduck", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Golduck.Location = new System.Drawing.Point(3, 58);
+            this.Golduck.Name = "Golduck";
+            this.Golduck.Size = new System.Drawing.Size(66, 17);
+            this.Golduck.TabIndex = 59;
+            this.Golduck.Text = "Golduck";
+            this.Golduck.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel57
             // 
             this.flowLayoutPanel57.Controls.Add(this.pictureBox56);
@@ -2100,6 +2815,19 @@
             this.pictureBox56.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox56.TabIndex = 176;
             this.pictureBox56.TabStop = false;
+            // 
+            // Mankey
+            // 
+            this.Mankey.AutoSize = true;
+            this.Mankey.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Mankey;
+            this.Mankey.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Mankey.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Mankey", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Mankey.Location = new System.Drawing.Point(3, 58);
+            this.Mankey.Name = "Mankey";
+            this.Mankey.Size = new System.Drawing.Size(64, 17);
+            this.Mankey.TabIndex = 58;
+            this.Mankey.Text = "Mankey";
+            this.Mankey.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel58
             // 
@@ -2121,6 +2849,19 @@
             this.pictureBox57.TabIndex = 176;
             this.pictureBox57.TabStop = false;
             // 
+            // Primeape
+            // 
+            this.Primeape.AutoSize = true;
+            this.Primeape.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Primeape;
+            this.Primeape.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Primeape.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Primeape", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Primeape.Location = new System.Drawing.Point(3, 58);
+            this.Primeape.Name = "Primeape";
+            this.Primeape.Size = new System.Drawing.Size(70, 17);
+            this.Primeape.TabIndex = 57;
+            this.Primeape.Text = "Primeape";
+            this.Primeape.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel59
             // 
             this.flowLayoutPanel59.Controls.Add(this.pictureBox58);
@@ -2140,6 +2881,19 @@
             this.pictureBox58.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox58.TabIndex = 176;
             this.pictureBox58.TabStop = false;
+            // 
+            // Growlithe
+            // 
+            this.Growlithe.AutoSize = true;
+            this.Growlithe.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Growlithe;
+            this.Growlithe.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Growlithe.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Growlithe", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Growlithe.Location = new System.Drawing.Point(3, 58);
+            this.Growlithe.Name = "Growlithe";
+            this.Growlithe.Size = new System.Drawing.Size(70, 17);
+            this.Growlithe.TabIndex = 55;
+            this.Growlithe.Text = "Growlithe";
+            this.Growlithe.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel60
             // 
@@ -2161,6 +2915,19 @@
             this.pictureBox59.TabIndex = 176;
             this.pictureBox59.TabStop = false;
             // 
+            // Arcanine
+            // 
+            this.Arcanine.AutoSize = true;
+            this.Arcanine.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Arcanine;
+            this.Arcanine.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Arcanine.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Arcanine", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Arcanine.Location = new System.Drawing.Point(3, 58);
+            this.Arcanine.Name = "Arcanine";
+            this.Arcanine.Size = new System.Drawing.Size(68, 17);
+            this.Arcanine.TabIndex = 56;
+            this.Arcanine.Text = "Arcanine";
+            this.Arcanine.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel61
             // 
             this.flowLayoutPanel61.Controls.Add(this.pictureBox60);
@@ -2180,6 +2947,19 @@
             this.pictureBox60.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox60.TabIndex = 176;
             this.pictureBox60.TabStop = false;
+            // 
+            // Poliwag
+            // 
+            this.Poliwag.AutoSize = true;
+            this.Poliwag.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Poliwag;
+            this.Poliwag.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Poliwag.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Poliwag", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Poliwag.Location = new System.Drawing.Point(3, 58);
+            this.Poliwag.Name = "Poliwag";
+            this.Poliwag.Size = new System.Drawing.Size(63, 17);
+            this.Poliwag.TabIndex = 60;
+            this.Poliwag.Text = "Poliwag";
+            this.Poliwag.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel62
             // 
@@ -2201,6 +2981,19 @@
             this.pictureBox61.TabIndex = 176;
             this.pictureBox61.TabStop = false;
             // 
+            // Poliwhirl
+            // 
+            this.Poliwhirl.AutoSize = true;
+            this.Poliwhirl.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Poliwhirl;
+            this.Poliwhirl.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Poliwhirl.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Poliwhirl", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Poliwhirl.Location = new System.Drawing.Point(3, 58);
+            this.Poliwhirl.Name = "Poliwhirl";
+            this.Poliwhirl.Size = new System.Drawing.Size(64, 17);
+            this.Poliwhirl.TabIndex = 61;
+            this.Poliwhirl.Text = "Poliwhirl";
+            this.Poliwhirl.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel63
             // 
             this.flowLayoutPanel63.Controls.Add(this.pictureBox62);
@@ -2220,6 +3013,19 @@
             this.pictureBox62.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox62.TabIndex = 176;
             this.pictureBox62.TabStop = false;
+            // 
+            // Poliwrath
+            // 
+            this.Poliwrath.AutoSize = true;
+            this.Poliwrath.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Poliwrath;
+            this.Poliwrath.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Poliwrath.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Poliwrath", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Poliwrath.Location = new System.Drawing.Point(3, 58);
+            this.Poliwrath.Name = "Poliwrath";
+            this.Poliwrath.Size = new System.Drawing.Size(69, 17);
+            this.Poliwrath.TabIndex = 62;
+            this.Poliwrath.Text = "Poliwrath";
+            this.Poliwrath.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel64
             // 
@@ -2241,6 +3047,19 @@
             this.pictureBox63.TabIndex = 176;
             this.pictureBox63.TabStop = false;
             // 
+            // Abra
+            // 
+            this.Abra.AutoSize = true;
+            this.Abra.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Abra;
+            this.Abra.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Abra.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Abra", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Abra.Location = new System.Drawing.Point(3, 58);
+            this.Abra.Name = "Abra";
+            this.Abra.Size = new System.Drawing.Size(48, 17);
+            this.Abra.TabIndex = 63;
+            this.Abra.Text = "Abra";
+            this.Abra.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel65
             // 
             this.flowLayoutPanel65.Controls.Add(this.pictureBox64);
@@ -2260,6 +3079,19 @@
             this.pictureBox64.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox64.TabIndex = 176;
             this.pictureBox64.TabStop = false;
+            // 
+            // Kadabra
+            // 
+            this.Kadabra.AutoSize = true;
+            this.Kadabra.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Kadabra;
+            this.Kadabra.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Kadabra.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Kadabra", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Kadabra.Location = new System.Drawing.Point(3, 58);
+            this.Kadabra.Name = "Kadabra";
+            this.Kadabra.Size = new System.Drawing.Size(66, 17);
+            this.Kadabra.TabIndex = 64;
+            this.Kadabra.Text = "Kadabra";
+            this.Kadabra.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel66
             // 
@@ -2281,6 +3113,19 @@
             this.pictureBox65.TabIndex = 176;
             this.pictureBox65.TabStop = false;
             // 
+            // Alakazam
+            // 
+            this.Alakazam.AutoSize = true;
+            this.Alakazam.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Alakazam;
+            this.Alakazam.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Alakazam.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Alakazam", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Alakazam.Location = new System.Drawing.Point(3, 58);
+            this.Alakazam.Name = "Alakazam";
+            this.Alakazam.Size = new System.Drawing.Size(72, 17);
+            this.Alakazam.TabIndex = 65;
+            this.Alakazam.Text = "Alakazam";
+            this.Alakazam.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel67
             // 
             this.flowLayoutPanel67.Controls.Add(this.pictureBox66);
@@ -2300,6 +3145,19 @@
             this.pictureBox66.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox66.TabIndex = 176;
             this.pictureBox66.TabStop = false;
+            // 
+            // Machop
+            // 
+            this.Machop.AutoSize = true;
+            this.Machop.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Machop;
+            this.Machop.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Machop.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Machop", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Machop.Location = new System.Drawing.Point(3, 58);
+            this.Machop.Name = "Machop";
+            this.Machop.Size = new System.Drawing.Size(65, 17);
+            this.Machop.TabIndex = 66;
+            this.Machop.Text = "Machop";
+            this.Machop.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel68
             // 
@@ -2321,6 +3179,19 @@
             this.pictureBox67.TabIndex = 176;
             this.pictureBox67.TabStop = false;
             // 
+            // Machoke
+            // 
+            this.Machoke.AutoSize = true;
+            this.Machoke.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Machoke;
+            this.Machoke.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Machoke.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Machoke", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Machoke.Location = new System.Drawing.Point(3, 58);
+            this.Machoke.Name = "Machoke";
+            this.Machoke.Size = new System.Drawing.Size(71, 17);
+            this.Machoke.TabIndex = 67;
+            this.Machoke.Text = "Machoke";
+            this.Machoke.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel69
             // 
             this.flowLayoutPanel69.Controls.Add(this.pictureBox68);
@@ -2340,6 +3211,19 @@
             this.pictureBox68.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox68.TabIndex = 176;
             this.pictureBox68.TabStop = false;
+            // 
+            // Machamp
+            // 
+            this.Machamp.AutoSize = true;
+            this.Machamp.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Machamp;
+            this.Machamp.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Machamp.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Machamp", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Machamp.Location = new System.Drawing.Point(3, 58);
+            this.Machamp.Name = "Machamp";
+            this.Machamp.Size = new System.Drawing.Size(73, 17);
+            this.Machamp.TabIndex = 68;
+            this.Machamp.Text = "Machamp";
+            this.Machamp.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel70
             // 
@@ -2361,6 +3245,19 @@
             this.pictureBox69.TabIndex = 176;
             this.pictureBox69.TabStop = false;
             // 
+            // Bellsprout
+            // 
+            this.Bellsprout.AutoSize = true;
+            this.Bellsprout.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Bellsprout;
+            this.Bellsprout.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Bellsprout.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Bellsprout", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Bellsprout.Location = new System.Drawing.Point(3, 58);
+            this.Bellsprout.Name = "Bellsprout";
+            this.Bellsprout.Size = new System.Drawing.Size(72, 17);
+            this.Bellsprout.TabIndex = 69;
+            this.Bellsprout.Text = "Bellsprout";
+            this.Bellsprout.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel71
             // 
             this.flowLayoutPanel71.Controls.Add(this.pictureBox70);
@@ -2380,6 +3277,19 @@
             this.pictureBox70.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox70.TabIndex = 176;
             this.pictureBox70.TabStop = false;
+            // 
+            // Weepinbell
+            // 
+            this.Weepinbell.AutoSize = true;
+            this.Weepinbell.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Weepinbell;
+            this.Weepinbell.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Weepinbell.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Weepinbell", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Weepinbell.Location = new System.Drawing.Point(3, 58);
+            this.Weepinbell.Name = "Weepinbell";
+            this.Weepinbell.Size = new System.Drawing.Size(79, 17);
+            this.Weepinbell.TabIndex = 70;
+            this.Weepinbell.Text = "Weepinbell";
+            this.Weepinbell.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel72
             // 
@@ -2401,6 +3311,19 @@
             this.pictureBox71.TabIndex = 176;
             this.pictureBox71.TabStop = false;
             // 
+            // Victreebel
+            // 
+            this.Victreebel.AutoSize = true;
+            this.Victreebel.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Victreebel;
+            this.Victreebel.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Victreebel.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Victreebel", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Victreebel.Location = new System.Drawing.Point(3, 58);
+            this.Victreebel.Name = "Victreebel";
+            this.Victreebel.Size = new System.Drawing.Size(73, 17);
+            this.Victreebel.TabIndex = 71;
+            this.Victreebel.Text = "Victreebel";
+            this.Victreebel.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel73
             // 
             this.flowLayoutPanel73.Controls.Add(this.pictureBox72);
@@ -2420,6 +3343,19 @@
             this.pictureBox72.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox72.TabIndex = 176;
             this.pictureBox72.TabStop = false;
+            // 
+            // Tentacool
+            // 
+            this.Tentacool.AutoSize = true;
+            this.Tentacool.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Tentacool;
+            this.Tentacool.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Tentacool.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Tentacool", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Tentacool.Location = new System.Drawing.Point(3, 58);
+            this.Tentacool.Name = "Tentacool";
+            this.Tentacool.Size = new System.Drawing.Size(74, 17);
+            this.Tentacool.TabIndex = 72;
+            this.Tentacool.Text = "Tentacool";
+            this.Tentacool.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel74
             // 
@@ -2441,6 +3377,19 @@
             this.pictureBox73.TabIndex = 176;
             this.pictureBox73.TabStop = false;
             // 
+            // Tentacruel
+            // 
+            this.Tentacruel.AutoSize = true;
+            this.Tentacruel.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Tentacruel;
+            this.Tentacruel.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Tentacruel.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Tentacruel", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Tentacruel.Location = new System.Drawing.Point(3, 58);
+            this.Tentacruel.Name = "Tentacruel";
+            this.Tentacruel.Size = new System.Drawing.Size(77, 17);
+            this.Tentacruel.TabIndex = 77;
+            this.Tentacruel.Text = "Tentacruel";
+            this.Tentacruel.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel75
             // 
             this.flowLayoutPanel75.Controls.Add(this.pictureBox74);
@@ -2460,6 +3409,19 @@
             this.pictureBox74.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox74.TabIndex = 176;
             this.pictureBox74.TabStop = false;
+            // 
+            // Geodude
+            // 
+            this.Geodude.AutoSize = true;
+            this.Geodude.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Geodude;
+            this.Geodude.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Geodude.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Geodude", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Geodude.Location = new System.Drawing.Point(3, 58);
+            this.Geodude.Name = "Geodude";
+            this.Geodude.Size = new System.Drawing.Size(70, 17);
+            this.Geodude.TabIndex = 76;
+            this.Geodude.Text = "Geodude";
+            this.Geodude.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel76
             // 
@@ -2481,6 +3443,19 @@
             this.pictureBox75.TabIndex = 176;
             this.pictureBox75.TabStop = false;
             // 
+            // Graveler
+            // 
+            this.Graveler.AutoSize = true;
+            this.Graveler.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Graveler;
+            this.Graveler.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Graveler.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Graveler", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Graveler.Location = new System.Drawing.Point(3, 58);
+            this.Graveler.Name = "Graveler";
+            this.Graveler.Size = new System.Drawing.Size(66, 17);
+            this.Graveler.TabIndex = 75;
+            this.Graveler.Text = "Graveler";
+            this.Graveler.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel77
             // 
             this.flowLayoutPanel77.Controls.Add(this.pictureBox76);
@@ -2500,6 +3475,19 @@
             this.pictureBox76.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox76.TabIndex = 176;
             this.pictureBox76.TabStop = false;
+            // 
+            // Golem
+            // 
+            this.Golem.AutoSize = true;
+            this.Golem.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Golem;
+            this.Golem.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Golem.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Golem", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Golem.Location = new System.Drawing.Point(3, 58);
+            this.Golem.Name = "Golem";
+            this.Golem.Size = new System.Drawing.Size(56, 17);
+            this.Golem.TabIndex = 73;
+            this.Golem.Text = "Golem";
+            this.Golem.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel78
             // 
@@ -2521,6 +3509,19 @@
             this.pictureBox77.TabIndex = 176;
             this.pictureBox77.TabStop = false;
             // 
+            // Ponyta
+            // 
+            this.Ponyta.AutoSize = true;
+            this.Ponyta.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Ponyta;
+            this.Ponyta.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Ponyta.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Ponyta", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Ponyta.Location = new System.Drawing.Point(3, 58);
+            this.Ponyta.Name = "Ponyta";
+            this.Ponyta.Size = new System.Drawing.Size(59, 17);
+            this.Ponyta.TabIndex = 74;
+            this.Ponyta.Text = "Ponyta";
+            this.Ponyta.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel79
             // 
             this.flowLayoutPanel79.Controls.Add(this.pictureBox78);
@@ -2540,6 +3541,19 @@
             this.pictureBox78.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox78.TabIndex = 176;
             this.pictureBox78.TabStop = false;
+            // 
+            // Rapidash
+            // 
+            this.Rapidash.AutoSize = true;
+            this.Rapidash.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Rapidash;
+            this.Rapidash.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Rapidash.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Rapidash", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Rapidash.Location = new System.Drawing.Point(3, 58);
+            this.Rapidash.Name = "Rapidash";
+            this.Rapidash.Size = new System.Drawing.Size(71, 17);
+            this.Rapidash.TabIndex = 78;
+            this.Rapidash.Text = "Rapidash";
+            this.Rapidash.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel80
             // 
@@ -2561,6 +3575,19 @@
             this.pictureBox79.TabIndex = 176;
             this.pictureBox79.TabStop = false;
             // 
+            // Slowpoke
+            // 
+            this.Slowpoke.AutoSize = true;
+            this.Slowpoke.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Slowpoke;
+            this.Slowpoke.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Slowpoke.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Slowpoke", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Slowpoke.Location = new System.Drawing.Point(3, 58);
+            this.Slowpoke.Name = "Slowpoke";
+            this.Slowpoke.Size = new System.Drawing.Size(73, 17);
+            this.Slowpoke.TabIndex = 79;
+            this.Slowpoke.Text = "Slowpoke";
+            this.Slowpoke.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel81
             // 
             this.flowLayoutPanel81.Controls.Add(this.pictureBox80);
@@ -2580,6 +3607,19 @@
             this.pictureBox80.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox80.TabIndex = 176;
             this.pictureBox80.TabStop = false;
+            // 
+            // Slowbro
+            // 
+            this.Slowbro.AutoSize = true;
+            this.Slowbro.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Slowbro;
+            this.Slowbro.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Slowbro.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Slowbro", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Slowbro.Location = new System.Drawing.Point(3, 58);
+            this.Slowbro.Name = "Slowbro";
+            this.Slowbro.Size = new System.Drawing.Size(64, 17);
+            this.Slowbro.TabIndex = 80;
+            this.Slowbro.Text = "Slowbro";
+            this.Slowbro.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel82
             // 
@@ -2601,6 +3641,19 @@
             this.pictureBox81.TabIndex = 176;
             this.pictureBox81.TabStop = false;
             // 
+            // Magnemite
+            // 
+            this.Magnemite.AutoSize = true;
+            this.Magnemite.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Magnemite;
+            this.Magnemite.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Magnemite.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Magnemite", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Magnemite.Location = new System.Drawing.Point(3, 58);
+            this.Magnemite.Name = "Magnemite";
+            this.Magnemite.Size = new System.Drawing.Size(78, 17);
+            this.Magnemite.TabIndex = 81;
+            this.Magnemite.Text = "Magnemite";
+            this.Magnemite.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel83
             // 
             this.flowLayoutPanel83.Controls.Add(this.pictureBox82);
@@ -2620,6 +3673,19 @@
             this.pictureBox82.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox82.TabIndex = 176;
             this.pictureBox82.TabStop = false;
+            // 
+            // Magneton
+            // 
+            this.Magneton.AutoSize = true;
+            this.Magneton.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Magneton;
+            this.Magneton.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Magneton.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Magneton", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Magneton.Location = new System.Drawing.Point(3, 58);
+            this.Magneton.Name = "Magneton";
+            this.Magneton.Size = new System.Drawing.Size(74, 17);
+            this.Magneton.TabIndex = 82;
+            this.Magneton.Text = "Magneton";
+            this.Magneton.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel84
             // 
@@ -2641,6 +3707,19 @@
             this.pictureBox83.TabIndex = 176;
             this.pictureBox83.TabStop = false;
             // 
+            // Farfetch
+            // 
+            this.Farfetch.AutoSize = true;
+            this.Farfetch.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Farfetch;
+            this.Farfetch.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Farfetch.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Farfetch", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Farfetch.Location = new System.Drawing.Point(3, 58);
+            this.Farfetch.Name = "Farfetch";
+            this.Farfetch.Size = new System.Drawing.Size(73, 17);
+            this.Farfetch.TabIndex = 83;
+            this.Farfetch.Text = "Farfetch\'d";
+            this.Farfetch.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel85
             // 
             this.flowLayoutPanel85.Controls.Add(this.pictureBox84);
@@ -2660,6 +3739,19 @@
             this.pictureBox84.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox84.TabIndex = 176;
             this.pictureBox84.TabStop = false;
+            // 
+            // Doduo
+            // 
+            this.Doduo.AutoSize = true;
+            this.Doduo.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Doduo;
+            this.Doduo.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Doduo.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Doduo", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Doduo.Location = new System.Drawing.Point(3, 58);
+            this.Doduo.Name = "Doduo";
+            this.Doduo.Size = new System.Drawing.Size(58, 17);
+            this.Doduo.TabIndex = 84;
+            this.Doduo.Text = "Doduo";
+            this.Doduo.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel86
             // 
@@ -2681,6 +3773,19 @@
             this.pictureBox85.TabIndex = 176;
             this.pictureBox85.TabStop = false;
             // 
+            // Dodrio
+            // 
+            this.Dodrio.AutoSize = true;
+            this.Dodrio.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Dodrio;
+            this.Dodrio.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Dodrio.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Dodrio", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Dodrio.Location = new System.Drawing.Point(3, 58);
+            this.Dodrio.Name = "Dodrio";
+            this.Dodrio.Size = new System.Drawing.Size(57, 17);
+            this.Dodrio.TabIndex = 85;
+            this.Dodrio.Text = "Dodrio";
+            this.Dodrio.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel87
             // 
             this.flowLayoutPanel87.Controls.Add(this.pictureBox86);
@@ -2700,6 +3805,19 @@
             this.pictureBox86.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox86.TabIndex = 176;
             this.pictureBox86.TabStop = false;
+            // 
+            // Seel
+            // 
+            this.Seel.AutoSize = true;
+            this.Seel.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Seel;
+            this.Seel.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Seel.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Seel", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Seel.Location = new System.Drawing.Point(3, 58);
+            this.Seel.Name = "Seel";
+            this.Seel.Size = new System.Drawing.Size(47, 17);
+            this.Seel.TabIndex = 86;
+            this.Seel.Text = "Seel";
+            this.Seel.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel88
             // 
@@ -2721,6 +3839,19 @@
             this.pictureBox87.TabIndex = 176;
             this.pictureBox87.TabStop = false;
             // 
+            // Dewgong
+            // 
+            this.Dewgong.AutoSize = true;
+            this.Dewgong.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Dewgong;
+            this.Dewgong.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Dewgong.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Dewgong", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Dewgong.Location = new System.Drawing.Point(3, 58);
+            this.Dewgong.Name = "Dewgong";
+            this.Dewgong.Size = new System.Drawing.Size(72, 17);
+            this.Dewgong.TabIndex = 87;
+            this.Dewgong.Text = "Dewgong";
+            this.Dewgong.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel89
             // 
             this.flowLayoutPanel89.Controls.Add(this.pictureBox88);
@@ -2740,6 +3871,19 @@
             this.pictureBox88.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox88.TabIndex = 176;
             this.pictureBox88.TabStop = false;
+            // 
+            // Grimer
+            // 
+            this.Grimer.AutoSize = true;
+            this.Grimer.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Grimer;
+            this.Grimer.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Grimer.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Grimer", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Grimer.Location = new System.Drawing.Point(3, 58);
+            this.Grimer.Name = "Grimer";
+            this.Grimer.Size = new System.Drawing.Size(56, 17);
+            this.Grimer.TabIndex = 88;
+            this.Grimer.Text = "Grimer";
+            this.Grimer.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel90
             // 
@@ -2761,6 +3905,19 @@
             this.pictureBox89.TabIndex = 176;
             this.pictureBox89.TabStop = false;
             // 
+            // Muk
+            // 
+            this.Muk.AutoSize = true;
+            this.Muk.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Muk;
+            this.Muk.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Muk.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Muk", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Muk.Location = new System.Drawing.Point(3, 58);
+            this.Muk.Name = "Muk";
+            this.Muk.Size = new System.Drawing.Size(47, 17);
+            this.Muk.TabIndex = 89;
+            this.Muk.Text = "Muk";
+            this.Muk.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel91
             // 
             this.flowLayoutPanel91.Controls.Add(this.pictureBox90);
@@ -2780,6 +3937,19 @@
             this.pictureBox90.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox90.TabIndex = 176;
             this.pictureBox90.TabStop = false;
+            // 
+            // Shellder
+            // 
+            this.Shellder.AutoSize = true;
+            this.Shellder.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Shellder;
+            this.Shellder.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Shellder.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Shellder", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Shellder.Location = new System.Drawing.Point(3, 58);
+            this.Shellder.Name = "Shellder";
+            this.Shellder.Size = new System.Drawing.Size(64, 17);
+            this.Shellder.TabIndex = 90;
+            this.Shellder.Text = "Shellder";
+            this.Shellder.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel92
             // 
@@ -2801,6 +3971,19 @@
             this.pictureBox91.TabIndex = 176;
             this.pictureBox91.TabStop = false;
             // 
+            // Cloyster
+            // 
+            this.Cloyster.AutoSize = true;
+            this.Cloyster.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Cloyster;
+            this.Cloyster.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Cloyster.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Cloyster", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Cloyster.Location = new System.Drawing.Point(3, 58);
+            this.Cloyster.Name = "Cloyster";
+            this.Cloyster.Size = new System.Drawing.Size(63, 17);
+            this.Cloyster.TabIndex = 95;
+            this.Cloyster.Text = "Cloyster";
+            this.Cloyster.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel93
             // 
             this.flowLayoutPanel93.Controls.Add(this.pictureBox92);
@@ -2820,6 +4003,19 @@
             this.pictureBox92.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox92.TabIndex = 176;
             this.pictureBox92.TabStop = false;
+            // 
+            // Gastly
+            // 
+            this.Gastly.AutoSize = true;
+            this.Gastly.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Gastly;
+            this.Gastly.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Gastly.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Gastly", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Gastly.Location = new System.Drawing.Point(3, 58);
+            this.Gastly.Name = "Gastly";
+            this.Gastly.Size = new System.Drawing.Size(55, 17);
+            this.Gastly.TabIndex = 94;
+            this.Gastly.Text = "Gastly";
+            this.Gastly.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel94
             // 
@@ -2841,6 +4037,19 @@
             this.pictureBox93.TabIndex = 176;
             this.pictureBox93.TabStop = false;
             // 
+            // Haunter
+            // 
+            this.Haunter.AutoSize = true;
+            this.Haunter.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Haunter;
+            this.Haunter.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Haunter.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Haunter", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Haunter.Location = new System.Drawing.Point(3, 58);
+            this.Haunter.Name = "Haunter";
+            this.Haunter.Size = new System.Drawing.Size(64, 17);
+            this.Haunter.TabIndex = 93;
+            this.Haunter.Text = "Haunter";
+            this.Haunter.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel95
             // 
             this.flowLayoutPanel95.Controls.Add(this.pictureBox94);
@@ -2860,6 +4069,19 @@
             this.pictureBox94.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox94.TabIndex = 176;
             this.pictureBox94.TabStop = false;
+            // 
+            // Gengar
+            // 
+            this.Gengar.AutoSize = true;
+            this.Gengar.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Gengar;
+            this.Gengar.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Gengar.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Gengar", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Gengar.Location = new System.Drawing.Point(3, 58);
+            this.Gengar.Name = "Gengar";
+            this.Gengar.Size = new System.Drawing.Size(61, 17);
+            this.Gengar.TabIndex = 91;
+            this.Gengar.Text = "Gengar";
+            this.Gengar.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel96
             // 
@@ -2881,6 +4103,19 @@
             this.pictureBox95.TabIndex = 176;
             this.pictureBox95.TabStop = false;
             // 
+            // Onix
+            // 
+            this.Onix.AutoSize = true;
+            this.Onix.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Onix;
+            this.Onix.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Onix.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Onix", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Onix.Location = new System.Drawing.Point(3, 58);
+            this.Onix.Name = "Onix";
+            this.Onix.Size = new System.Drawing.Size(47, 17);
+            this.Onix.TabIndex = 92;
+            this.Onix.Text = "Onix";
+            this.Onix.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel97
             // 
             this.flowLayoutPanel97.Controls.Add(this.pictureBox96);
@@ -2900,6 +4135,19 @@
             this.pictureBox96.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox96.TabIndex = 176;
             this.pictureBox96.TabStop = false;
+            // 
+            // Drowzee
+            // 
+            this.Drowzee.AutoSize = true;
+            this.Drowzee.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Drowzee;
+            this.Drowzee.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Drowzee.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Drowzee", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Drowzee.Location = new System.Drawing.Point(3, 58);
+            this.Drowzee.Name = "Drowzee";
+            this.Drowzee.Size = new System.Drawing.Size(68, 17);
+            this.Drowzee.TabIndex = 96;
+            this.Drowzee.Text = "Drowzee";
+            this.Drowzee.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel98
             // 
@@ -2921,6 +4169,19 @@
             this.pictureBox97.TabIndex = 176;
             this.pictureBox97.TabStop = false;
             // 
+            // Hypno
+            // 
+            this.Hypno.AutoSize = true;
+            this.Hypno.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Hypno;
+            this.Hypno.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Hypno.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Hypno", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Hypno.Location = new System.Drawing.Point(3, 58);
+            this.Hypno.Name = "Hypno";
+            this.Hypno.Size = new System.Drawing.Size(57, 17);
+            this.Hypno.TabIndex = 97;
+            this.Hypno.Text = "Hypno";
+            this.Hypno.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel99
             // 
             this.flowLayoutPanel99.Controls.Add(this.pictureBox98);
@@ -2940,6 +4201,19 @@
             this.pictureBox98.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox98.TabIndex = 176;
             this.pictureBox98.TabStop = false;
+            // 
+            // Krabby
+            // 
+            this.Krabby.AutoSize = true;
+            this.Krabby.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Krabby;
+            this.Krabby.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Krabby.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Krabby", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Krabby.Location = new System.Drawing.Point(3, 58);
+            this.Krabby.Name = "Krabby";
+            this.Krabby.Size = new System.Drawing.Size(59, 17);
+            this.Krabby.TabIndex = 98;
+            this.Krabby.Text = "Krabby";
+            this.Krabby.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel100
             // 
@@ -2961,6 +4235,19 @@
             this.pictureBox99.TabIndex = 176;
             this.pictureBox99.TabStop = false;
             // 
+            // Kingler
+            // 
+            this.Kingler.AutoSize = true;
+            this.Kingler.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Kingler;
+            this.Kingler.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Kingler.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Kingler", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Kingler.Location = new System.Drawing.Point(3, 58);
+            this.Kingler.Name = "Kingler";
+            this.Kingler.Size = new System.Drawing.Size(58, 17);
+            this.Kingler.TabIndex = 99;
+            this.Kingler.Text = "Kingler";
+            this.Kingler.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel101
             // 
             this.flowLayoutPanel101.Controls.Add(this.pictureBox100);
@@ -2980,6 +4267,19 @@
             this.pictureBox100.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox100.TabIndex = 176;
             this.pictureBox100.TabStop = false;
+            // 
+            // Voltorb
+            // 
+            this.Voltorb.AutoSize = true;
+            this.Voltorb.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Voltorb;
+            this.Voltorb.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Voltorb.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Voltorb", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Voltorb.Location = new System.Drawing.Point(3, 58);
+            this.Voltorb.Name = "Voltorb";
+            this.Voltorb.Size = new System.Drawing.Size(59, 17);
+            this.Voltorb.TabIndex = 100;
+            this.Voltorb.Text = "Voltorb";
+            this.Voltorb.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel102
             // 
@@ -3001,6 +4301,19 @@
             this.pictureBox101.TabIndex = 176;
             this.pictureBox101.TabStop = false;
             // 
+            // Electrode
+            // 
+            this.Electrode.AutoSize = true;
+            this.Electrode.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Electrode;
+            this.Electrode.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Electrode.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Electrode", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Electrode.Location = new System.Drawing.Point(3, 58);
+            this.Electrode.Name = "Electrode";
+            this.Electrode.Size = new System.Drawing.Size(71, 17);
+            this.Electrode.TabIndex = 101;
+            this.Electrode.Text = "Electrode";
+            this.Electrode.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel103
             // 
             this.flowLayoutPanel103.Controls.Add(this.pictureBox102);
@@ -3020,6 +4333,19 @@
             this.pictureBox102.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox102.TabIndex = 176;
             this.pictureBox102.TabStop = false;
+            // 
+            // Exeggcute
+            // 
+            this.Exeggcute.AutoSize = true;
+            this.Exeggcute.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Exeggcute;
+            this.Exeggcute.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Exeggcute.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Exeggcute", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Exeggcute.Location = new System.Drawing.Point(3, 58);
+            this.Exeggcute.Name = "Exeggcute";
+            this.Exeggcute.Size = new System.Drawing.Size(77, 17);
+            this.Exeggcute.TabIndex = 102;
+            this.Exeggcute.Text = "Exeggcute";
+            this.Exeggcute.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel104
             // 
@@ -3041,6 +4367,19 @@
             this.pictureBox103.TabIndex = 176;
             this.pictureBox103.TabStop = false;
             // 
+            // Exeggutor
+            // 
+            this.Exeggutor.AutoSize = true;
+            this.Exeggutor.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Exeggutor;
+            this.Exeggutor.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Exeggutor.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Exeggutor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Exeggutor.Location = new System.Drawing.Point(3, 58);
+            this.Exeggutor.Name = "Exeggutor";
+            this.Exeggutor.Size = new System.Drawing.Size(74, 17);
+            this.Exeggutor.TabIndex = 103;
+            this.Exeggutor.Text = "Exeggutor";
+            this.Exeggutor.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel105
             // 
             this.flowLayoutPanel105.Controls.Add(this.pictureBox104);
@@ -3060,6 +4399,19 @@
             this.pictureBox104.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox104.TabIndex = 176;
             this.pictureBox104.TabStop = false;
+            // 
+            // Cubone
+            // 
+            this.Cubone.AutoSize = true;
+            this.Cubone.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Cubone;
+            this.Cubone.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Cubone.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Cubone", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Cubone.Location = new System.Drawing.Point(3, 58);
+            this.Cubone.Name = "Cubone";
+            this.Cubone.Size = new System.Drawing.Size(63, 17);
+            this.Cubone.TabIndex = 104;
+            this.Cubone.Text = "Cubone";
+            this.Cubone.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel106
             // 
@@ -3081,6 +4433,19 @@
             this.pictureBox105.TabIndex = 176;
             this.pictureBox105.TabStop = false;
             // 
+            // Marowak
+            // 
+            this.Marowak.AutoSize = true;
+            this.Marowak.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Marowak;
+            this.Marowak.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Marowak.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Marowak", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Marowak.Location = new System.Drawing.Point(3, 58);
+            this.Marowak.Name = "Marowak";
+            this.Marowak.Size = new System.Drawing.Size(70, 17);
+            this.Marowak.TabIndex = 105;
+            this.Marowak.Text = "Marowak";
+            this.Marowak.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel107
             // 
             this.flowLayoutPanel107.Controls.Add(this.pictureBox106);
@@ -3100,6 +4465,19 @@
             this.pictureBox106.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox106.TabIndex = 176;
             this.pictureBox106.TabStop = false;
+            // 
+            // Hitmonlee
+            // 
+            this.Hitmonlee.AutoSize = true;
+            this.Hitmonlee.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Hitmonlee;
+            this.Hitmonlee.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Hitmonlee.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Hitmonlee", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Hitmonlee.Location = new System.Drawing.Point(3, 58);
+            this.Hitmonlee.Name = "Hitmonlee";
+            this.Hitmonlee.Size = new System.Drawing.Size(73, 17);
+            this.Hitmonlee.TabIndex = 106;
+            this.Hitmonlee.Text = "Hitmonlee";
+            this.Hitmonlee.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel108
             // 
@@ -3121,6 +4499,19 @@
             this.pictureBox107.TabIndex = 176;
             this.pictureBox107.TabStop = false;
             // 
+            // Hitmonchan
+            // 
+            this.Hitmonchan.AutoSize = true;
+            this.Hitmonchan.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Hitmonchan;
+            this.Hitmonchan.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Hitmonchan.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Hitmonchan", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Hitmonchan.Location = new System.Drawing.Point(3, 58);
+            this.Hitmonchan.Name = "Hitmonchan";
+            this.Hitmonchan.Size = new System.Drawing.Size(83, 17);
+            this.Hitmonchan.TabIndex = 107;
+            this.Hitmonchan.Text = "Hitmonchan";
+            this.Hitmonchan.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel109
             // 
             this.flowLayoutPanel109.Controls.Add(this.pictureBox108);
@@ -3140,6 +4531,19 @@
             this.pictureBox108.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox108.TabIndex = 176;
             this.pictureBox108.TabStop = false;
+            // 
+            // Lickitung
+            // 
+            this.Lickitung.AutoSize = true;
+            this.Lickitung.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Lickitung;
+            this.Lickitung.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Lickitung.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Lickitung", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Lickitung.Location = new System.Drawing.Point(3, 58);
+            this.Lickitung.Name = "Lickitung";
+            this.Lickitung.Size = new System.Drawing.Size(69, 17);
+            this.Lickitung.TabIndex = 108;
+            this.Lickitung.Text = "Lickitung";
+            this.Lickitung.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel110
             // 
@@ -3161,6 +4565,19 @@
             this.pictureBox109.TabIndex = 176;
             this.pictureBox109.TabStop = false;
             // 
+            // Koffing
+            // 
+            this.Koffing.AutoSize = true;
+            this.Koffing.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Koffing;
+            this.Koffing.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Koffing.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Koffing", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Koffing.Location = new System.Drawing.Point(3, 58);
+            this.Koffing.Name = "Koffing";
+            this.Koffing.Size = new System.Drawing.Size(59, 17);
+            this.Koffing.TabIndex = 112;
+            this.Koffing.Text = "Koffing";
+            this.Koffing.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel111
             // 
             this.flowLayoutPanel111.Controls.Add(this.pictureBox110);
@@ -3180,6 +4597,19 @@
             this.pictureBox110.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox110.TabIndex = 176;
             this.pictureBox110.TabStop = false;
+            // 
+            // Weezing
+            // 
+            this.Weezing.AutoSize = true;
+            this.Weezing.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Weezing;
+            this.Weezing.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Weezing.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Weezing", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Weezing.Location = new System.Drawing.Point(3, 58);
+            this.Weezing.Name = "Weezing";
+            this.Weezing.Size = new System.Drawing.Size(68, 17);
+            this.Weezing.TabIndex = 111;
+            this.Weezing.Text = "Weezing";
+            this.Weezing.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel112
             // 
@@ -3201,6 +4631,19 @@
             this.pictureBox111.TabIndex = 176;
             this.pictureBox111.TabStop = false;
             // 
+            // Rhyhorn
+            // 
+            this.Rhyhorn.AutoSize = true;
+            this.Rhyhorn.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Rhyhorn;
+            this.Rhyhorn.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Rhyhorn.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Rhyhorn", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Rhyhorn.Location = new System.Drawing.Point(3, 58);
+            this.Rhyhorn.Name = "Rhyhorn";
+            this.Rhyhorn.Size = new System.Drawing.Size(66, 17);
+            this.Rhyhorn.TabIndex = 110;
+            this.Rhyhorn.Text = "Rhyhorn";
+            this.Rhyhorn.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel113
             // 
             this.flowLayoutPanel113.Controls.Add(this.pictureBox112);
@@ -3220,6 +4663,19 @@
             this.pictureBox112.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox112.TabIndex = 176;
             this.pictureBox112.TabStop = false;
+            // 
+            // Rhydon
+            // 
+            this.Rhydon.AutoSize = true;
+            this.Rhydon.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Rhydon;
+            this.Rhydon.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Rhydon.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Rhydon", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Rhydon.Location = new System.Drawing.Point(3, 58);
+            this.Rhydon.Name = "Rhydon";
+            this.Rhydon.Size = new System.Drawing.Size(63, 17);
+            this.Rhydon.TabIndex = 109;
+            this.Rhydon.Text = "Rhydon";
+            this.Rhydon.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel114
             // 
@@ -3241,6 +4697,19 @@
             this.pictureBox113.TabIndex = 176;
             this.pictureBox113.TabStop = false;
             // 
+            // Chansey
+            // 
+            this.Chansey.AutoSize = true;
+            this.Chansey.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Chansey;
+            this.Chansey.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Chansey.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Chansey", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Chansey.Location = new System.Drawing.Point(3, 58);
+            this.Chansey.Name = "Chansey";
+            this.Chansey.Size = new System.Drawing.Size(67, 17);
+            this.Chansey.TabIndex = 126;
+            this.Chansey.Text = "Chansey";
+            this.Chansey.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel115
             // 
             this.flowLayoutPanel115.Controls.Add(this.pictureBox114);
@@ -3260,6 +4729,19 @@
             this.pictureBox114.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox114.TabIndex = 176;
             this.pictureBox114.TabStop = false;
+            // 
+            // Tangela
+            // 
+            this.Tangela.AutoSize = true;
+            this.Tangela.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Tangela;
+            this.Tangela.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Tangela.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Tangela", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Tangela.Location = new System.Drawing.Point(3, 58);
+            this.Tangela.Name = "Tangela";
+            this.Tangela.Size = new System.Drawing.Size(65, 17);
+            this.Tangela.TabIndex = 113;
+            this.Tangela.Text = "Tangela";
+            this.Tangela.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel116
             // 
@@ -3281,6 +4763,19 @@
             this.pictureBox115.TabIndex = 176;
             this.pictureBox115.TabStop = false;
             // 
+            // Kangaskhan
+            // 
+            this.Kangaskhan.AutoSize = true;
+            this.Kangaskhan.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Kangaskhan;
+            this.Kangaskhan.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Kangaskhan.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Kangaskhan", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Kangaskhan.Location = new System.Drawing.Point(3, 58);
+            this.Kangaskhan.Name = "Kangaskhan";
+            this.Kangaskhan.Size = new System.Drawing.Size(86, 17);
+            this.Kangaskhan.TabIndex = 114;
+            this.Kangaskhan.Text = "Kangaskhan";
+            this.Kangaskhan.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel117
             // 
             this.flowLayoutPanel117.Controls.Add(this.pictureBox116);
@@ -3300,6 +4795,19 @@
             this.pictureBox116.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox116.TabIndex = 176;
             this.pictureBox116.TabStop = false;
+            // 
+            // Horsea
+            // 
+            this.Horsea.AutoSize = true;
+            this.Horsea.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Horsea;
+            this.Horsea.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Horsea.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Horsea", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Horsea.Location = new System.Drawing.Point(3, 58);
+            this.Horsea.Name = "Horsea";
+            this.Horsea.Size = new System.Drawing.Size(60, 17);
+            this.Horsea.TabIndex = 115;
+            this.Horsea.Text = "Horsea";
+            this.Horsea.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel118
             // 
@@ -3321,6 +4829,19 @@
             this.pictureBox117.TabIndex = 176;
             this.pictureBox117.TabStop = false;
             // 
+            // Seadra
+            // 
+            this.Seadra.AutoSize = true;
+            this.Seadra.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Seadra;
+            this.Seadra.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Seadra.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Seadra", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Seadra.Location = new System.Drawing.Point(3, 58);
+            this.Seadra.Name = "Seadra";
+            this.Seadra.Size = new System.Drawing.Size(60, 17);
+            this.Seadra.TabIndex = 116;
+            this.Seadra.Text = "Seadra";
+            this.Seadra.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel119
             // 
             this.flowLayoutPanel119.Controls.Add(this.pictureBox118);
@@ -3340,6 +4861,19 @@
             this.pictureBox118.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox118.TabIndex = 176;
             this.pictureBox118.TabStop = false;
+            // 
+            // Goldeen
+            // 
+            this.Goldeen.AutoSize = true;
+            this.Goldeen.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Goldeen;
+            this.Goldeen.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Goldeen.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Goldeen", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Goldeen.Location = new System.Drawing.Point(3, 58);
+            this.Goldeen.Name = "Goldeen";
+            this.Goldeen.Size = new System.Drawing.Size(66, 17);
+            this.Goldeen.TabIndex = 117;
+            this.Goldeen.Text = "Goldeen";
+            this.Goldeen.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel120
             // 
@@ -3361,6 +4895,19 @@
             this.pictureBox119.TabIndex = 176;
             this.pictureBox119.TabStop = false;
             // 
+            // Seaking
+            // 
+            this.Seaking.AutoSize = true;
+            this.Seaking.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Seaking;
+            this.Seaking.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Seaking.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Seaking", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Seaking.Location = new System.Drawing.Point(3, 58);
+            this.Seaking.Name = "Seaking";
+            this.Seaking.Size = new System.Drawing.Size(65, 17);
+            this.Seaking.TabIndex = 118;
+            this.Seaking.Text = "Seaking";
+            this.Seaking.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel121
             // 
             this.flowLayoutPanel121.Controls.Add(this.pictureBox120);
@@ -3380,6 +4927,19 @@
             this.pictureBox120.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox120.TabIndex = 176;
             this.pictureBox120.TabStop = false;
+            // 
+            // Staryu
+            // 
+            this.Staryu.AutoSize = true;
+            this.Staryu.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Staryu;
+            this.Staryu.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Staryu.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Staryu", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Staryu.Location = new System.Drawing.Point(3, 58);
+            this.Staryu.Name = "Staryu";
+            this.Staryu.Size = new System.Drawing.Size(56, 17);
+            this.Staryu.TabIndex = 119;
+            this.Staryu.Text = "Staryu";
+            this.Staryu.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel122
             // 
@@ -3401,6 +4961,19 @@
             this.pictureBox121.TabIndex = 176;
             this.pictureBox121.TabStop = false;
             // 
+            // Starmie
+            // 
+            this.Starmie.AutoSize = true;
+            this.Starmie.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Starmie;
+            this.Starmie.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Starmie.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Starmie", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Starmie.Location = new System.Drawing.Point(3, 58);
+            this.Starmie.Name = "Starmie";
+            this.Starmie.Size = new System.Drawing.Size(61, 17);
+            this.Starmie.TabIndex = 120;
+            this.Starmie.Text = "Starmie";
+            this.Starmie.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel123
             // 
             this.flowLayoutPanel123.Controls.Add(this.pictureBox122);
@@ -3420,6 +4993,19 @@
             this.pictureBox122.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox122.TabIndex = 176;
             this.pictureBox122.TabStop = false;
+            // 
+            // MrMime
+            // 
+            this.MrMime.AutoSize = true;
+            this.MrMime.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.MrMime;
+            this.MrMime.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.MrMime.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "MrMime", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.MrMime.Location = new System.Drawing.Point(3, 58);
+            this.MrMime.Name = "MrMime";
+            this.MrMime.Size = new System.Drawing.Size(69, 17);
+            this.MrMime.TabIndex = 121;
+            this.MrMime.Text = "Mr. Mime";
+            this.MrMime.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel124
             // 
@@ -3441,6 +5027,19 @@
             this.pictureBox123.TabIndex = 176;
             this.pictureBox123.TabStop = false;
             // 
+            // Scyther
+            // 
+            this.Scyther.AutoSize = true;
+            this.Scyther.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Scyther;
+            this.Scyther.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Scyther.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Scyther", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Scyther.Location = new System.Drawing.Point(3, 58);
+            this.Scyther.Name = "Scyther";
+            this.Scyther.Size = new System.Drawing.Size(62, 17);
+            this.Scyther.TabIndex = 122;
+            this.Scyther.Text = "Scyther";
+            this.Scyther.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel125
             // 
             this.flowLayoutPanel125.Controls.Add(this.pictureBox124);
@@ -3460,6 +5059,19 @@
             this.pictureBox124.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox124.TabIndex = 176;
             this.pictureBox124.TabStop = false;
+            // 
+            // Jynx
+            // 
+            this.Jynx.AutoSize = true;
+            this.Jynx.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Jynx;
+            this.Jynx.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Jynx.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Jynx", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Jynx.Location = new System.Drawing.Point(3, 58);
+            this.Jynx.Name = "Jynx";
+            this.Jynx.Size = new System.Drawing.Size(47, 17);
+            this.Jynx.TabIndex = 123;
+            this.Jynx.Text = "Jynx";
+            this.Jynx.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel126
             // 
@@ -3481,6 +5093,19 @@
             this.pictureBox125.TabIndex = 176;
             this.pictureBox125.TabStop = false;
             // 
+            // Electabuzz
+            // 
+            this.Electabuzz.AutoSize = true;
+            this.Electabuzz.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Electabuzz;
+            this.Electabuzz.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Electabuzz.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Electabuzz", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Electabuzz.Location = new System.Drawing.Point(3, 58);
+            this.Electabuzz.Name = "Electabuzz";
+            this.Electabuzz.Size = new System.Drawing.Size(78, 17);
+            this.Electabuzz.TabIndex = 124;
+            this.Electabuzz.Text = "Electabuzz";
+            this.Electabuzz.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel127
             // 
             this.flowLayoutPanel127.Controls.Add(this.pictureBox126);
@@ -3500,6 +5125,19 @@
             this.pictureBox126.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox126.TabIndex = 176;
             this.pictureBox126.TabStop = false;
+            // 
+            // Magmar
+            // 
+            this.Magmar.AutoSize = true;
+            this.Magmar.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Magmar;
+            this.Magmar.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Magmar.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Magmar", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Magmar.Location = new System.Drawing.Point(3, 58);
+            this.Magmar.Name = "Magmar";
+            this.Magmar.Size = new System.Drawing.Size(64, 17);
+            this.Magmar.TabIndex = 125;
+            this.Magmar.Text = "Magmar";
+            this.Magmar.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel128
             // 
@@ -3521,6 +5159,19 @@
             this.pictureBox127.TabIndex = 176;
             this.pictureBox127.TabStop = false;
             // 
+            // Pinsir
+            // 
+            this.Pinsir.AutoSize = true;
+            this.Pinsir.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Pinsir;
+            this.Pinsir.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Pinsir.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Pinsir", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Pinsir.Location = new System.Drawing.Point(3, 58);
+            this.Pinsir.Name = "Pinsir";
+            this.Pinsir.Size = new System.Drawing.Size(51, 17);
+            this.Pinsir.TabIndex = 130;
+            this.Pinsir.Text = "Pinsir";
+            this.Pinsir.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel129
             // 
             this.flowLayoutPanel129.Controls.Add(this.pictureBox128);
@@ -3540,6 +5191,19 @@
             this.pictureBox128.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox128.TabIndex = 176;
             this.pictureBox128.TabStop = false;
+            // 
+            // Tauros
+            // 
+            this.Tauros.AutoSize = true;
+            this.Tauros.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Tauros;
+            this.Tauros.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Tauros.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Tauros", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Tauros.Location = new System.Drawing.Point(3, 58);
+            this.Tauros.Name = "Tauros";
+            this.Tauros.Size = new System.Drawing.Size(59, 17);
+            this.Tauros.TabIndex = 129;
+            this.Tauros.Text = "Tauros";
+            this.Tauros.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel130
             // 
@@ -3561,6 +5225,19 @@
             this.pictureBox129.TabIndex = 176;
             this.pictureBox129.TabStop = false;
             // 
+            // Magikarp
+            // 
+            this.Magikarp.AutoSize = true;
+            this.Magikarp.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Magikarp;
+            this.Magikarp.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Magikarp.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Magikarp", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Magikarp.Location = new System.Drawing.Point(3, 58);
+            this.Magikarp.Name = "Magikarp";
+            this.Magikarp.Size = new System.Drawing.Size(70, 17);
+            this.Magikarp.TabIndex = 128;
+            this.Magikarp.Text = "Magikarp";
+            this.Magikarp.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel131
             // 
             this.flowLayoutPanel131.Controls.Add(this.pictureBox130);
@@ -3580,6 +5257,19 @@
             this.pictureBox130.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox130.TabIndex = 176;
             this.pictureBox130.TabStop = false;
+            // 
+            // Gyarados
+            // 
+            this.Gyarados.AutoSize = true;
+            this.Gyarados.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Gyarados;
+            this.Gyarados.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Gyarados.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Gyarados", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Gyarados.Location = new System.Drawing.Point(3, 58);
+            this.Gyarados.Name = "Gyarados";
+            this.Gyarados.Size = new System.Drawing.Size(71, 17);
+            this.Gyarados.TabIndex = 127;
+            this.Gyarados.Text = "Gyarados";
+            this.Gyarados.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel132
             // 
@@ -3601,6 +5291,19 @@
             this.pictureBox131.TabIndex = 176;
             this.pictureBox131.TabStop = false;
             // 
+            // Lapras
+            // 
+            this.Lapras.AutoSize = true;
+            this.Lapras.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Lapras;
+            this.Lapras.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Lapras.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Lapras", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Lapras.Location = new System.Drawing.Point(3, 58);
+            this.Lapras.Name = "Lapras";
+            this.Lapras.Size = new System.Drawing.Size(58, 17);
+            this.Lapras.TabIndex = 144;
+            this.Lapras.Text = "Lapras";
+            this.Lapras.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel133
             // 
             this.flowLayoutPanel133.Controls.Add(this.pictureBox132);
@@ -3620,6 +5323,19 @@
             this.pictureBox132.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox132.TabIndex = 176;
             this.pictureBox132.TabStop = false;
+            // 
+            // Ditto
+            // 
+            this.Ditto.AutoSize = true;
+            this.Ditto.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Ditto;
+            this.Ditto.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Ditto.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Ditto", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Ditto.Location = new System.Drawing.Point(3, 58);
+            this.Ditto.Name = "Ditto";
+            this.Ditto.Size = new System.Drawing.Size(48, 17);
+            this.Ditto.TabIndex = 131;
+            this.Ditto.Text = "Ditto";
+            this.Ditto.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel134
             // 
@@ -3641,6 +5357,19 @@
             this.pictureBox133.TabIndex = 176;
             this.pictureBox133.TabStop = false;
             // 
+            // Eevee
+            // 
+            this.Eevee.AutoSize = true;
+            this.Eevee.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Eevee;
+            this.Eevee.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Eevee.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Eevee", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Eevee.Location = new System.Drawing.Point(3, 58);
+            this.Eevee.Name = "Eevee";
+            this.Eevee.Size = new System.Drawing.Size(57, 17);
+            this.Eevee.TabIndex = 132;
+            this.Eevee.Text = "Eevee";
+            this.Eevee.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel135
             // 
             this.flowLayoutPanel135.Controls.Add(this.pictureBox134);
@@ -3660,6 +5389,19 @@
             this.pictureBox134.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox134.TabIndex = 176;
             this.pictureBox134.TabStop = false;
+            // 
+            // Vaporeon
+            // 
+            this.Vaporeon.AutoSize = true;
+            this.Vaporeon.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Vaporeon;
+            this.Vaporeon.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Vaporeon.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Vaporeon", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Vaporeon.Location = new System.Drawing.Point(3, 58);
+            this.Vaporeon.Name = "Vaporeon";
+            this.Vaporeon.Size = new System.Drawing.Size(72, 17);
+            this.Vaporeon.TabIndex = 133;
+            this.Vaporeon.Text = "Vaporeon";
+            this.Vaporeon.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel136
             // 
@@ -3681,6 +5423,19 @@
             this.pictureBox135.TabIndex = 176;
             this.pictureBox135.TabStop = false;
             // 
+            // Jolteon
+            // 
+            this.Jolteon.AutoSize = true;
+            this.Jolteon.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Jolteon;
+            this.Jolteon.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Jolteon.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Jolteon", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Jolteon.Location = new System.Drawing.Point(3, 58);
+            this.Jolteon.Name = "Jolteon";
+            this.Jolteon.Size = new System.Drawing.Size(60, 17);
+            this.Jolteon.TabIndex = 134;
+            this.Jolteon.Text = "Jolteon";
+            this.Jolteon.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel137
             // 
             this.flowLayoutPanel137.Controls.Add(this.pictureBox136);
@@ -3700,6 +5455,19 @@
             this.pictureBox136.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox136.TabIndex = 176;
             this.pictureBox136.TabStop = false;
+            // 
+            // Flareon
+            // 
+            this.Flareon.AutoSize = true;
+            this.Flareon.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Flareon;
+            this.Flareon.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Flareon.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Flareon", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Flareon.Location = new System.Drawing.Point(3, 58);
+            this.Flareon.Name = "Flareon";
+            this.Flareon.Size = new System.Drawing.Size(61, 17);
+            this.Flareon.TabIndex = 135;
+            this.Flareon.Text = "Flareon";
+            this.Flareon.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel138
             // 
@@ -3721,6 +5489,19 @@
             this.pictureBox137.TabIndex = 176;
             this.pictureBox137.TabStop = false;
             // 
+            // Porygon
+            // 
+            this.Porygon.AutoSize = true;
+            this.Porygon.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Porygon;
+            this.Porygon.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Porygon.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Porygon", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Porygon.Location = new System.Drawing.Point(3, 58);
+            this.Porygon.Name = "Porygon";
+            this.Porygon.Size = new System.Drawing.Size(65, 17);
+            this.Porygon.TabIndex = 136;
+            this.Porygon.Text = "Porygon";
+            this.Porygon.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel139
             // 
             this.flowLayoutPanel139.Controls.Add(this.pictureBox138);
@@ -3740,6 +5521,19 @@
             this.pictureBox138.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox138.TabIndex = 176;
             this.pictureBox138.TabStop = false;
+            // 
+            // Omanyte
+            // 
+            this.Omanyte.AutoSize = true;
+            this.Omanyte.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Omanyte;
+            this.Omanyte.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Omanyte.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Omanyte", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Omanyte.Location = new System.Drawing.Point(3, 58);
+            this.Omanyte.Name = "Omanyte";
+            this.Omanyte.Size = new System.Drawing.Size(68, 17);
+            this.Omanyte.TabIndex = 137;
+            this.Omanyte.Text = "Omanyte";
+            this.Omanyte.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel140
             // 
@@ -3761,6 +5555,19 @@
             this.pictureBox139.TabIndex = 176;
             this.pictureBox139.TabStop = false;
             // 
+            // Omastar
+            // 
+            this.Omastar.AutoSize = true;
+            this.Omastar.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Omastar;
+            this.Omastar.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Omastar.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Omastar", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Omastar.Location = new System.Drawing.Point(3, 58);
+            this.Omastar.Name = "Omastar";
+            this.Omastar.Size = new System.Drawing.Size(65, 17);
+            this.Omastar.TabIndex = 138;
+            this.Omastar.Text = "Omastar";
+            this.Omastar.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel141
             // 
             this.flowLayoutPanel141.Controls.Add(this.pictureBox140);
@@ -3780,6 +5587,19 @@
             this.pictureBox140.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox140.TabIndex = 176;
             this.pictureBox140.TabStop = false;
+            // 
+            // Kabuto
+            // 
+            this.Kabuto.AutoSize = true;
+            this.Kabuto.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Kabuto;
+            this.Kabuto.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Kabuto.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Kabuto", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Kabuto.Location = new System.Drawing.Point(3, 58);
+            this.Kabuto.Name = "Kabuto";
+            this.Kabuto.Size = new System.Drawing.Size(60, 17);
+            this.Kabuto.TabIndex = 139;
+            this.Kabuto.Text = "Kabuto";
+            this.Kabuto.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel142
             // 
@@ -3801,6 +5621,19 @@
             this.pictureBox141.TabIndex = 176;
             this.pictureBox141.TabStop = false;
             // 
+            // Kabutops
+            // 
+            this.Kabutops.AutoSize = true;
+            this.Kabutops.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Kabutops;
+            this.Kabutops.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Kabutops.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Kabutops", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Kabutops.Location = new System.Drawing.Point(3, 58);
+            this.Kabutops.Name = "Kabutops";
+            this.Kabutops.Size = new System.Drawing.Size(71, 17);
+            this.Kabutops.TabIndex = 140;
+            this.Kabutops.Text = "Kabutops";
+            this.Kabutops.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel143
             // 
             this.flowLayoutPanel143.Controls.Add(this.pictureBox142);
@@ -3820,6 +5653,19 @@
             this.pictureBox142.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox142.TabIndex = 176;
             this.pictureBox142.TabStop = false;
+            // 
+            // Aerodactyl
+            // 
+            this.Aerodactyl.AutoSize = true;
+            this.Aerodactyl.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Aerodactyl;
+            this.Aerodactyl.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Aerodactyl.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Aerodactyl", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Aerodactyl.Location = new System.Drawing.Point(3, 58);
+            this.Aerodactyl.Name = "Aerodactyl";
+            this.Aerodactyl.Size = new System.Drawing.Size(76, 17);
+            this.Aerodactyl.TabIndex = 141;
+            this.Aerodactyl.Text = "Aerodactyl";
+            this.Aerodactyl.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel144
             // 
@@ -3841,6 +5687,19 @@
             this.pictureBox143.TabIndex = 176;
             this.pictureBox143.TabStop = false;
             // 
+            // Snorlax
+            // 
+            this.Snorlax.AutoSize = true;
+            this.Snorlax.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Snorlax;
+            this.Snorlax.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Snorlax.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Snorlax", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Snorlax.Location = new System.Drawing.Point(3, 58);
+            this.Snorlax.Name = "Snorlax";
+            this.Snorlax.Size = new System.Drawing.Size(61, 17);
+            this.Snorlax.TabIndex = 142;
+            this.Snorlax.Text = "Snorlax";
+            this.Snorlax.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel145
             // 
             this.flowLayoutPanel145.Controls.Add(this.pictureBox144);
@@ -3860,6 +5719,19 @@
             this.pictureBox144.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox144.TabIndex = 176;
             this.pictureBox144.TabStop = false;
+            // 
+            // Articuno
+            // 
+            this.Articuno.AutoSize = true;
+            this.Articuno.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Articuno;
+            this.Articuno.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Articuno.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Articuno", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Articuno.Location = new System.Drawing.Point(3, 58);
+            this.Articuno.Name = "Articuno";
+            this.Articuno.Size = new System.Drawing.Size(65, 17);
+            this.Articuno.TabIndex = 143;
+            this.Articuno.Text = "Articuno";
+            this.Articuno.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel146
             // 
@@ -3881,6 +5753,19 @@
             this.pictureBox145.TabIndex = 176;
             this.pictureBox145.TabStop = false;
             // 
+            // Zapdos
+            // 
+            this.Zapdos.AutoSize = true;
+            this.Zapdos.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Zapdos;
+            this.Zapdos.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Zapdos.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Zapdos", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Zapdos.Location = new System.Drawing.Point(3, 58);
+            this.Zapdos.Name = "Zapdos";
+            this.Zapdos.Size = new System.Drawing.Size(62, 17);
+            this.Zapdos.TabIndex = 148;
+            this.Zapdos.Text = "Zapdos";
+            this.Zapdos.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel147
             // 
             this.flowLayoutPanel147.Controls.Add(this.pictureBox146);
@@ -3900,6 +5785,19 @@
             this.pictureBox146.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox146.TabIndex = 176;
             this.pictureBox146.TabStop = false;
+            // 
+            // Moltres
+            // 
+            this.Moltres.AutoSize = true;
+            this.Moltres.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Moltres;
+            this.Moltres.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Moltres.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Moltres", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Moltres.Location = new System.Drawing.Point(3, 58);
+            this.Moltres.Name = "Moltres";
+            this.Moltres.Size = new System.Drawing.Size(60, 17);
+            this.Moltres.TabIndex = 147;
+            this.Moltres.Text = "Moltres";
+            this.Moltres.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel149
             // 
@@ -3921,6 +5819,19 @@
             this.pictureBox148.TabIndex = 176;
             this.pictureBox148.TabStop = false;
             // 
+            // Dratini
+            // 
+            this.Dratini.AutoSize = true;
+            this.Dratini.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Dratini;
+            this.Dratini.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Dratini.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Dratini", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Dratini.Location = new System.Drawing.Point(3, 58);
+            this.Dratini.Name = "Dratini";
+            this.Dratini.Size = new System.Drawing.Size(56, 17);
+            this.Dratini.TabIndex = 146;
+            this.Dratini.Text = "Dratini";
+            this.Dratini.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel150
             // 
             this.flowLayoutPanel150.Controls.Add(this.pictureBox149);
@@ -3940,6 +5851,19 @@
             this.pictureBox149.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox149.TabIndex = 176;
             this.pictureBox149.TabStop = false;
+            // 
+            // Dragonair
+            // 
+            this.Dragonair.AutoSize = true;
+            this.Dragonair.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Dragonair;
+            this.Dragonair.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Dragonair.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Dragonair", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Dragonair.Location = new System.Drawing.Point(3, 58);
+            this.Dragonair.Name = "Dragonair";
+            this.Dragonair.Size = new System.Drawing.Size(72, 17);
+            this.Dragonair.TabIndex = 145;
+            this.Dragonair.Text = "Dragonair";
+            this.Dragonair.UseVisualStyleBackColor = true;
             // 
             // flowLayoutPanel151
             // 
@@ -3961,6 +5885,19 @@
             this.pictureBox150.TabIndex = 176;
             this.pictureBox150.TabStop = false;
             // 
+            // Dragonite
+            // 
+            this.Dragonite.AutoSize = true;
+            this.Dragonite.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Dragonite;
+            this.Dragonite.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Dragonite.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Dragonite", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Dragonite.Location = new System.Drawing.Point(3, 58);
+            this.Dragonite.Name = "Dragonite";
+            this.Dragonite.Size = new System.Drawing.Size(72, 17);
+            this.Dragonite.TabIndex = 162;
+            this.Dragonite.Text = "Dragonite";
+            this.Dragonite.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel152
             // 
             this.flowLayoutPanel152.Controls.Add(this.pictureBox151);
@@ -3981,6 +5918,19 @@
             this.pictureBox151.TabIndex = 176;
             this.pictureBox151.TabStop = false;
             // 
+            // Mewtwo
+            // 
+            this.Mewtwo.AutoSize = true;
+            this.Mewtwo.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Mewtwo;
+            this.Mewtwo.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Mewtwo.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Mewtwo", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Mewtwo.Location = new System.Drawing.Point(3, 58);
+            this.Mewtwo.Name = "Mewtwo";
+            this.Mewtwo.Size = new System.Drawing.Size(66, 17);
+            this.Mewtwo.TabIndex = 149;
+            this.Mewtwo.Text = "Mewtwo";
+            this.Mewtwo.UseVisualStyleBackColor = true;
+            // 
             // flowLayoutPanel153
             // 
             this.flowLayoutPanel153.Controls.Add(this.pictureBox152);
@@ -4000,6 +5950,19 @@
             this.pictureBox152.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox152.TabIndex = 176;
             this.pictureBox152.TabStop = false;
+            // 
+            // Mew
+            // 
+            this.Mew.AutoSize = true;
+            this.Mew.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Mew;
+            this.Mew.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.Mew.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Mew", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Mew.Location = new System.Drawing.Point(3, 58);
+            this.Mew.Name = "Mew";
+            this.Mew.Size = new System.Drawing.Size(49, 17);
+            this.Mew.TabIndex = 150;
+            this.Mew.Text = "Mew";
+            this.Mew.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -4057,6 +6020,27 @@
             this.label1.Size = new System.Drawing.Size(48, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "API Key:";
+            // 
+            // push_api
+            // 
+            this.push_api.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "pushapi", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.push_api.Location = new System.Drawing.Point(56, 32);
+            this.push_api.Name = "push_api";
+            this.push_api.Size = new System.Drawing.Size(215, 20);
+            this.push_api.TabIndex = 1;
+            this.push_api.Text = global::PokemonGo_Map_Launcher.Properties.Settings.Default.pushapi;
+            // 
+            // enable_push
+            // 
+            this.enable_push.AutoSize = true;
+            this.enable_push.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.enable_push;
+            this.enable_push.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "enable_push", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.enable_push.Location = new System.Drawing.Point(6, 6);
+            this.enable_push.Name = "enable_push";
+            this.enable_push.Size = new System.Drawing.Size(59, 17);
+            this.enable_push.TabIndex = 0;
+            this.enable_push.Text = "Enable";
+            this.enable_push.UseVisualStyleBackColor = true;
             // 
             // tabPage2
             // 
@@ -4126,2037 +6110,6 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Access Token:";
             // 
-            // tabPage3
-            // 
-            this.tabPage3.Controls.Add(this.label7);
-            this.tabPage3.Controls.Add(this.label6);
-            this.tabPage3.Controls.Add(this.slack_api);
-            this.tabPage3.Controls.Add(this.enable_slack);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(514, 74);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Slack";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Red;
-            this.label7.Location = new System.Drawing.Point(66, 9);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(440, 13);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "*IMPORTANT* Make sure your keys are in quotes. ex. \"fadsf7dfda78fa78fd\"";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(7, 35);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(48, 13);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "API Key:";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.Controls.Add(this.flowLayoutPanel1);
-            this.groupBox1.Location = new System.Drawing.Point(4, 114);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(649, 479);
-            this.groupBox1.TabIndex = 167;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Pokemon";
-            // 
-            // Bulbasaur
-            // 
-            this.Bulbasaur.AutoSize = true;
-            this.Bulbasaur.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.bulbasaur;
-            this.Bulbasaur.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Bulbasaur.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "bulbasaur", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Bulbasaur.Location = new System.Drawing.Point(3, 58);
-            this.Bulbasaur.Name = "Bulbasaur";
-            this.Bulbasaur.Size = new System.Drawing.Size(73, 17);
-            this.Bulbasaur.TabIndex = 0;
-            this.Bulbasaur.Text = "Bulbasaur";
-            this.Bulbasaur.UseVisualStyleBackColor = true;
-            // 
-            // Ivysaur
-            // 
-            this.Ivysaur.AutoSize = true;
-            this.Ivysaur.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Ivysaur;
-            this.Ivysaur.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Ivysaur.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Ivysaur", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Ivysaur.Location = new System.Drawing.Point(3, 58);
-            this.Ivysaur.Name = "Ivysaur";
-            this.Ivysaur.Size = new System.Drawing.Size(60, 17);
-            this.Ivysaur.TabIndex = 2;
-            this.Ivysaur.Text = "Ivysaur";
-            this.Ivysaur.UseVisualStyleBackColor = true;
-            // 
-            // Venusaur
-            // 
-            this.Venusaur.AutoSize = true;
-            this.Venusaur.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Venusaur;
-            this.Venusaur.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Venusaur.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Venusaur", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Venusaur.Location = new System.Drawing.Point(3, 58);
-            this.Venusaur.Name = "Venusaur";
-            this.Venusaur.Size = new System.Drawing.Size(71, 17);
-            this.Venusaur.TabIndex = 3;
-            this.Venusaur.Text = "Venusaur";
-            this.Venusaur.UseVisualStyleBackColor = true;
-            // 
-            // Charmander
-            // 
-            this.Charmander.AutoSize = true;
-            this.Charmander.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Charmander;
-            this.Charmander.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Charmander.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Charmander", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Charmander.Location = new System.Drawing.Point(3, 58);
-            this.Charmander.Name = "Charmander";
-            this.Charmander.Size = new System.Drawing.Size(83, 17);
-            this.Charmander.TabIndex = 4;
-            this.Charmander.Text = "Charmander";
-            this.Charmander.UseVisualStyleBackColor = true;
-            // 
-            // Charmeleon
-            // 
-            this.Charmeleon.AutoSize = true;
-            this.Charmeleon.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Charmeleon;
-            this.Charmeleon.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Charmeleon.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Charmeleon", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Charmeleon.Location = new System.Drawing.Point(3, 58);
-            this.Charmeleon.Name = "Charmeleon";
-            this.Charmeleon.Size = new System.Drawing.Size(82, 17);
-            this.Charmeleon.TabIndex = 5;
-            this.Charmeleon.Text = "Charmeleon";
-            this.Charmeleon.UseVisualStyleBackColor = true;
-            // 
-            // Charizard
-            // 
-            this.Charizard.AutoSize = true;
-            this.Charizard.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Charizard;
-            this.Charizard.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Charizard.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Charizard", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Charizard.Location = new System.Drawing.Point(3, 58);
-            this.Charizard.Name = "Charizard";
-            this.Charizard.Size = new System.Drawing.Size(70, 17);
-            this.Charizard.TabIndex = 6;
-            this.Charizard.Text = "Charizard";
-            this.Charizard.UseVisualStyleBackColor = true;
-            // 
-            // Squirtle
-            // 
-            this.Squirtle.AutoSize = true;
-            this.Squirtle.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Squirtle;
-            this.Squirtle.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Squirtle.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Squirtle", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Squirtle.Location = new System.Drawing.Point(3, 58);
-            this.Squirtle.Name = "Squirtle";
-            this.Squirtle.Size = new System.Drawing.Size(61, 17);
-            this.Squirtle.TabIndex = 7;
-            this.Squirtle.Text = "Squirtle";
-            this.Squirtle.UseVisualStyleBackColor = true;
-            // 
-            // Wartortle
-            // 
-            this.Wartortle.AutoSize = true;
-            this.Wartortle.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Wartortle;
-            this.Wartortle.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Wartortle.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Wartortle", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Wartortle.Location = new System.Drawing.Point(3, 58);
-            this.Wartortle.Name = "Wartortle";
-            this.Wartortle.Size = new System.Drawing.Size(69, 17);
-            this.Wartortle.TabIndex = 8;
-            this.Wartortle.Text = "Wartortle";
-            this.Wartortle.UseVisualStyleBackColor = true;
-            // 
-            // Blastoise
-            // 
-            this.Blastoise.AutoSize = true;
-            this.Blastoise.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Blastoise;
-            this.Blastoise.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Blastoise.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Blastoise", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Blastoise.Location = new System.Drawing.Point(3, 58);
-            this.Blastoise.Name = "Blastoise";
-            this.Blastoise.Size = new System.Drawing.Size(68, 17);
-            this.Blastoise.TabIndex = 9;
-            this.Blastoise.Text = "Blastoise";
-            this.Blastoise.UseVisualStyleBackColor = true;
-            // 
-            // Caterpie
-            // 
-            this.Caterpie.AutoSize = true;
-            this.Caterpie.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Caterpie;
-            this.Caterpie.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Caterpie.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Caterpie", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Caterpie.Location = new System.Drawing.Point(3, 58);
-            this.Caterpie.Name = "Caterpie";
-            this.Caterpie.Size = new System.Drawing.Size(65, 17);
-            this.Caterpie.TabIndex = 10;
-            this.Caterpie.Text = "Caterpie";
-            this.Caterpie.UseVisualStyleBackColor = true;
-            // 
-            // Metapod
-            // 
-            this.Metapod.AutoSize = true;
-            this.Metapod.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Metapod;
-            this.Metapod.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Metapod.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Metapod", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Metapod.Location = new System.Drawing.Point(3, 58);
-            this.Metapod.Name = "Metapod";
-            this.Metapod.Size = new System.Drawing.Size(68, 17);
-            this.Metapod.TabIndex = 11;
-            this.Metapod.Text = "Metapod";
-            this.Metapod.UseVisualStyleBackColor = true;
-            // 
-            // Butterfree
-            // 
-            this.Butterfree.AutoSize = true;
-            this.Butterfree.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Butterfree;
-            this.Butterfree.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Butterfree.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Butterfree", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Butterfree.Location = new System.Drawing.Point(3, 58);
-            this.Butterfree.Name = "Butterfree";
-            this.Butterfree.Size = new System.Drawing.Size(72, 17);
-            this.Butterfree.TabIndex = 12;
-            this.Butterfree.Text = "Butterfree";
-            this.Butterfree.UseVisualStyleBackColor = true;
-            // 
-            // Weedle
-            // 
-            this.Weedle.AutoSize = true;
-            this.Weedle.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Weedle;
-            this.Weedle.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Weedle.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Weedle", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Weedle.Location = new System.Drawing.Point(3, 58);
-            this.Weedle.Name = "Weedle";
-            this.Weedle.Size = new System.Drawing.Size(63, 17);
-            this.Weedle.TabIndex = 13;
-            this.Weedle.Text = "Weedle";
-            this.Weedle.UseVisualStyleBackColor = true;
-            // 
-            // Kakuna
-            // 
-            this.Kakuna.AutoSize = true;
-            this.Kakuna.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Kakuna;
-            this.Kakuna.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Kakuna.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Kakuna", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Kakuna.Location = new System.Drawing.Point(3, 58);
-            this.Kakuna.Name = "Kakuna";
-            this.Kakuna.Size = new System.Drawing.Size(63, 17);
-            this.Kakuna.TabIndex = 14;
-            this.Kakuna.Text = "Kakuna";
-            this.Kakuna.UseVisualStyleBackColor = true;
-            // 
-            // Beedrill
-            // 
-            this.Beedrill.AutoSize = true;
-            this.Beedrill.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Beedrill;
-            this.Beedrill.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Beedrill.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Beedrill", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Beedrill.Location = new System.Drawing.Point(3, 58);
-            this.Beedrill.Name = "Beedrill";
-            this.Beedrill.Size = new System.Drawing.Size(60, 17);
-            this.Beedrill.TabIndex = 15;
-            this.Beedrill.Text = "Beedrill";
-            this.Beedrill.UseVisualStyleBackColor = true;
-            // 
-            // Pidgey
-            // 
-            this.Pidgey.AutoSize = true;
-            this.Pidgey.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Pidgey;
-            this.Pidgey.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Pidgey.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Pidgey", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Pidgey.Location = new System.Drawing.Point(3, 58);
-            this.Pidgey.Name = "Pidgey";
-            this.Pidgey.Size = new System.Drawing.Size(58, 17);
-            this.Pidgey.TabIndex = 16;
-            this.Pidgey.Text = "Pidgey";
-            this.Pidgey.UseVisualStyleBackColor = true;
-            // 
-            // Pidgeotto
-            // 
-            this.Pidgeotto.AutoSize = true;
-            this.Pidgeotto.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Pidgeotto;
-            this.Pidgeotto.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Pidgeotto.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Pidgeotto", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Pidgeotto.Location = new System.Drawing.Point(3, 58);
-            this.Pidgeotto.Name = "Pidgeotto";
-            this.Pidgeotto.Size = new System.Drawing.Size(71, 17);
-            this.Pidgeotto.TabIndex = 17;
-            this.Pidgeotto.Text = "Pidgeotto";
-            this.Pidgeotto.UseVisualStyleBackColor = true;
-            // 
-            // Pidgeot
-            // 
-            this.Pidgeot.AutoSize = true;
-            this.Pidgeot.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Pidgeot;
-            this.Pidgeot.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Pidgeot.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Pidgeot", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Pidgeot.Location = new System.Drawing.Point(3, 58);
-            this.Pidgeot.Name = "Pidgeot";
-            this.Pidgeot.Size = new System.Drawing.Size(62, 17);
-            this.Pidgeot.TabIndex = 18;
-            this.Pidgeot.Text = "Pidgeot";
-            this.Pidgeot.UseVisualStyleBackColor = true;
-            // 
-            // Rattata
-            // 
-            this.Rattata.AutoSize = true;
-            this.Rattata.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Rattata;
-            this.Rattata.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Rattata.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Rattata", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Rattata.Location = new System.Drawing.Point(3, 58);
-            this.Rattata.Name = "Rattata";
-            this.Rattata.Size = new System.Drawing.Size(61, 17);
-            this.Rattata.TabIndex = 20;
-            this.Rattata.Text = "Rattata";
-            this.Rattata.UseVisualStyleBackColor = true;
-            // 
-            // Raticate
-            // 
-            this.Raticate.AutoSize = true;
-            this.Raticate.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Raticate;
-            this.Raticate.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Raticate.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Raticate", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Raticate.Location = new System.Drawing.Point(3, 58);
-            this.Raticate.Name = "Raticate";
-            this.Raticate.Size = new System.Drawing.Size(66, 17);
-            this.Raticate.TabIndex = 21;
-            this.Raticate.Text = "Raticate";
-            this.Raticate.UseVisualStyleBackColor = true;
-            // 
-            // Spearow
-            // 
-            this.Spearow.AutoSize = true;
-            this.Spearow.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Spearow;
-            this.Spearow.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Spearow.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Spearow", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Spearow.Location = new System.Drawing.Point(3, 58);
-            this.Spearow.Name = "Spearow";
-            this.Spearow.Size = new System.Drawing.Size(68, 17);
-            this.Spearow.TabIndex = 22;
-            this.Spearow.Text = "Spearow";
-            this.Spearow.UseVisualStyleBackColor = true;
-            // 
-            // Fearow
-            // 
-            this.Fearow.AutoSize = true;
-            this.Fearow.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Fearow;
-            this.Fearow.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Fearow.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Fearow", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Fearow.Location = new System.Drawing.Point(3, 58);
-            this.Fearow.Name = "Fearow";
-            this.Fearow.Size = new System.Drawing.Size(61, 17);
-            this.Fearow.TabIndex = 19;
-            this.Fearow.Text = "Fearow";
-            this.Fearow.UseVisualStyleBackColor = true;
-            // 
-            // Ekans
-            // 
-            this.Ekans.AutoSize = true;
-            this.Ekans.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Ekans;
-            this.Ekans.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Ekans.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Ekans", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Ekans.Location = new System.Drawing.Point(3, 58);
-            this.Ekans.Name = "Ekans";
-            this.Ekans.Size = new System.Drawing.Size(56, 17);
-            this.Ekans.TabIndex = 23;
-            this.Ekans.Text = "Ekans";
-            this.Ekans.UseVisualStyleBackColor = true;
-            // 
-            // Arbok
-            // 
-            this.Arbok.AutoSize = true;
-            this.Arbok.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Arbok;
-            this.Arbok.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Arbok.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Arbok", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Arbok.Location = new System.Drawing.Point(3, 58);
-            this.Arbok.Name = "Arbok";
-            this.Arbok.Size = new System.Drawing.Size(54, 17);
-            this.Arbok.TabIndex = 24;
-            this.Arbok.Text = "Arbok";
-            this.Arbok.UseVisualStyleBackColor = true;
-            // 
-            // Pikachu
-            // 
-            this.Pikachu.AutoSize = true;
-            this.Pikachu.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Pikachu;
-            this.Pikachu.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Pikachu.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Pikachu", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Pikachu.Location = new System.Drawing.Point(3, 58);
-            this.Pikachu.Name = "Pikachu";
-            this.Pikachu.Size = new System.Drawing.Size(65, 17);
-            this.Pikachu.TabIndex = 25;
-            this.Pikachu.Text = "Pikachu";
-            this.Pikachu.UseVisualStyleBackColor = true;
-            // 
-            // Raichu
-            // 
-            this.Raichu.AutoSize = true;
-            this.Raichu.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Raichu;
-            this.Raichu.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Raichu.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Raichu", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Raichu.Location = new System.Drawing.Point(3, 58);
-            this.Raichu.Name = "Raichu";
-            this.Raichu.Size = new System.Drawing.Size(60, 17);
-            this.Raichu.TabIndex = 26;
-            this.Raichu.Text = "Raichu";
-            this.Raichu.UseVisualStyleBackColor = true;
-            // 
-            // Sandshrew
-            // 
-            this.Sandshrew.AutoSize = true;
-            this.Sandshrew.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Sandshrew;
-            this.Sandshrew.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Sandshrew.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Sandshrew", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Sandshrew.Location = new System.Drawing.Point(3, 58);
-            this.Sandshrew.Name = "Sandshrew";
-            this.Sandshrew.Size = new System.Drawing.Size(79, 17);
-            this.Sandshrew.TabIndex = 27;
-            this.Sandshrew.Text = "Sandshrew";
-            this.Sandshrew.UseVisualStyleBackColor = true;
-            // 
-            // Sandslash
-            // 
-            this.Sandslash.AutoSize = true;
-            this.Sandslash.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Sandslash;
-            this.Sandslash.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Sandslash.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Sandslash", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Sandslash.Location = new System.Drawing.Point(3, 58);
-            this.Sandslash.Name = "Sandslash";
-            this.Sandslash.Size = new System.Drawing.Size(75, 17);
-            this.Sandslash.TabIndex = 28;
-            this.Sandslash.Text = "Sandslash";
-            this.Sandslash.UseVisualStyleBackColor = true;
-            // 
-            // Nidoran
-            // 
-            this.Nidoran.AutoSize = true;
-            this.Nidoran.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.NidoranF;
-            this.Nidoran.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Nidoran.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "NidoranF", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Nidoran.Location = new System.Drawing.Point(3, 58);
-            this.Nidoran.Name = "Nidoran";
-            this.Nidoran.Size = new System.Drawing.Size(69, 17);
-            this.Nidoran.TabIndex = 29;
-            this.Nidoran.Text = "Nidoran♀";
-            this.Nidoran.UseVisualStyleBackColor = true;
-            // 
-            // Nidorina
-            // 
-            this.Nidorina.AutoSize = true;
-            this.Nidorina.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Nidorina;
-            this.Nidorina.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Nidorina.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Nidorina", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Nidorina.Location = new System.Drawing.Point(3, 58);
-            this.Nidorina.Name = "Nidorina";
-            this.Nidorina.Size = new System.Drawing.Size(65, 17);
-            this.Nidorina.TabIndex = 30;
-            this.Nidorina.Text = "Nidorina";
-            this.Nidorina.UseVisualStyleBackColor = true;
-            // 
-            // Nidoqueen
-            // 
-            this.Nidoqueen.AutoSize = true;
-            this.Nidoqueen.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Nidoqueen;
-            this.Nidoqueen.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Nidoqueen.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Nidoqueen", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Nidoqueen.Location = new System.Drawing.Point(3, 58);
-            this.Nidoqueen.Name = "Nidoqueen";
-            this.Nidoqueen.Size = new System.Drawing.Size(78, 17);
-            this.Nidoqueen.TabIndex = 31;
-            this.Nidoqueen.Text = "Nidoqueen";
-            this.Nidoqueen.UseVisualStyleBackColor = true;
-            // 
-            // NidoranM
-            // 
-            this.NidoranM.AutoSize = true;
-            this.NidoranM.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.NidoranM;
-            this.NidoranM.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.NidoranM.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "NidoranM", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.NidoranM.Location = new System.Drawing.Point(3, 58);
-            this.NidoranM.Name = "NidoranM";
-            this.NidoranM.Size = new System.Drawing.Size(71, 17);
-            this.NidoranM.TabIndex = 32;
-            this.NidoranM.Text = "Nidoran♂";
-            this.NidoranM.UseVisualStyleBackColor = true;
-            // 
-            // Nidorino
-            // 
-            this.Nidorino.AutoSize = true;
-            this.Nidorino.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Nidorino;
-            this.Nidorino.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Nidorino.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Nidorino", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Nidorino.Location = new System.Drawing.Point(3, 58);
-            this.Nidorino.Name = "Nidorino";
-            this.Nidorino.Size = new System.Drawing.Size(65, 17);
-            this.Nidorino.TabIndex = 33;
-            this.Nidorino.Text = "Nidorino";
-            this.Nidorino.UseVisualStyleBackColor = true;
-            // 
-            // Nidoking
-            // 
-            this.Nidoking.AutoSize = true;
-            this.Nidoking.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Nidoking;
-            this.Nidoking.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Nidoking.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Nidoking", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Nidoking.Location = new System.Drawing.Point(3, 58);
-            this.Nidoking.Name = "Nidoking";
-            this.Nidoking.Size = new System.Drawing.Size(68, 17);
-            this.Nidoking.TabIndex = 34;
-            this.Nidoking.Text = "Nidoking";
-            this.Nidoking.UseVisualStyleBackColor = true;
-            // 
-            // Clefairy
-            // 
-            this.Clefairy.AutoSize = true;
-            this.Clefairy.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Clefairy;
-            this.Clefairy.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Clefairy.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Clefairy", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Clefairy.Location = new System.Drawing.Point(3, 58);
-            this.Clefairy.Name = "Clefairy";
-            this.Clefairy.Size = new System.Drawing.Size(60, 17);
-            this.Clefairy.TabIndex = 35;
-            this.Clefairy.Text = "Clefairy";
-            this.Clefairy.UseVisualStyleBackColor = true;
-            // 
-            // Clefable
-            // 
-            this.Clefable.AutoSize = true;
-            this.Clefable.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Clefable;
-            this.Clefable.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Clefable.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Clefable", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Clefable.Location = new System.Drawing.Point(3, 58);
-            this.Clefable.Name = "Clefable";
-            this.Clefable.Size = new System.Drawing.Size(64, 17);
-            this.Clefable.TabIndex = 36;
-            this.Clefable.Text = "Clefable";
-            this.Clefable.UseVisualStyleBackColor = true;
-            // 
-            // Vulpix
-            // 
-            this.Vulpix.AutoSize = true;
-            this.Vulpix.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Vulpix;
-            this.Vulpix.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Vulpix.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Vulpix", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Vulpix.Location = new System.Drawing.Point(3, 58);
-            this.Vulpix.Name = "Vulpix";
-            this.Vulpix.Size = new System.Drawing.Size(54, 17);
-            this.Vulpix.TabIndex = 45;
-            this.Vulpix.Text = "Vulpix";
-            this.Vulpix.UseVisualStyleBackColor = true;
-            // 
-            // Ninetales
-            // 
-            this.Ninetales.AutoSize = true;
-            this.Ninetales.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Ninetales;
-            this.Ninetales.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Ninetales.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Ninetales", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Ninetales.Location = new System.Drawing.Point(3, 58);
-            this.Ninetales.Name = "Ninetales";
-            this.Ninetales.Size = new System.Drawing.Size(70, 17);
-            this.Ninetales.TabIndex = 44;
-            this.Ninetales.Text = "Ninetales";
-            this.Ninetales.UseVisualStyleBackColor = true;
-            // 
-            // Jigglypuff
-            // 
-            this.Jigglypuff.AutoSize = true;
-            this.Jigglypuff.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Jigglypuff;
-            this.Jigglypuff.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Jigglypuff.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Jigglypuff", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Jigglypuff.Location = new System.Drawing.Point(3, 58);
-            this.Jigglypuff.Name = "Jigglypuff";
-            this.Jigglypuff.Size = new System.Drawing.Size(70, 17);
-            this.Jigglypuff.TabIndex = 43;
-            this.Jigglypuff.Text = "Jigglypuff";
-            this.Jigglypuff.UseVisualStyleBackColor = true;
-            // 
-            // Wigglytuff
-            // 
-            this.Wigglytuff.AutoSize = true;
-            this.Wigglytuff.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Wigglytuff;
-            this.Wigglytuff.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Wigglytuff.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Wigglytuff", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Wigglytuff.Location = new System.Drawing.Point(3, 58);
-            this.Wigglytuff.Name = "Wigglytuff";
-            this.Wigglytuff.Size = new System.Drawing.Size(73, 17);
-            this.Wigglytuff.TabIndex = 42;
-            this.Wigglytuff.Text = "Wigglytuff";
-            this.Wigglytuff.UseVisualStyleBackColor = true;
-            // 
-            // Zubat
-            // 
-            this.Zubat.AutoSize = true;
-            this.Zubat.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Zubat;
-            this.Zubat.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Zubat.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Zubat", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Zubat.Location = new System.Drawing.Point(3, 58);
-            this.Zubat.Name = "Zubat";
-            this.Zubat.Size = new System.Drawing.Size(54, 17);
-            this.Zubat.TabIndex = 41;
-            this.Zubat.Text = "Zubat";
-            this.Zubat.UseVisualStyleBackColor = true;
-            // 
-            // Golbat
-            // 
-            this.Golbat.AutoSize = true;
-            this.Golbat.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Golbat;
-            this.Golbat.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Golbat.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Golbat", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Golbat.Location = new System.Drawing.Point(3, 58);
-            this.Golbat.Name = "Golbat";
-            this.Golbat.Size = new System.Drawing.Size(57, 17);
-            this.Golbat.TabIndex = 40;
-            this.Golbat.Text = "Golbat";
-            this.Golbat.UseVisualStyleBackColor = true;
-            // 
-            // Oddish
-            // 
-            this.Oddish.AutoSize = true;
-            this.Oddish.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Oddish;
-            this.Oddish.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Oddish.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Oddish", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Oddish.Location = new System.Drawing.Point(3, 58);
-            this.Oddish.Name = "Oddish";
-            this.Oddish.Size = new System.Drawing.Size(59, 17);
-            this.Oddish.TabIndex = 39;
-            this.Oddish.Text = "Oddish";
-            this.Oddish.UseVisualStyleBackColor = true;
-            // 
-            // Gloom
-            // 
-            this.Gloom.AutoSize = true;
-            this.Gloom.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Gloom;
-            this.Gloom.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Gloom.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Gloom", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Gloom.Location = new System.Drawing.Point(3, 58);
-            this.Gloom.Name = "Gloom";
-            this.Gloom.Size = new System.Drawing.Size(56, 17);
-            this.Gloom.TabIndex = 38;
-            this.Gloom.Text = "Gloom";
-            this.Gloom.UseVisualStyleBackColor = true;
-            // 
-            // Vileplume
-            // 
-            this.Vileplume.AutoSize = true;
-            this.Vileplume.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Vileplume;
-            this.Vileplume.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Vileplume.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Vileplume", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Vileplume.Location = new System.Drawing.Point(3, 58);
-            this.Vileplume.Name = "Vileplume";
-            this.Vileplume.Size = new System.Drawing.Size(71, 17);
-            this.Vileplume.TabIndex = 37;
-            this.Vileplume.Text = "Vileplume";
-            this.Vileplume.UseVisualStyleBackColor = true;
-            // 
-            // Paras
-            // 
-            this.Paras.AutoSize = true;
-            this.Paras.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Paras;
-            this.Paras.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Paras.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Paras", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Paras.Location = new System.Drawing.Point(3, 58);
-            this.Paras.Name = "Paras";
-            this.Paras.Size = new System.Drawing.Size(53, 17);
-            this.Paras.TabIndex = 46;
-            this.Paras.Text = "Paras";
-            this.Paras.UseVisualStyleBackColor = true;
-            // 
-            // Parasect
-            // 
-            this.Parasect.AutoSize = true;
-            this.Parasect.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Parasect;
-            this.Parasect.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Parasect.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Parasect", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Parasect.Location = new System.Drawing.Point(3, 58);
-            this.Parasect.Name = "Parasect";
-            this.Parasect.Size = new System.Drawing.Size(68, 17);
-            this.Parasect.TabIndex = 47;
-            this.Parasect.Text = "Parasect";
-            this.Parasect.UseVisualStyleBackColor = true;
-            // 
-            // Venonat
-            // 
-            this.Venonat.AutoSize = true;
-            this.Venonat.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Venonat;
-            this.Venonat.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Venonat.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Venonat", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Venonat.Location = new System.Drawing.Point(3, 58);
-            this.Venonat.Name = "Venonat";
-            this.Venonat.Size = new System.Drawing.Size(66, 17);
-            this.Venonat.TabIndex = 48;
-            this.Venonat.Text = "Venonat";
-            this.Venonat.UseVisualStyleBackColor = true;
-            // 
-            // Venomoth
-            // 
-            this.Venomoth.AutoSize = true;
-            this.Venomoth.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Venomoth;
-            this.Venomoth.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Venomoth.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Venomoth", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Venomoth.Location = new System.Drawing.Point(3, 58);
-            this.Venomoth.Name = "Venomoth";
-            this.Venomoth.Size = new System.Drawing.Size(74, 17);
-            this.Venomoth.TabIndex = 49;
-            this.Venomoth.Text = "Venomoth";
-            this.Venomoth.UseVisualStyleBackColor = true;
-            // 
-            // Diglett
-            // 
-            this.Diglett.AutoSize = true;
-            this.Diglett.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Diglett;
-            this.Diglett.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Diglett.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Diglett", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Diglett.Location = new System.Drawing.Point(3, 58);
-            this.Diglett.Name = "Diglett";
-            this.Diglett.Size = new System.Drawing.Size(56, 17);
-            this.Diglett.TabIndex = 50;
-            this.Diglett.Text = "Diglett";
-            this.Diglett.UseVisualStyleBackColor = true;
-            // 
-            // Dugtrio
-            // 
-            this.Dugtrio.AutoSize = true;
-            this.Dugtrio.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Dugtrio;
-            this.Dugtrio.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Dugtrio.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Dugtrio", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Dugtrio.Location = new System.Drawing.Point(3, 58);
-            this.Dugtrio.Name = "Dugtrio";
-            this.Dugtrio.Size = new System.Drawing.Size(60, 17);
-            this.Dugtrio.TabIndex = 51;
-            this.Dugtrio.Text = "Dugtrio";
-            this.Dugtrio.UseVisualStyleBackColor = true;
-            // 
-            // Meowth
-            // 
-            this.Meowth.AutoSize = true;
-            this.Meowth.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Meowth;
-            this.Meowth.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Meowth.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Meowth", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Meowth.Location = new System.Drawing.Point(3, 58);
-            this.Meowth.Name = "Meowth";
-            this.Meowth.Size = new System.Drawing.Size(64, 17);
-            this.Meowth.TabIndex = 52;
-            this.Meowth.Text = "Meowth";
-            this.Meowth.UseVisualStyleBackColor = true;
-            // 
-            // Persian
-            // 
-            this.Persian.AutoSize = true;
-            this.Persian.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Persian;
-            this.Persian.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Persian.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Persian", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Persian.Location = new System.Drawing.Point(3, 58);
-            this.Persian.Name = "Persian";
-            this.Persian.Size = new System.Drawing.Size(61, 17);
-            this.Persian.TabIndex = 53;
-            this.Persian.Text = "Persian";
-            this.Persian.UseVisualStyleBackColor = true;
-            // 
-            // Psyduck
-            // 
-            this.Psyduck.AutoSize = true;
-            this.Psyduck.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Psyduck;
-            this.Psyduck.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Psyduck.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Psyduck", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Psyduck.Location = new System.Drawing.Point(3, 58);
-            this.Psyduck.Name = "Psyduck";
-            this.Psyduck.Size = new System.Drawing.Size(67, 17);
-            this.Psyduck.TabIndex = 54;
-            this.Psyduck.Text = "Psyduck";
-            this.Psyduck.UseVisualStyleBackColor = true;
-            // 
-            // Golduck
-            // 
-            this.Golduck.AutoSize = true;
-            this.Golduck.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Golduck;
-            this.Golduck.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Golduck.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Golduck", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Golduck.Location = new System.Drawing.Point(3, 58);
-            this.Golduck.Name = "Golduck";
-            this.Golduck.Size = new System.Drawing.Size(66, 17);
-            this.Golduck.TabIndex = 59;
-            this.Golduck.Text = "Golduck";
-            this.Golduck.UseVisualStyleBackColor = true;
-            // 
-            // Mankey
-            // 
-            this.Mankey.AutoSize = true;
-            this.Mankey.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Mankey;
-            this.Mankey.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Mankey.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Mankey", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Mankey.Location = new System.Drawing.Point(3, 58);
-            this.Mankey.Name = "Mankey";
-            this.Mankey.Size = new System.Drawing.Size(64, 17);
-            this.Mankey.TabIndex = 58;
-            this.Mankey.Text = "Mankey";
-            this.Mankey.UseVisualStyleBackColor = true;
-            // 
-            // Primeape
-            // 
-            this.Primeape.AutoSize = true;
-            this.Primeape.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Primeape;
-            this.Primeape.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Primeape.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Primeape", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Primeape.Location = new System.Drawing.Point(3, 58);
-            this.Primeape.Name = "Primeape";
-            this.Primeape.Size = new System.Drawing.Size(70, 17);
-            this.Primeape.TabIndex = 57;
-            this.Primeape.Text = "Primeape";
-            this.Primeape.UseVisualStyleBackColor = true;
-            // 
-            // Growlithe
-            // 
-            this.Growlithe.AutoSize = true;
-            this.Growlithe.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Growlithe;
-            this.Growlithe.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Growlithe.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Growlithe", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Growlithe.Location = new System.Drawing.Point(3, 58);
-            this.Growlithe.Name = "Growlithe";
-            this.Growlithe.Size = new System.Drawing.Size(70, 17);
-            this.Growlithe.TabIndex = 55;
-            this.Growlithe.Text = "Growlithe";
-            this.Growlithe.UseVisualStyleBackColor = true;
-            // 
-            // Arcanine
-            // 
-            this.Arcanine.AutoSize = true;
-            this.Arcanine.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Arcanine;
-            this.Arcanine.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Arcanine.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Arcanine", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Arcanine.Location = new System.Drawing.Point(3, 58);
-            this.Arcanine.Name = "Arcanine";
-            this.Arcanine.Size = new System.Drawing.Size(68, 17);
-            this.Arcanine.TabIndex = 56;
-            this.Arcanine.Text = "Arcanine";
-            this.Arcanine.UseVisualStyleBackColor = true;
-            // 
-            // Poliwag
-            // 
-            this.Poliwag.AutoSize = true;
-            this.Poliwag.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Poliwag;
-            this.Poliwag.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Poliwag.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Poliwag", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Poliwag.Location = new System.Drawing.Point(3, 58);
-            this.Poliwag.Name = "Poliwag";
-            this.Poliwag.Size = new System.Drawing.Size(63, 17);
-            this.Poliwag.TabIndex = 60;
-            this.Poliwag.Text = "Poliwag";
-            this.Poliwag.UseVisualStyleBackColor = true;
-            // 
-            // Poliwhirl
-            // 
-            this.Poliwhirl.AutoSize = true;
-            this.Poliwhirl.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Poliwhirl;
-            this.Poliwhirl.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Poliwhirl.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Poliwhirl", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Poliwhirl.Location = new System.Drawing.Point(3, 58);
-            this.Poliwhirl.Name = "Poliwhirl";
-            this.Poliwhirl.Size = new System.Drawing.Size(64, 17);
-            this.Poliwhirl.TabIndex = 61;
-            this.Poliwhirl.Text = "Poliwhirl";
-            this.Poliwhirl.UseVisualStyleBackColor = true;
-            // 
-            // Poliwrath
-            // 
-            this.Poliwrath.AutoSize = true;
-            this.Poliwrath.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Poliwrath;
-            this.Poliwrath.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Poliwrath.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Poliwrath", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Poliwrath.Location = new System.Drawing.Point(3, 58);
-            this.Poliwrath.Name = "Poliwrath";
-            this.Poliwrath.Size = new System.Drawing.Size(69, 17);
-            this.Poliwrath.TabIndex = 62;
-            this.Poliwrath.Text = "Poliwrath";
-            this.Poliwrath.UseVisualStyleBackColor = true;
-            // 
-            // Abra
-            // 
-            this.Abra.AutoSize = true;
-            this.Abra.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Abra;
-            this.Abra.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Abra.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Abra", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Abra.Location = new System.Drawing.Point(3, 58);
-            this.Abra.Name = "Abra";
-            this.Abra.Size = new System.Drawing.Size(48, 17);
-            this.Abra.TabIndex = 63;
-            this.Abra.Text = "Abra";
-            this.Abra.UseVisualStyleBackColor = true;
-            // 
-            // Kadabra
-            // 
-            this.Kadabra.AutoSize = true;
-            this.Kadabra.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Kadabra;
-            this.Kadabra.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Kadabra.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Kadabra", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Kadabra.Location = new System.Drawing.Point(3, 58);
-            this.Kadabra.Name = "Kadabra";
-            this.Kadabra.Size = new System.Drawing.Size(66, 17);
-            this.Kadabra.TabIndex = 64;
-            this.Kadabra.Text = "Kadabra";
-            this.Kadabra.UseVisualStyleBackColor = true;
-            // 
-            // Alakazam
-            // 
-            this.Alakazam.AutoSize = true;
-            this.Alakazam.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Alakazam;
-            this.Alakazam.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Alakazam.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Alakazam", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Alakazam.Location = new System.Drawing.Point(3, 58);
-            this.Alakazam.Name = "Alakazam";
-            this.Alakazam.Size = new System.Drawing.Size(72, 17);
-            this.Alakazam.TabIndex = 65;
-            this.Alakazam.Text = "Alakazam";
-            this.Alakazam.UseVisualStyleBackColor = true;
-            // 
-            // Machop
-            // 
-            this.Machop.AutoSize = true;
-            this.Machop.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Machop;
-            this.Machop.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Machop.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Machop", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Machop.Location = new System.Drawing.Point(3, 58);
-            this.Machop.Name = "Machop";
-            this.Machop.Size = new System.Drawing.Size(65, 17);
-            this.Machop.TabIndex = 66;
-            this.Machop.Text = "Machop";
-            this.Machop.UseVisualStyleBackColor = true;
-            // 
-            // Machoke
-            // 
-            this.Machoke.AutoSize = true;
-            this.Machoke.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Machoke;
-            this.Machoke.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Machoke.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Machoke", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Machoke.Location = new System.Drawing.Point(3, 58);
-            this.Machoke.Name = "Machoke";
-            this.Machoke.Size = new System.Drawing.Size(71, 17);
-            this.Machoke.TabIndex = 67;
-            this.Machoke.Text = "Machoke";
-            this.Machoke.UseVisualStyleBackColor = true;
-            // 
-            // Machamp
-            // 
-            this.Machamp.AutoSize = true;
-            this.Machamp.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Machamp;
-            this.Machamp.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Machamp.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Machamp", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Machamp.Location = new System.Drawing.Point(3, 58);
-            this.Machamp.Name = "Machamp";
-            this.Machamp.Size = new System.Drawing.Size(73, 17);
-            this.Machamp.TabIndex = 68;
-            this.Machamp.Text = "Machamp";
-            this.Machamp.UseVisualStyleBackColor = true;
-            // 
-            // Bellsprout
-            // 
-            this.Bellsprout.AutoSize = true;
-            this.Bellsprout.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Bellsprout;
-            this.Bellsprout.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Bellsprout.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Bellsprout", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Bellsprout.Location = new System.Drawing.Point(3, 58);
-            this.Bellsprout.Name = "Bellsprout";
-            this.Bellsprout.Size = new System.Drawing.Size(72, 17);
-            this.Bellsprout.TabIndex = 69;
-            this.Bellsprout.Text = "Bellsprout";
-            this.Bellsprout.UseVisualStyleBackColor = true;
-            // 
-            // Weepinbell
-            // 
-            this.Weepinbell.AutoSize = true;
-            this.Weepinbell.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Weepinbell;
-            this.Weepinbell.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Weepinbell.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Weepinbell", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Weepinbell.Location = new System.Drawing.Point(3, 58);
-            this.Weepinbell.Name = "Weepinbell";
-            this.Weepinbell.Size = new System.Drawing.Size(79, 17);
-            this.Weepinbell.TabIndex = 70;
-            this.Weepinbell.Text = "Weepinbell";
-            this.Weepinbell.UseVisualStyleBackColor = true;
-            // 
-            // Victreebel
-            // 
-            this.Victreebel.AutoSize = true;
-            this.Victreebel.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Victreebel;
-            this.Victreebel.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Victreebel.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Victreebel", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Victreebel.Location = new System.Drawing.Point(3, 58);
-            this.Victreebel.Name = "Victreebel";
-            this.Victreebel.Size = new System.Drawing.Size(73, 17);
-            this.Victreebel.TabIndex = 71;
-            this.Victreebel.Text = "Victreebel";
-            this.Victreebel.UseVisualStyleBackColor = true;
-            // 
-            // Tentacool
-            // 
-            this.Tentacool.AutoSize = true;
-            this.Tentacool.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Tentacool;
-            this.Tentacool.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Tentacool.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Tentacool", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Tentacool.Location = new System.Drawing.Point(3, 58);
-            this.Tentacool.Name = "Tentacool";
-            this.Tentacool.Size = new System.Drawing.Size(74, 17);
-            this.Tentacool.TabIndex = 72;
-            this.Tentacool.Text = "Tentacool";
-            this.Tentacool.UseVisualStyleBackColor = true;
-            // 
-            // Tentacruel
-            // 
-            this.Tentacruel.AutoSize = true;
-            this.Tentacruel.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Tentacruel;
-            this.Tentacruel.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Tentacruel.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Tentacruel", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Tentacruel.Location = new System.Drawing.Point(3, 58);
-            this.Tentacruel.Name = "Tentacruel";
-            this.Tentacruel.Size = new System.Drawing.Size(77, 17);
-            this.Tentacruel.TabIndex = 77;
-            this.Tentacruel.Text = "Tentacruel";
-            this.Tentacruel.UseVisualStyleBackColor = true;
-            // 
-            // Geodude
-            // 
-            this.Geodude.AutoSize = true;
-            this.Geodude.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Geodude;
-            this.Geodude.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Geodude.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Geodude", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Geodude.Location = new System.Drawing.Point(3, 58);
-            this.Geodude.Name = "Geodude";
-            this.Geodude.Size = new System.Drawing.Size(70, 17);
-            this.Geodude.TabIndex = 76;
-            this.Geodude.Text = "Geodude";
-            this.Geodude.UseVisualStyleBackColor = true;
-            // 
-            // Graveler
-            // 
-            this.Graveler.AutoSize = true;
-            this.Graveler.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Graveler;
-            this.Graveler.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Graveler.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Graveler", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Graveler.Location = new System.Drawing.Point(3, 58);
-            this.Graveler.Name = "Graveler";
-            this.Graveler.Size = new System.Drawing.Size(66, 17);
-            this.Graveler.TabIndex = 75;
-            this.Graveler.Text = "Graveler";
-            this.Graveler.UseVisualStyleBackColor = true;
-            // 
-            // Golem
-            // 
-            this.Golem.AutoSize = true;
-            this.Golem.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Golem;
-            this.Golem.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Golem.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Golem", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Golem.Location = new System.Drawing.Point(3, 58);
-            this.Golem.Name = "Golem";
-            this.Golem.Size = new System.Drawing.Size(56, 17);
-            this.Golem.TabIndex = 73;
-            this.Golem.Text = "Golem";
-            this.Golem.UseVisualStyleBackColor = true;
-            // 
-            // Ponyta
-            // 
-            this.Ponyta.AutoSize = true;
-            this.Ponyta.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Ponyta;
-            this.Ponyta.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Ponyta.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Ponyta", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Ponyta.Location = new System.Drawing.Point(3, 58);
-            this.Ponyta.Name = "Ponyta";
-            this.Ponyta.Size = new System.Drawing.Size(59, 17);
-            this.Ponyta.TabIndex = 74;
-            this.Ponyta.Text = "Ponyta";
-            this.Ponyta.UseVisualStyleBackColor = true;
-            // 
-            // Rapidash
-            // 
-            this.Rapidash.AutoSize = true;
-            this.Rapidash.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Rapidash;
-            this.Rapidash.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Rapidash.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Rapidash", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Rapidash.Location = new System.Drawing.Point(3, 58);
-            this.Rapidash.Name = "Rapidash";
-            this.Rapidash.Size = new System.Drawing.Size(71, 17);
-            this.Rapidash.TabIndex = 78;
-            this.Rapidash.Text = "Rapidash";
-            this.Rapidash.UseVisualStyleBackColor = true;
-            // 
-            // Slowpoke
-            // 
-            this.Slowpoke.AutoSize = true;
-            this.Slowpoke.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Slowpoke;
-            this.Slowpoke.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Slowpoke.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Slowpoke", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Slowpoke.Location = new System.Drawing.Point(3, 58);
-            this.Slowpoke.Name = "Slowpoke";
-            this.Slowpoke.Size = new System.Drawing.Size(73, 17);
-            this.Slowpoke.TabIndex = 79;
-            this.Slowpoke.Text = "Slowpoke";
-            this.Slowpoke.UseVisualStyleBackColor = true;
-            // 
-            // Slowbro
-            // 
-            this.Slowbro.AutoSize = true;
-            this.Slowbro.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Slowbro;
-            this.Slowbro.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Slowbro.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Slowbro", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Slowbro.Location = new System.Drawing.Point(3, 58);
-            this.Slowbro.Name = "Slowbro";
-            this.Slowbro.Size = new System.Drawing.Size(64, 17);
-            this.Slowbro.TabIndex = 80;
-            this.Slowbro.Text = "Slowbro";
-            this.Slowbro.UseVisualStyleBackColor = true;
-            // 
-            // Magnemite
-            // 
-            this.Magnemite.AutoSize = true;
-            this.Magnemite.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Magnemite;
-            this.Magnemite.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Magnemite.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Magnemite", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Magnemite.Location = new System.Drawing.Point(3, 58);
-            this.Magnemite.Name = "Magnemite";
-            this.Magnemite.Size = new System.Drawing.Size(78, 17);
-            this.Magnemite.TabIndex = 81;
-            this.Magnemite.Text = "Magnemite";
-            this.Magnemite.UseVisualStyleBackColor = true;
-            // 
-            // Magneton
-            // 
-            this.Magneton.AutoSize = true;
-            this.Magneton.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Magneton;
-            this.Magneton.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Magneton.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Magneton", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Magneton.Location = new System.Drawing.Point(3, 58);
-            this.Magneton.Name = "Magneton";
-            this.Magneton.Size = new System.Drawing.Size(74, 17);
-            this.Magneton.TabIndex = 82;
-            this.Magneton.Text = "Magneton";
-            this.Magneton.UseVisualStyleBackColor = true;
-            // 
-            // Farfetch
-            // 
-            this.Farfetch.AutoSize = true;
-            this.Farfetch.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Farfetch;
-            this.Farfetch.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Farfetch.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Farfetch", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Farfetch.Location = new System.Drawing.Point(3, 58);
-            this.Farfetch.Name = "Farfetch";
-            this.Farfetch.Size = new System.Drawing.Size(73, 17);
-            this.Farfetch.TabIndex = 83;
-            this.Farfetch.Text = "Farfetch\'d";
-            this.Farfetch.UseVisualStyleBackColor = true;
-            // 
-            // Doduo
-            // 
-            this.Doduo.AutoSize = true;
-            this.Doduo.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Doduo;
-            this.Doduo.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Doduo.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Doduo", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Doduo.Location = new System.Drawing.Point(3, 58);
-            this.Doduo.Name = "Doduo";
-            this.Doduo.Size = new System.Drawing.Size(58, 17);
-            this.Doduo.TabIndex = 84;
-            this.Doduo.Text = "Doduo";
-            this.Doduo.UseVisualStyleBackColor = true;
-            // 
-            // Dodrio
-            // 
-            this.Dodrio.AutoSize = true;
-            this.Dodrio.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Dodrio;
-            this.Dodrio.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Dodrio.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Dodrio", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Dodrio.Location = new System.Drawing.Point(3, 58);
-            this.Dodrio.Name = "Dodrio";
-            this.Dodrio.Size = new System.Drawing.Size(57, 17);
-            this.Dodrio.TabIndex = 85;
-            this.Dodrio.Text = "Dodrio";
-            this.Dodrio.UseVisualStyleBackColor = true;
-            // 
-            // Seel
-            // 
-            this.Seel.AutoSize = true;
-            this.Seel.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Seel;
-            this.Seel.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Seel.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Seel", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Seel.Location = new System.Drawing.Point(3, 58);
-            this.Seel.Name = "Seel";
-            this.Seel.Size = new System.Drawing.Size(47, 17);
-            this.Seel.TabIndex = 86;
-            this.Seel.Text = "Seel";
-            this.Seel.UseVisualStyleBackColor = true;
-            // 
-            // Dewgong
-            // 
-            this.Dewgong.AutoSize = true;
-            this.Dewgong.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Dewgong;
-            this.Dewgong.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Dewgong.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Dewgong", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Dewgong.Location = new System.Drawing.Point(3, 58);
-            this.Dewgong.Name = "Dewgong";
-            this.Dewgong.Size = new System.Drawing.Size(72, 17);
-            this.Dewgong.TabIndex = 87;
-            this.Dewgong.Text = "Dewgong";
-            this.Dewgong.UseVisualStyleBackColor = true;
-            // 
-            // Grimer
-            // 
-            this.Grimer.AutoSize = true;
-            this.Grimer.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Grimer;
-            this.Grimer.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Grimer.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Grimer", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Grimer.Location = new System.Drawing.Point(3, 58);
-            this.Grimer.Name = "Grimer";
-            this.Grimer.Size = new System.Drawing.Size(56, 17);
-            this.Grimer.TabIndex = 88;
-            this.Grimer.Text = "Grimer";
-            this.Grimer.UseVisualStyleBackColor = true;
-            // 
-            // Muk
-            // 
-            this.Muk.AutoSize = true;
-            this.Muk.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Muk;
-            this.Muk.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Muk.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Muk", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Muk.Location = new System.Drawing.Point(3, 58);
-            this.Muk.Name = "Muk";
-            this.Muk.Size = new System.Drawing.Size(47, 17);
-            this.Muk.TabIndex = 89;
-            this.Muk.Text = "Muk";
-            this.Muk.UseVisualStyleBackColor = true;
-            // 
-            // Shellder
-            // 
-            this.Shellder.AutoSize = true;
-            this.Shellder.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Shellder;
-            this.Shellder.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Shellder.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Shellder", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Shellder.Location = new System.Drawing.Point(3, 58);
-            this.Shellder.Name = "Shellder";
-            this.Shellder.Size = new System.Drawing.Size(64, 17);
-            this.Shellder.TabIndex = 90;
-            this.Shellder.Text = "Shellder";
-            this.Shellder.UseVisualStyleBackColor = true;
-            // 
-            // Cloyster
-            // 
-            this.Cloyster.AutoSize = true;
-            this.Cloyster.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Cloyster;
-            this.Cloyster.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Cloyster.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Cloyster", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Cloyster.Location = new System.Drawing.Point(3, 58);
-            this.Cloyster.Name = "Cloyster";
-            this.Cloyster.Size = new System.Drawing.Size(63, 17);
-            this.Cloyster.TabIndex = 95;
-            this.Cloyster.Text = "Cloyster";
-            this.Cloyster.UseVisualStyleBackColor = true;
-            // 
-            // Gastly
-            // 
-            this.Gastly.AutoSize = true;
-            this.Gastly.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Gastly;
-            this.Gastly.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Gastly.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Gastly", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Gastly.Location = new System.Drawing.Point(3, 58);
-            this.Gastly.Name = "Gastly";
-            this.Gastly.Size = new System.Drawing.Size(55, 17);
-            this.Gastly.TabIndex = 94;
-            this.Gastly.Text = "Gastly";
-            this.Gastly.UseVisualStyleBackColor = true;
-            // 
-            // Haunter
-            // 
-            this.Haunter.AutoSize = true;
-            this.Haunter.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Haunter;
-            this.Haunter.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Haunter.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Haunter", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Haunter.Location = new System.Drawing.Point(3, 58);
-            this.Haunter.Name = "Haunter";
-            this.Haunter.Size = new System.Drawing.Size(64, 17);
-            this.Haunter.TabIndex = 93;
-            this.Haunter.Text = "Haunter";
-            this.Haunter.UseVisualStyleBackColor = true;
-            // 
-            // Gengar
-            // 
-            this.Gengar.AutoSize = true;
-            this.Gengar.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Gengar;
-            this.Gengar.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Gengar.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Gengar", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Gengar.Location = new System.Drawing.Point(3, 58);
-            this.Gengar.Name = "Gengar";
-            this.Gengar.Size = new System.Drawing.Size(61, 17);
-            this.Gengar.TabIndex = 91;
-            this.Gengar.Text = "Gengar";
-            this.Gengar.UseVisualStyleBackColor = true;
-            // 
-            // Onix
-            // 
-            this.Onix.AutoSize = true;
-            this.Onix.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Onix;
-            this.Onix.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Onix.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Onix", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Onix.Location = new System.Drawing.Point(3, 58);
-            this.Onix.Name = "Onix";
-            this.Onix.Size = new System.Drawing.Size(47, 17);
-            this.Onix.TabIndex = 92;
-            this.Onix.Text = "Onix";
-            this.Onix.UseVisualStyleBackColor = true;
-            // 
-            // Drowzee
-            // 
-            this.Drowzee.AutoSize = true;
-            this.Drowzee.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Drowzee;
-            this.Drowzee.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Drowzee.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Drowzee", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Drowzee.Location = new System.Drawing.Point(3, 58);
-            this.Drowzee.Name = "Drowzee";
-            this.Drowzee.Size = new System.Drawing.Size(68, 17);
-            this.Drowzee.TabIndex = 96;
-            this.Drowzee.Text = "Drowzee";
-            this.Drowzee.UseVisualStyleBackColor = true;
-            // 
-            // Hypno
-            // 
-            this.Hypno.AutoSize = true;
-            this.Hypno.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Hypno;
-            this.Hypno.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Hypno.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Hypno", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Hypno.Location = new System.Drawing.Point(3, 58);
-            this.Hypno.Name = "Hypno";
-            this.Hypno.Size = new System.Drawing.Size(57, 17);
-            this.Hypno.TabIndex = 97;
-            this.Hypno.Text = "Hypno";
-            this.Hypno.UseVisualStyleBackColor = true;
-            // 
-            // Krabby
-            // 
-            this.Krabby.AutoSize = true;
-            this.Krabby.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Krabby;
-            this.Krabby.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Krabby.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Krabby", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Krabby.Location = new System.Drawing.Point(3, 58);
-            this.Krabby.Name = "Krabby";
-            this.Krabby.Size = new System.Drawing.Size(59, 17);
-            this.Krabby.TabIndex = 98;
-            this.Krabby.Text = "Krabby";
-            this.Krabby.UseVisualStyleBackColor = true;
-            // 
-            // Kingler
-            // 
-            this.Kingler.AutoSize = true;
-            this.Kingler.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Kingler;
-            this.Kingler.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Kingler.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Kingler", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Kingler.Location = new System.Drawing.Point(3, 58);
-            this.Kingler.Name = "Kingler";
-            this.Kingler.Size = new System.Drawing.Size(58, 17);
-            this.Kingler.TabIndex = 99;
-            this.Kingler.Text = "Kingler";
-            this.Kingler.UseVisualStyleBackColor = true;
-            // 
-            // Voltorb
-            // 
-            this.Voltorb.AutoSize = true;
-            this.Voltorb.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Voltorb;
-            this.Voltorb.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Voltorb.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Voltorb", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Voltorb.Location = new System.Drawing.Point(3, 58);
-            this.Voltorb.Name = "Voltorb";
-            this.Voltorb.Size = new System.Drawing.Size(59, 17);
-            this.Voltorb.TabIndex = 100;
-            this.Voltorb.Text = "Voltorb";
-            this.Voltorb.UseVisualStyleBackColor = true;
-            // 
-            // Electrode
-            // 
-            this.Electrode.AutoSize = true;
-            this.Electrode.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Electrode;
-            this.Electrode.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Electrode.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Electrode", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Electrode.Location = new System.Drawing.Point(3, 58);
-            this.Electrode.Name = "Electrode";
-            this.Electrode.Size = new System.Drawing.Size(71, 17);
-            this.Electrode.TabIndex = 101;
-            this.Electrode.Text = "Electrode";
-            this.Electrode.UseVisualStyleBackColor = true;
-            // 
-            // Exeggcute
-            // 
-            this.Exeggcute.AutoSize = true;
-            this.Exeggcute.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Exeggcute;
-            this.Exeggcute.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Exeggcute.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Exeggcute", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Exeggcute.Location = new System.Drawing.Point(3, 58);
-            this.Exeggcute.Name = "Exeggcute";
-            this.Exeggcute.Size = new System.Drawing.Size(77, 17);
-            this.Exeggcute.TabIndex = 102;
-            this.Exeggcute.Text = "Exeggcute";
-            this.Exeggcute.UseVisualStyleBackColor = true;
-            // 
-            // Exeggutor
-            // 
-            this.Exeggutor.AutoSize = true;
-            this.Exeggutor.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Exeggutor;
-            this.Exeggutor.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Exeggutor.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Exeggutor", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Exeggutor.Location = new System.Drawing.Point(3, 58);
-            this.Exeggutor.Name = "Exeggutor";
-            this.Exeggutor.Size = new System.Drawing.Size(74, 17);
-            this.Exeggutor.TabIndex = 103;
-            this.Exeggutor.Text = "Exeggutor";
-            this.Exeggutor.UseVisualStyleBackColor = true;
-            // 
-            // Cubone
-            // 
-            this.Cubone.AutoSize = true;
-            this.Cubone.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Cubone;
-            this.Cubone.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Cubone.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Cubone", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Cubone.Location = new System.Drawing.Point(3, 58);
-            this.Cubone.Name = "Cubone";
-            this.Cubone.Size = new System.Drawing.Size(63, 17);
-            this.Cubone.TabIndex = 104;
-            this.Cubone.Text = "Cubone";
-            this.Cubone.UseVisualStyleBackColor = true;
-            // 
-            // Marowak
-            // 
-            this.Marowak.AutoSize = true;
-            this.Marowak.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Marowak;
-            this.Marowak.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Marowak.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Marowak", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Marowak.Location = new System.Drawing.Point(3, 58);
-            this.Marowak.Name = "Marowak";
-            this.Marowak.Size = new System.Drawing.Size(70, 17);
-            this.Marowak.TabIndex = 105;
-            this.Marowak.Text = "Marowak";
-            this.Marowak.UseVisualStyleBackColor = true;
-            // 
-            // Hitmonlee
-            // 
-            this.Hitmonlee.AutoSize = true;
-            this.Hitmonlee.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Hitmonlee;
-            this.Hitmonlee.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Hitmonlee.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Hitmonlee", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Hitmonlee.Location = new System.Drawing.Point(3, 58);
-            this.Hitmonlee.Name = "Hitmonlee";
-            this.Hitmonlee.Size = new System.Drawing.Size(73, 17);
-            this.Hitmonlee.TabIndex = 106;
-            this.Hitmonlee.Text = "Hitmonlee";
-            this.Hitmonlee.UseVisualStyleBackColor = true;
-            // 
-            // Hitmonchan
-            // 
-            this.Hitmonchan.AutoSize = true;
-            this.Hitmonchan.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Hitmonchan;
-            this.Hitmonchan.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Hitmonchan.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Hitmonchan", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Hitmonchan.Location = new System.Drawing.Point(3, 58);
-            this.Hitmonchan.Name = "Hitmonchan";
-            this.Hitmonchan.Size = new System.Drawing.Size(83, 17);
-            this.Hitmonchan.TabIndex = 107;
-            this.Hitmonchan.Text = "Hitmonchan";
-            this.Hitmonchan.UseVisualStyleBackColor = true;
-            // 
-            // Lickitung
-            // 
-            this.Lickitung.AutoSize = true;
-            this.Lickitung.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Lickitung;
-            this.Lickitung.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Lickitung.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Lickitung", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Lickitung.Location = new System.Drawing.Point(3, 58);
-            this.Lickitung.Name = "Lickitung";
-            this.Lickitung.Size = new System.Drawing.Size(69, 17);
-            this.Lickitung.TabIndex = 108;
-            this.Lickitung.Text = "Lickitung";
-            this.Lickitung.UseVisualStyleBackColor = true;
-            // 
-            // Koffing
-            // 
-            this.Koffing.AutoSize = true;
-            this.Koffing.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Koffing;
-            this.Koffing.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Koffing.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Koffing", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Koffing.Location = new System.Drawing.Point(3, 58);
-            this.Koffing.Name = "Koffing";
-            this.Koffing.Size = new System.Drawing.Size(59, 17);
-            this.Koffing.TabIndex = 112;
-            this.Koffing.Text = "Koffing";
-            this.Koffing.UseVisualStyleBackColor = true;
-            // 
-            // Weezing
-            // 
-            this.Weezing.AutoSize = true;
-            this.Weezing.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Weezing;
-            this.Weezing.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Weezing.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Weezing", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Weezing.Location = new System.Drawing.Point(3, 58);
-            this.Weezing.Name = "Weezing";
-            this.Weezing.Size = new System.Drawing.Size(68, 17);
-            this.Weezing.TabIndex = 111;
-            this.Weezing.Text = "Weezing";
-            this.Weezing.UseVisualStyleBackColor = true;
-            // 
-            // Rhyhorn
-            // 
-            this.Rhyhorn.AutoSize = true;
-            this.Rhyhorn.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Rhyhorn;
-            this.Rhyhorn.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Rhyhorn.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Rhyhorn", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Rhyhorn.Location = new System.Drawing.Point(3, 58);
-            this.Rhyhorn.Name = "Rhyhorn";
-            this.Rhyhorn.Size = new System.Drawing.Size(66, 17);
-            this.Rhyhorn.TabIndex = 110;
-            this.Rhyhorn.Text = "Rhyhorn";
-            this.Rhyhorn.UseVisualStyleBackColor = true;
-            // 
-            // Rhydon
-            // 
-            this.Rhydon.AutoSize = true;
-            this.Rhydon.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Rhydon;
-            this.Rhydon.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Rhydon.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Rhydon", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Rhydon.Location = new System.Drawing.Point(3, 58);
-            this.Rhydon.Name = "Rhydon";
-            this.Rhydon.Size = new System.Drawing.Size(63, 17);
-            this.Rhydon.TabIndex = 109;
-            this.Rhydon.Text = "Rhydon";
-            this.Rhydon.UseVisualStyleBackColor = true;
-            // 
-            // Chansey
-            // 
-            this.Chansey.AutoSize = true;
-            this.Chansey.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Chansey;
-            this.Chansey.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Chansey.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Chansey", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Chansey.Location = new System.Drawing.Point(3, 58);
-            this.Chansey.Name = "Chansey";
-            this.Chansey.Size = new System.Drawing.Size(67, 17);
-            this.Chansey.TabIndex = 126;
-            this.Chansey.Text = "Chansey";
-            this.Chansey.UseVisualStyleBackColor = true;
-            // 
-            // Tangela
-            // 
-            this.Tangela.AutoSize = true;
-            this.Tangela.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Tangela;
-            this.Tangela.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Tangela.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Tangela", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Tangela.Location = new System.Drawing.Point(3, 58);
-            this.Tangela.Name = "Tangela";
-            this.Tangela.Size = new System.Drawing.Size(65, 17);
-            this.Tangela.TabIndex = 113;
-            this.Tangela.Text = "Tangela";
-            this.Tangela.UseVisualStyleBackColor = true;
-            // 
-            // Kangaskhan
-            // 
-            this.Kangaskhan.AutoSize = true;
-            this.Kangaskhan.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Kangaskhan;
-            this.Kangaskhan.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Kangaskhan.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Kangaskhan", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Kangaskhan.Location = new System.Drawing.Point(3, 58);
-            this.Kangaskhan.Name = "Kangaskhan";
-            this.Kangaskhan.Size = new System.Drawing.Size(86, 17);
-            this.Kangaskhan.TabIndex = 114;
-            this.Kangaskhan.Text = "Kangaskhan";
-            this.Kangaskhan.UseVisualStyleBackColor = true;
-            // 
-            // Horsea
-            // 
-            this.Horsea.AutoSize = true;
-            this.Horsea.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Horsea;
-            this.Horsea.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Horsea.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Horsea", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Horsea.Location = new System.Drawing.Point(3, 58);
-            this.Horsea.Name = "Horsea";
-            this.Horsea.Size = new System.Drawing.Size(60, 17);
-            this.Horsea.TabIndex = 115;
-            this.Horsea.Text = "Horsea";
-            this.Horsea.UseVisualStyleBackColor = true;
-            // 
-            // Seadra
-            // 
-            this.Seadra.AutoSize = true;
-            this.Seadra.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Seadra;
-            this.Seadra.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Seadra.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Seadra", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Seadra.Location = new System.Drawing.Point(3, 58);
-            this.Seadra.Name = "Seadra";
-            this.Seadra.Size = new System.Drawing.Size(60, 17);
-            this.Seadra.TabIndex = 116;
-            this.Seadra.Text = "Seadra";
-            this.Seadra.UseVisualStyleBackColor = true;
-            // 
-            // Goldeen
-            // 
-            this.Goldeen.AutoSize = true;
-            this.Goldeen.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Goldeen;
-            this.Goldeen.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Goldeen.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Goldeen", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Goldeen.Location = new System.Drawing.Point(3, 58);
-            this.Goldeen.Name = "Goldeen";
-            this.Goldeen.Size = new System.Drawing.Size(66, 17);
-            this.Goldeen.TabIndex = 117;
-            this.Goldeen.Text = "Goldeen";
-            this.Goldeen.UseVisualStyleBackColor = true;
-            // 
-            // Seaking
-            // 
-            this.Seaking.AutoSize = true;
-            this.Seaking.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Seaking;
-            this.Seaking.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Seaking.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Seaking", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Seaking.Location = new System.Drawing.Point(3, 58);
-            this.Seaking.Name = "Seaking";
-            this.Seaking.Size = new System.Drawing.Size(65, 17);
-            this.Seaking.TabIndex = 118;
-            this.Seaking.Text = "Seaking";
-            this.Seaking.UseVisualStyleBackColor = true;
-            // 
-            // Staryu
-            // 
-            this.Staryu.AutoSize = true;
-            this.Staryu.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Staryu;
-            this.Staryu.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Staryu.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Staryu", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Staryu.Location = new System.Drawing.Point(3, 58);
-            this.Staryu.Name = "Staryu";
-            this.Staryu.Size = new System.Drawing.Size(56, 17);
-            this.Staryu.TabIndex = 119;
-            this.Staryu.Text = "Staryu";
-            this.Staryu.UseVisualStyleBackColor = true;
-            // 
-            // Starmie
-            // 
-            this.Starmie.AutoSize = true;
-            this.Starmie.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Starmie;
-            this.Starmie.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Starmie.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Starmie", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Starmie.Location = new System.Drawing.Point(3, 58);
-            this.Starmie.Name = "Starmie";
-            this.Starmie.Size = new System.Drawing.Size(61, 17);
-            this.Starmie.TabIndex = 120;
-            this.Starmie.Text = "Starmie";
-            this.Starmie.UseVisualStyleBackColor = true;
-            // 
-            // MrMime
-            // 
-            this.MrMime.AutoSize = true;
-            this.MrMime.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.MrMime;
-            this.MrMime.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.MrMime.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "MrMime", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.MrMime.Location = new System.Drawing.Point(3, 58);
-            this.MrMime.Name = "MrMime";
-            this.MrMime.Size = new System.Drawing.Size(69, 17);
-            this.MrMime.TabIndex = 121;
-            this.MrMime.Text = "Mr. Mime";
-            this.MrMime.UseVisualStyleBackColor = true;
-            // 
-            // Scyther
-            // 
-            this.Scyther.AutoSize = true;
-            this.Scyther.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Scyther;
-            this.Scyther.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Scyther.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Scyther", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Scyther.Location = new System.Drawing.Point(3, 58);
-            this.Scyther.Name = "Scyther";
-            this.Scyther.Size = new System.Drawing.Size(62, 17);
-            this.Scyther.TabIndex = 122;
-            this.Scyther.Text = "Scyther";
-            this.Scyther.UseVisualStyleBackColor = true;
-            // 
-            // Jynx
-            // 
-            this.Jynx.AutoSize = true;
-            this.Jynx.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Jynx;
-            this.Jynx.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Jynx.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Jynx", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Jynx.Location = new System.Drawing.Point(3, 58);
-            this.Jynx.Name = "Jynx";
-            this.Jynx.Size = new System.Drawing.Size(47, 17);
-            this.Jynx.TabIndex = 123;
-            this.Jynx.Text = "Jynx";
-            this.Jynx.UseVisualStyleBackColor = true;
-            // 
-            // Electabuzz
-            // 
-            this.Electabuzz.AutoSize = true;
-            this.Electabuzz.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Electabuzz;
-            this.Electabuzz.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Electabuzz.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Electabuzz", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Electabuzz.Location = new System.Drawing.Point(3, 58);
-            this.Electabuzz.Name = "Electabuzz";
-            this.Electabuzz.Size = new System.Drawing.Size(78, 17);
-            this.Electabuzz.TabIndex = 124;
-            this.Electabuzz.Text = "Electabuzz";
-            this.Electabuzz.UseVisualStyleBackColor = true;
-            // 
-            // Magmar
-            // 
-            this.Magmar.AutoSize = true;
-            this.Magmar.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Magmar;
-            this.Magmar.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Magmar.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Magmar", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Magmar.Location = new System.Drawing.Point(3, 58);
-            this.Magmar.Name = "Magmar";
-            this.Magmar.Size = new System.Drawing.Size(64, 17);
-            this.Magmar.TabIndex = 125;
-            this.Magmar.Text = "Magmar";
-            this.Magmar.UseVisualStyleBackColor = true;
-            // 
-            // Pinsir
-            // 
-            this.Pinsir.AutoSize = true;
-            this.Pinsir.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Pinsir;
-            this.Pinsir.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Pinsir.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Pinsir", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Pinsir.Location = new System.Drawing.Point(3, 58);
-            this.Pinsir.Name = "Pinsir";
-            this.Pinsir.Size = new System.Drawing.Size(51, 17);
-            this.Pinsir.TabIndex = 130;
-            this.Pinsir.Text = "Pinsir";
-            this.Pinsir.UseVisualStyleBackColor = true;
-            // 
-            // Tauros
-            // 
-            this.Tauros.AutoSize = true;
-            this.Tauros.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Tauros;
-            this.Tauros.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Tauros.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Tauros", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Tauros.Location = new System.Drawing.Point(3, 58);
-            this.Tauros.Name = "Tauros";
-            this.Tauros.Size = new System.Drawing.Size(59, 17);
-            this.Tauros.TabIndex = 129;
-            this.Tauros.Text = "Tauros";
-            this.Tauros.UseVisualStyleBackColor = true;
-            // 
-            // Magikarp
-            // 
-            this.Magikarp.AutoSize = true;
-            this.Magikarp.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Magikarp;
-            this.Magikarp.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Magikarp.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Magikarp", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Magikarp.Location = new System.Drawing.Point(3, 58);
-            this.Magikarp.Name = "Magikarp";
-            this.Magikarp.Size = new System.Drawing.Size(70, 17);
-            this.Magikarp.TabIndex = 128;
-            this.Magikarp.Text = "Magikarp";
-            this.Magikarp.UseVisualStyleBackColor = true;
-            // 
-            // Gyarados
-            // 
-            this.Gyarados.AutoSize = true;
-            this.Gyarados.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Gyarados;
-            this.Gyarados.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Gyarados.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Gyarados", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Gyarados.Location = new System.Drawing.Point(3, 58);
-            this.Gyarados.Name = "Gyarados";
-            this.Gyarados.Size = new System.Drawing.Size(71, 17);
-            this.Gyarados.TabIndex = 127;
-            this.Gyarados.Text = "Gyarados";
-            this.Gyarados.UseVisualStyleBackColor = true;
-            // 
-            // Lapras
-            // 
-            this.Lapras.AutoSize = true;
-            this.Lapras.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Lapras;
-            this.Lapras.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Lapras.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Lapras", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Lapras.Location = new System.Drawing.Point(3, 58);
-            this.Lapras.Name = "Lapras";
-            this.Lapras.Size = new System.Drawing.Size(58, 17);
-            this.Lapras.TabIndex = 144;
-            this.Lapras.Text = "Lapras";
-            this.Lapras.UseVisualStyleBackColor = true;
-            // 
-            // Ditto
-            // 
-            this.Ditto.AutoSize = true;
-            this.Ditto.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Ditto;
-            this.Ditto.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Ditto.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Ditto", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Ditto.Location = new System.Drawing.Point(3, 58);
-            this.Ditto.Name = "Ditto";
-            this.Ditto.Size = new System.Drawing.Size(48, 17);
-            this.Ditto.TabIndex = 131;
-            this.Ditto.Text = "Ditto";
-            this.Ditto.UseVisualStyleBackColor = true;
-            // 
-            // Eevee
-            // 
-            this.Eevee.AutoSize = true;
-            this.Eevee.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Eevee;
-            this.Eevee.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Eevee.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Eevee", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Eevee.Location = new System.Drawing.Point(3, 58);
-            this.Eevee.Name = "Eevee";
-            this.Eevee.Size = new System.Drawing.Size(57, 17);
-            this.Eevee.TabIndex = 132;
-            this.Eevee.Text = "Eevee";
-            this.Eevee.UseVisualStyleBackColor = true;
-            // 
-            // Vaporeon
-            // 
-            this.Vaporeon.AutoSize = true;
-            this.Vaporeon.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Vaporeon;
-            this.Vaporeon.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Vaporeon.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Vaporeon", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Vaporeon.Location = new System.Drawing.Point(3, 58);
-            this.Vaporeon.Name = "Vaporeon";
-            this.Vaporeon.Size = new System.Drawing.Size(72, 17);
-            this.Vaporeon.TabIndex = 133;
-            this.Vaporeon.Text = "Vaporeon";
-            this.Vaporeon.UseVisualStyleBackColor = true;
-            // 
-            // Jolteon
-            // 
-            this.Jolteon.AutoSize = true;
-            this.Jolteon.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Jolteon;
-            this.Jolteon.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Jolteon.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Jolteon", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Jolteon.Location = new System.Drawing.Point(3, 58);
-            this.Jolteon.Name = "Jolteon";
-            this.Jolteon.Size = new System.Drawing.Size(60, 17);
-            this.Jolteon.TabIndex = 134;
-            this.Jolteon.Text = "Jolteon";
-            this.Jolteon.UseVisualStyleBackColor = true;
-            // 
-            // Flareon
-            // 
-            this.Flareon.AutoSize = true;
-            this.Flareon.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Flareon;
-            this.Flareon.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Flareon.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Flareon", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Flareon.Location = new System.Drawing.Point(3, 58);
-            this.Flareon.Name = "Flareon";
-            this.Flareon.Size = new System.Drawing.Size(61, 17);
-            this.Flareon.TabIndex = 135;
-            this.Flareon.Text = "Flareon";
-            this.Flareon.UseVisualStyleBackColor = true;
-            // 
-            // Porygon
-            // 
-            this.Porygon.AutoSize = true;
-            this.Porygon.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Porygon;
-            this.Porygon.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Porygon.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Porygon", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Porygon.Location = new System.Drawing.Point(3, 58);
-            this.Porygon.Name = "Porygon";
-            this.Porygon.Size = new System.Drawing.Size(65, 17);
-            this.Porygon.TabIndex = 136;
-            this.Porygon.Text = "Porygon";
-            this.Porygon.UseVisualStyleBackColor = true;
-            // 
-            // Omanyte
-            // 
-            this.Omanyte.AutoSize = true;
-            this.Omanyte.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Omanyte;
-            this.Omanyte.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Omanyte.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Omanyte", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Omanyte.Location = new System.Drawing.Point(3, 58);
-            this.Omanyte.Name = "Omanyte";
-            this.Omanyte.Size = new System.Drawing.Size(68, 17);
-            this.Omanyte.TabIndex = 137;
-            this.Omanyte.Text = "Omanyte";
-            this.Omanyte.UseVisualStyleBackColor = true;
-            // 
-            // Omastar
-            // 
-            this.Omastar.AutoSize = true;
-            this.Omastar.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Omastar;
-            this.Omastar.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Omastar.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Omastar", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Omastar.Location = new System.Drawing.Point(3, 58);
-            this.Omastar.Name = "Omastar";
-            this.Omastar.Size = new System.Drawing.Size(65, 17);
-            this.Omastar.TabIndex = 138;
-            this.Omastar.Text = "Omastar";
-            this.Omastar.UseVisualStyleBackColor = true;
-            // 
-            // Kabuto
-            // 
-            this.Kabuto.AutoSize = true;
-            this.Kabuto.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Kabuto;
-            this.Kabuto.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Kabuto.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Kabuto", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Kabuto.Location = new System.Drawing.Point(3, 58);
-            this.Kabuto.Name = "Kabuto";
-            this.Kabuto.Size = new System.Drawing.Size(60, 17);
-            this.Kabuto.TabIndex = 139;
-            this.Kabuto.Text = "Kabuto";
-            this.Kabuto.UseVisualStyleBackColor = true;
-            // 
-            // Kabutops
-            // 
-            this.Kabutops.AutoSize = true;
-            this.Kabutops.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Kabutops;
-            this.Kabutops.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Kabutops.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Kabutops", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Kabutops.Location = new System.Drawing.Point(3, 58);
-            this.Kabutops.Name = "Kabutops";
-            this.Kabutops.Size = new System.Drawing.Size(71, 17);
-            this.Kabutops.TabIndex = 140;
-            this.Kabutops.Text = "Kabutops";
-            this.Kabutops.UseVisualStyleBackColor = true;
-            // 
-            // Aerodactyl
-            // 
-            this.Aerodactyl.AutoSize = true;
-            this.Aerodactyl.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Aerodactyl;
-            this.Aerodactyl.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Aerodactyl.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Aerodactyl", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Aerodactyl.Location = new System.Drawing.Point(3, 58);
-            this.Aerodactyl.Name = "Aerodactyl";
-            this.Aerodactyl.Size = new System.Drawing.Size(76, 17);
-            this.Aerodactyl.TabIndex = 141;
-            this.Aerodactyl.Text = "Aerodactyl";
-            this.Aerodactyl.UseVisualStyleBackColor = true;
-            // 
-            // Snorlax
-            // 
-            this.Snorlax.AutoSize = true;
-            this.Snorlax.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Snorlax;
-            this.Snorlax.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Snorlax.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Snorlax", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Snorlax.Location = new System.Drawing.Point(3, 58);
-            this.Snorlax.Name = "Snorlax";
-            this.Snorlax.Size = new System.Drawing.Size(61, 17);
-            this.Snorlax.TabIndex = 142;
-            this.Snorlax.Text = "Snorlax";
-            this.Snorlax.UseVisualStyleBackColor = true;
-            // 
-            // Articuno
-            // 
-            this.Articuno.AutoSize = true;
-            this.Articuno.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Articuno;
-            this.Articuno.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Articuno.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Articuno", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Articuno.Location = new System.Drawing.Point(3, 58);
-            this.Articuno.Name = "Articuno";
-            this.Articuno.Size = new System.Drawing.Size(65, 17);
-            this.Articuno.TabIndex = 143;
-            this.Articuno.Text = "Articuno";
-            this.Articuno.UseVisualStyleBackColor = true;
-            // 
-            // Zapdos
-            // 
-            this.Zapdos.AutoSize = true;
-            this.Zapdos.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Zapdos;
-            this.Zapdos.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Zapdos.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Zapdos", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Zapdos.Location = new System.Drawing.Point(3, 58);
-            this.Zapdos.Name = "Zapdos";
-            this.Zapdos.Size = new System.Drawing.Size(62, 17);
-            this.Zapdos.TabIndex = 148;
-            this.Zapdos.Text = "Zapdos";
-            this.Zapdos.UseVisualStyleBackColor = true;
-            // 
-            // Moltres
-            // 
-            this.Moltres.AutoSize = true;
-            this.Moltres.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Moltres;
-            this.Moltres.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Moltres.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Moltres", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Moltres.Location = new System.Drawing.Point(3, 58);
-            this.Moltres.Name = "Moltres";
-            this.Moltres.Size = new System.Drawing.Size(60, 17);
-            this.Moltres.TabIndex = 147;
-            this.Moltres.Text = "Moltres";
-            this.Moltres.UseVisualStyleBackColor = true;
-            // 
-            // Dratini
-            // 
-            this.Dratini.AutoSize = true;
-            this.Dratini.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Dratini;
-            this.Dratini.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Dratini.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Dratini", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Dratini.Location = new System.Drawing.Point(3, 58);
-            this.Dratini.Name = "Dratini";
-            this.Dratini.Size = new System.Drawing.Size(56, 17);
-            this.Dratini.TabIndex = 146;
-            this.Dratini.Text = "Dratini";
-            this.Dratini.UseVisualStyleBackColor = true;
-            // 
-            // Dragonair
-            // 
-            this.Dragonair.AutoSize = true;
-            this.Dragonair.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Dragonair;
-            this.Dragonair.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Dragonair.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Dragonair", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Dragonair.Location = new System.Drawing.Point(3, 58);
-            this.Dragonair.Name = "Dragonair";
-            this.Dragonair.Size = new System.Drawing.Size(72, 17);
-            this.Dragonair.TabIndex = 145;
-            this.Dragonair.Text = "Dragonair";
-            this.Dragonair.UseVisualStyleBackColor = true;
-            // 
-            // Dragonite
-            // 
-            this.Dragonite.AutoSize = true;
-            this.Dragonite.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Dragonite;
-            this.Dragonite.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Dragonite.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Dragonite", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Dragonite.Location = new System.Drawing.Point(3, 58);
-            this.Dragonite.Name = "Dragonite";
-            this.Dragonite.Size = new System.Drawing.Size(72, 17);
-            this.Dragonite.TabIndex = 162;
-            this.Dragonite.Text = "Dragonite";
-            this.Dragonite.UseVisualStyleBackColor = true;
-            // 
-            // Mewtwo
-            // 
-            this.Mewtwo.AutoSize = true;
-            this.Mewtwo.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Mewtwo;
-            this.Mewtwo.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Mewtwo.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Mewtwo", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Mewtwo.Location = new System.Drawing.Point(3, 58);
-            this.Mewtwo.Name = "Mewtwo";
-            this.Mewtwo.Size = new System.Drawing.Size(66, 17);
-            this.Mewtwo.TabIndex = 149;
-            this.Mewtwo.Text = "Mewtwo";
-            this.Mewtwo.UseVisualStyleBackColor = true;
-            // 
-            // Mew
-            // 
-            this.Mew.AutoSize = true;
-            this.Mew.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.Mew;
-            this.Mew.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.Mew.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "Mew", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.Mew.Location = new System.Drawing.Point(3, 58);
-            this.Mew.Name = "Mew";
-            this.Mew.Size = new System.Drawing.Size(49, 17);
-            this.Mew.TabIndex = 150;
-            this.Mew.Text = "Mew";
-            this.Mew.UseVisualStyleBackColor = true;
-            // 
-            // push_api
-            // 
-            this.push_api.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "pushapi", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.push_api.Location = new System.Drawing.Point(56, 32);
-            this.push_api.Name = "push_api";
-            this.push_api.Size = new System.Drawing.Size(215, 20);
-            this.push_api.TabIndex = 1;
-            this.push_api.Text = global::PokemonGo_Map_Launcher.Properties.Settings.Default.pushapi;
-            // 
-            // enable_push
-            // 
-            this.enable_push.AutoSize = true;
-            this.enable_push.Checked = global::PokemonGo_Map_Launcher.Properties.Settings.Default.enable_push;
-            this.enable_push.DataBindings.Add(new System.Windows.Forms.Binding("Checked", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "enable_push", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
-            this.enable_push.Location = new System.Drawing.Point(6, 6);
-            this.enable_push.Name = "enable_push";
-            this.enable_push.Size = new System.Drawing.Size(59, 17);
-            this.enable_push.TabIndex = 0;
-            this.enable_push.Text = "Enable";
-            this.enable_push.UseVisualStyleBackColor = true;
-            // 
             // consumer_secret
             // 
             this.consumer_secret.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "consumer_secret", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6205,6 +6158,40 @@
             this.enable_twitter.Text = "Enable";
             this.enable_twitter.UseVisualStyleBackColor = true;
             // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.label7);
+            this.tabPage3.Controls.Add(this.label6);
+            this.tabPage3.Controls.Add(this.slack_api);
+            this.tabPage3.Controls.Add(this.enable_slack);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(514, 74);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Slack";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Red;
+            this.label7.Location = new System.Drawing.Point(66, 9);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(440, 13);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "*IMPORTANT* Make sure your keys are in quotes. ex. \"fadsf7dfda78fa78fd\"";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(7, 35);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(48, 13);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "API Key:";
+            // 
             // slack_api
             // 
             this.slack_api.DataBindings.Add(new System.Windows.Forms.Binding("Text", global::PokemonGo_Map_Launcher.Properties.Settings.Default, "slackapi", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
@@ -6225,6 +6212,19 @@
             this.enable_slack.TabIndex = 3;
             this.enable_slack.Text = "Enable";
             this.enable_slack.UseVisualStyleBackColor = true;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(this.flowLayoutPanel1);
+            this.groupBox1.Location = new System.Drawing.Point(4, 114);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(649, 479);
+            this.groupBox1.TabIndex = 167;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Pokemon";
             // 
             // Form2
             // 

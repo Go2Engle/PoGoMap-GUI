@@ -285,14 +285,9 @@ namespace PokemonGo_Map_Launcher
 
         private void GMapsAPI_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process process = new System.Diagnostics.Process();
-            System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
-            startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
-            startInfo.FileName = "cmd.exe";
-            startInfo.Arguments = @"/C cd PokemonGo-Map & cd config & MapsAPI.bat " + textBox1.Text;
-            process.StartInfo = startInfo;
-            process.Start();
-            process.WaitForExit();
+            var lines = File.ReadAllLines(@".\PokemonGo-map\config\config.ini");
+            lines[29] = "gmaps-key:" + textBox1.Text;
+            File.WriteAllLines(@".\PokemonGo-map\config\config.ini", lines);
             MessageBox.Show("API Key has been updated");
         }
 
