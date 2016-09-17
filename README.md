@@ -29,8 +29,9 @@ Tools being used by my GUI:
  - Notifications now has its own GUI! No more need to edit config files!
 
 ## Pre-Installation
-1. You will need your google maps API key, and any API key you wish you use for notifications if you plan to use them. The Google maps API is a must no matter what below is a link on how to get your Maps API key. After clicking the link click get a key and follow the instructions.
+1. You will need your google maps API key, and any API key you wish you use for notifications if you plan to use them. The Google maps API is a must no matter what below is a link on how to get your Maps API key. After clicking the link click get a key and follow the instructions. You will Also need google chrome installed on your computer.
  - Google Maps API instructions (https://developers.google.com/maps/documentation/javascript/get-api-key)
+ - Google Chrome (https://www.google.com/chrome/browser/desktop/)
 
 ## Installation
 1. Download the Installer (https://github.com/engle2192/PoGoMap-GUI/releases/download/Universal/PoGoMap-GUI_installer.exe)
