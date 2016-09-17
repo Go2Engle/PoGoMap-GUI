@@ -1,6 +1,6 @@
 # PoGoMap-GUI
 ## NEWS
-Working on pretty huge update to add an in app updater!
+New Release! using the new installer you will now allow you to use the built in updater! Follow instructions Below!
 
 ## Description
 This is a GUI tool created to ease the process of running your pokemongo-map and creating new accounts to scan with. This combines a few tools created by other fantastic users on github! Without there tools I would have no need to create this tool. This is a windows only tool. Sorry for my horrible coding but so far it seems to get the job done!
@@ -17,6 +17,7 @@ Tools being used by my GUI:
 ![Alt text](https://github.com/engle2192/PoGoMap-GUI/blob/master/Screenshots/MainMenu.PNG)
 ![Alt text](https://github.com/engle2192/PoGoMap-GUI/blob/master/Screenshots/Install.PNG)
 ![Alt text](https://github.com/engle2192/PoGoMap-GUI/blob/master/Screenshots/notifications.PNG)
+ - Built in updater!
  - Run your map in spiral scan or spawn point scanning
  - Enable/Disable scan for poke stops, gyms, fixed locations, no search control
  - Choose step limit (step limit must be commented out in your PokemonGo-Map config.ini for this to work)
@@ -32,8 +33,8 @@ Tools being used by my GUI:
  - Google Maps API instructions (https://developers.google.com/maps/documentation/javascript/get-api-key)
 
 ## Installation
-1. Download latest PoGoMap-GUI zip. (https://github.com/engle2192/PoGoMap-GUI/releases/tag/3.0)
-2. Extract files to a folder.
+1. Download the installer and run it (https://github.com/engle2192/PoGoMap-GUI/releases/download/Universal/PoGoMap-GUI_installer.exe)
+2. Browse to the PoGoMap-GUI folder.
 3. Run PokemonGo-Map_Launcher.exe as administrator for first run. (Right click > Run as administrator)
 4. Click the "Install" button at the bottom. Follow steps.
 5. After those steps are complete you should now be able to run your map! Dont forget to add a starting zip code location! If you run into any powershell errors please follow the Powershell instructions below.
