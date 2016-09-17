@@ -33,8 +33,8 @@ Tools being used by my GUI:
  - Google Maps API instructions (https://developers.google.com/maps/documentation/javascript/get-api-key)
 
 ## Installation
-1. Download the installer and run it (https://github.com/engle2192/PoGoMap-GUI/releases/download/Universal/PoGoMap-GUI_installer.exe)
-2. Browse to the PoGoMap-GUI folder.
+1. Download the zip (https://github.com/engle2192/PoGoMap-GUI/files/477462/PoGoMap-GUI.v3.0.zip)
+2. Extract the folder.
 3. Run PokemonGo-Map_Launcher.exe as administrator for first run. (Right click > Run as administrator)
 4. Click the "Install" button at the bottom. Follow steps.
 5. After those steps are complete you should now be able to run your map! Dont forget to add a starting zip code location! If you run into any powershell errors please follow the Powershell instructions below.
