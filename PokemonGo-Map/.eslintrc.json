@@ -1,0 +1,35 @@
+{
+  "extends": "standard",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": false
+    },
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "jquery": true
+  },
+  "globals": {
+    "google": true,
+    "mapData": true,
+    "Store": true,
+    "centerLat": true,
+    "centerLng": true,
+    "pageLoaded": true,
+    "countMarkers": true,
+    "skel": true,
+    "setupPokemonMarker": true,
+
+    "isTouchDevice": true,
+    "pokemonSprites": true,
+    "noLabelsStyle": true,
+    "darkStyle": true,
+    "light2Style": true,
+    "pGoStyle": true,
+    "darkStyleNoLabels": true,
+    "light2StyleNoLabels": true,
+    "pGoStyleNoLabels": true
+  }
+}
