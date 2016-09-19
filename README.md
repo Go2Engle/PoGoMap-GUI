@@ -15,7 +15,6 @@ Tools being used by my GUI:
 
 ## Features
 ![Alt text](https://github.com/engle2192/PoGoMap-GUI/blob/master/Screenshots/MainMenu.PNG)
-![Alt text](https://github.com/engle2192/PoGoMap-GUI/blob/master/Screenshots/Install.PNG)
 ![Alt text](https://github.com/engle2192/PoGoMap-GUI/blob/master/Screenshots/notifications.PNG)
  - Built in updater!
  - Run your map in spiral scan or spawn point scanning
