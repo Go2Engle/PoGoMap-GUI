@@ -33,7 +33,7 @@ $usernames = $usernames | where {$_ -notlike ""}
 remove-item -Path $bannedpath -Force -ErrorAction SilentlyContinue
 If($usernames)
 {
-    [System.IO.File]::WriteAllLines($usernamesPath, $usernames)
+    [System.IO.File]::WriteAllLines($textPath, $usernames)
     foreach($username in $usernames)
         {
         $usernames = $usernames.replace($username,("ptc," + $username))
