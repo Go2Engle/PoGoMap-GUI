@@ -1,11 +1,33 @@
-$usernamesPath = ".\usernames.txt"
+$textPath = ".\usernames.txt"
 $bannedpath = ".\banned.txt"
 $csvpath = ".\usernames.csv"
-$usernames = get-content -path $usernamesPath -ErrorAction Stop
-$banned = get-content -path $bannedpath -ErrorAction SilentlyContinue
-foreach($username in $banned)
+$csvnames = get-content -path $csvpath -ErrorAction SilentlyContinue
+$textnames = get-content -path $textPath -ErrorAction SilentlyContinue
+$bannednames = get-content -path $bannedpath -ErrorAction SilentlyContinue
+$usernames = $null
+foreach($csvname in $csvnames)
     {
-    $usernames = $usernames | where {$_ -notmatch $username}
+    $usernames += ($csvname.split(",") | Select -index 1) + ":" + ($csvname.split(",") | Select -index 2) + ","
+    }
+foreach($textname in $textnames)
+    {
+    $usernames += $textname + ","
+    }
+If ($usernames)
+    {
+    $usernames = $usernames.split(",")
+    }
+Else
+    {
+    "No valid accounts found! You will need to create new accounts in order to run your map."
+    }
+$usernames = $usernames | Select -Unique
+If($bannednames)
+    {
+    foreach($bannedname in $bannednames)
+        {
+        $usernames = $usernames | where {$_ -notmatch $bannedname}
+        }
     }
 $usernames = $usernames | where {$_ -notlike ""}
 remove-item -Path $bannedpath -Force -ErrorAction SilentlyContinue
@@ -21,6 +43,6 @@ If($usernames)
 }
 Else
 {
-    Remove-Item -Path $usernamespath -Force
+    Remove-Item -Path $textpath -Force -ErrorAction SilentlyContinue
     Remove-Item -Path $csvpath -Force -ErrorAction SilentlyContinue
 }
