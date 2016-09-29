@@ -53,9 +53,11 @@
 		"From_Instinct":"False"
 	},
 	"pokestops":{
-		"Lured":"false"
+		"Lured":"False"
 	},
 	"pokemon":{
+		"max_dist":"inf",
+		"min_iv":"0",
 		"Bulbasaur":"False",
 		"Ivysaur":"False",
 		"Venusaur":"False",

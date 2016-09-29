@@ -19,7 +19,7 @@ class Slack_Alarm(Alarm):
 			#'channel':"general",
 			'username':"<pkmn>",
 			'icon_url' : "https://raw.githubusercontent.com/kvangent/PokeAlarm/master/icons/<id>.png",
-			'title':"A wild <pkmn> has appeared!",
+			'title':"A wild <pkmn> <iv>%IV has appeared!",
 			'url':"<gmaps>",
 			'body': "Available until <24h_time> (<time_left>)."
 		},
@@ -33,8 +33,8 @@ class Slack_Alarm(Alarm):
 		},
 		'gym':{
 			#'channel':"general",
-			'username':"Pokemon Gym",
-			'icon_url' : "https://raw.githubusercontent.com/kvangent/PokeAlarm/master/icons/gym.png",
+			'username':"<new_team> Gym Alerts",
+			'icon_url' : "https://raw.githubusercontent.com/kvangent/PokeAlarm/master/icons/gym_<new_team>.png",
 			'title':"A Team <old_team> gym has fallen!",
 			'url':"<gmaps>",
 			'body': "It is now controlled by <new_team>."
@@ -62,15 +62,6 @@ class Slack_Alarm(Alarm):
 				channel=self.get_channel(self.pokemon['channel']),
 				username='PokeAlarm',
 				text='PokeAlarm activated! We will alert this channel about pokemon.'
-			)
-		if parse_boolean(self.startup_list):
-			poke_list = "We will alert this chat of the following pokemon:\n"
-			for line in notify_list_lines(config["NOTIFY_LIST"],4):
-				poke_list = poke_list + line + "\n"
-			self.client.chat.post_message(
-				channel=self.get_channel(self.pokemon['channel']),
-				username='PokeAlarm',
-				text=poke_list
 			)
 		log.info("Slack Alarm intialized.")
 		log.debug("Attempting to push to the following channels: Pokemon:%s, Pokestops:%s, Gyms:%s" %(self.pokemon['channel'], self.pokestop['channel'], self.gym['channel']))

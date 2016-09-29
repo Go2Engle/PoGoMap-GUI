@@ -30,7 +30,7 @@ class Boxcar_Alarm(Alarm):
 		'gym':{
 			'title':"A Team <old_team> gym has fallen!",
 			'long_message':"<a href='<gmaps>'>Gym</a> is now controlled by <new_team>.",
-			'icon_url':"https://raw.githubusercontent.com/kvangent/PokeAlarm/master/icons/gym.png",
+			'icon_url':"https://raw.githubusercontent.com/kvangent/PokeAlarm/master/icons/gym_<new_team>.png",
 			'sound':"beep-crisp"
 		}
 	}
@@ -50,9 +50,6 @@ class Boxcar_Alarm(Alarm):
 		#Connect and send startup messages
 		if parse_boolean(self.startup_message):
 			self.send_boxcar("PokeAlarm activated!", "We will alert you about pokemon.")
-		if parse_boolean(self.startup_list):
-			for line in notify_list_multi_msgs(config["NOTIFY_LIST"],4000,"We will alert this channel of the following pokemon"):
-				self.send_boxcar(line, 'We will alert this channel of the following pokemon',icon_url="https://raw.githubusercontent.com/kvangent/PokeAlarm/master/icons/PokemonGo.png",sound=self.pokemon['sound'])
 		log.info("Boxcar Alarm intialized.")
 	
 		
@@ -94,7 +91,7 @@ class Boxcar_Alarm(Alarm):
 				"notification[title]": title,
 				"notification[long_message]": long_message,
 				"notification[icon_url]": icon_url,
-				"sound": sound}	
+				"notification[sound]": sound}	
 		if url is not None:
 			payload["notification[open_url]"] = url
 		connection.request("POST", "/api/notifications", urllib.urlencode(payload), 
