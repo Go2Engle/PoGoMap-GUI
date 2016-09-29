@@ -16,7 +16,7 @@ Tools being used by my GUI:
  - PokemonGo-Map_Launcher.exe source(https://github.com/engle2192/PoGoMap-GUI_EXE_SourceFiles)
 
 ## Features
-![Alt text](https://github.com/engle2192/PoGoMap-GUI/blob/master/Screenshots/MainMenu.PNG)
+![Alt text](https://github.com/engle2192/PoGoMap-GUI/blob/master/Screenshots/MainMenu1.PNG)
 ![Alt text](https://github.com/engle2192/PoGoMap-GUI/blob/master/Screenshots/notifications.PNG)
  - Built in updater!
  - Run your map in spiral scan or spawn point scanning
