@@ -37,8 +37,7 @@ Tools being used by my GUI:
 ## Installation
 [![Install Video](http://i.imgur.com/mtmeRXD.png)](https://youtu.be/CwhVm35r2zo "Install Video")
 
-1. Download the Installer and Run (https://github.com/engle2192/PoGoMap-GUI/releases/tag/AIO)
-2. After it extracts the folder run setup.exe as administrator.
+1. Download the Installer and Run as an administrator (https://github.com/engle2192/PoGoMap-GUI/releases/tag/AIO)
 2. Browse to the PoGoMap-GUI folder located on your desktop.
 3. Run PokemonGo-Map_Launcher.exe.
 5. Enter your Google Maps API Key, Create some accounts using account creator, enter your zip code or address in quotes.
