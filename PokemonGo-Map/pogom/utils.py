@@ -44,8 +44,9 @@ def memoize(function):
 @memoize
 def get_args():
     # fuck PEP8
-    configpath = os.path.join(os.path.dirname(__file__), '../config/config.ini')
-    parser = configargparse.ArgParser(default_config_files=[configpath], auto_env_var_prefix='POGOMAP_')
+    defaultconfigpath = os.getenv('POGOMAP_CONFIG', os.path.join(os.path.dirname(__file__), '../config/config.ini'))
+    parser = configargparse.ArgParser(default_config_files=[defaultconfigpath], auto_env_var_prefix='POGOMAP_')
+    parser.add_argument('-cf', '--config', is_config_file=True, help='Configuration file')
     parser.add_argument('-a', '--auth-service', type=str.lower, action='append', default=[],
                         help='Auth Services, either one for all accounts or one per account: ptc or google. Defaults all to ptc.')
     parser.add_argument('-u', '--username', action='append', default=[],
@@ -124,7 +125,7 @@ def get_args():
     parser.add_argument('-k', '--gmaps-key',
                         help='Google Maps Javascript API Key',
                         required=True)
-    parser.add_argument('--spawnpoints-only', help='Only scan locations with spawnpoints in them.',
+    parser.add_argument('--skip-empty', help='Enables skipping of empty cells  in normal scans - requires previously populated database (not to be used with -ss)',
                         action='store_true', default=False)
     parser.add_argument('-C', '--cors', help='Enable CORS on web server',
                         action='store_true', default=False)
@@ -150,6 +151,7 @@ def get_args():
                         help='Clear pokemon from database this many hours after they disappear \
                         (0 to disable)', type=int, default=0)
     parser.add_argument('-px', '--proxy', help='Proxy url (e.g. socks5://127.0.0.1:9050)', action='append')
+    parser.add_argument('-pxsc', '--proxy-skip-check', help='Disable checking of proxies before start', action='store_true', default=False)
     parser.add_argument('-pxt', '--proxy-timeout', help='Timeout settings for proxy checker in seconds ', type=int, default=5)
     parser.add_argument('-pxd', '--proxy-display', help='Display info on which proxy beeing used (index or full) To be used with -ps', type=str, default='index')
     parser.add_argument('--db-type', help='Type of database to be used (default: sqlite)',
@@ -182,6 +184,7 @@ def get_args():
     parser.add_argument('-spp', '--status-page-password', default=None,
                         help='Set the status page password')
     parser.add_argument('-el', '--encrypt-lib', help='Path to encrypt lib to be used instead of the shipped ones')
+    parser.add_argument('-odt', '--on-demand_timeout', help='Pause searching while web UI is inactive for this timeout(in seconds)', type=int, default=0)
     verbosity = parser.add_mutually_exclusive_group()
     verbosity.add_argument('-v', '--verbose', help='Show debug messages from PomemonGo-Map and pgoapi. Optionally specify file to log to.', nargs='?', const='nofile', default=False, metavar='filename.log')
     verbosity.add_argument('-vv', '--very-verbose', help='Like verbose, but show debug messages from all modules as well.  Optionally specify file to log to.', nargs='?', const='nofile', default=False, metavar='filename.log')
@@ -196,33 +199,93 @@ def get_args():
             print(sys.argv[0] + ": error: arguments -l/--location is required")
             sys.exit(1)
     else:
-        # If using a CSV file, add the data into the username,password and auth_service arguments.
-        # CSV file should have lines like "ptc,username,password".  Additional fields after that are ignored.
+        # If using a CSV file, add the data where needed into the username,password and auth_service arguments.
+        # CSV file should have lines like "ptc,username,password", "username,password" or "username".
         if args.accountcsv is not None:
+            # Giving num_fields something it would usually not get
+            num_fields = -1
             with open(args.accountcsv, 'r') as f:
                 for num, line in enumerate(f, 1):
 
+                    fields = []
+
+                    # First time around populate num_fields with current field count.
+                    if num_fields < 0:
+                        num_fields = line.count(',') + 1
+
+                    csv_input = []
+                    csv_input.append('')
+                    csv_input.append('<username>')
+                    csv_input.append('<username>,<password>')
+                    csv_input.append('<ptc/google>,<username>,<password>')
+
+                    # If the number of fields is differend this is not a CSV
+                    if num_fields != line.count(',') + 1:
+                        print(sys.argv[0] + ": Error parsing CSV file on line " + str(num) + ". Your file started with the following input, '" + csv_input[num_fields] + "' but now you gave us '" + csv_input[line.count(',') + 1] + "'.")
+                        sys.exit(1)
+
+                    field_error = ''
+                    line = line.strip()
+
                     # Ignore blank lines and comment lines
-                    if len(line.strip()) == 0 or line.startswith('#'):
+                    if len(line) == 0 or line.startswith('#'):
                         continue
 
-                    # Split into fields
-                    fields = line.split(",")
+                    # If number of fields is more than 1 split the line into fields and strip them
+                    if num_fields > 1:
+                        fields = line.split(",")
+                        fields = map(str.strip, fields)
 
-                    # Make sure it has at least 3 fields
-                    if len(fields) < 3:
-                        print(sys.argv[0] + ": Error parsing CSV file on line " + str(num) + ". Lines must be in the format '<method>,<username>,<password>'. Additional fields after those are ignored.")
+                    # If the number of fields is one then assume this is "username". As requested..
+                    if num_fields == 1:
+                        # Empty lines are already ignored.
+                        args.username.append(line)
+
+                    # If the number of fields is two then assume this is "username,password". As requested..
+                    if num_fields == 2:
+                        # If field length is not longer then 0 something is wrong!
+                        if len(fields[0]) > 0:
+                            args.username.append(fields[0])
+                        else:
+                            field_error = 'username'
+
+                        # If field length is not longer then 0 something is wrong!
+                        if len(fields[1]) > 0:
+                            args.password.append(fields[1])
+                        else:
+                            field_error = 'password'
+
+                    # If the number of fields is three then assume this is "ptc,username,password". As requested..
+                    if num_fields == 3:
+                        # If field 0 is not ptc or google something is wrong!
+                        if fields[0].lower() == 'ptc' or fields[0].lower() == 'google':
+                            args.auth_service.append(fields[0])
+                        else:
+                            field_error = 'method'
+
+                        # If field length is not longer then 0 something is wrong!
+                        if len(fields[1]) > 0:
+                            args.username.append(fields[1])
+                        else:
+                            field_error = 'username'
+
+                        # If field length is not longer then 0 something is wrong!
+                        if len(fields[2]) > 0:
+                            args.password.append(fields[2])
+                        else:
+                            field_error = 'password'
+
+                    if num_fields > 3:
+                        print 'Too many fields in accounts file: max supported are 3 fields. Found {} fields'.format(num_fields)
                         sys.exit(1)
 
-                    # Make sure none of the fields are blank
-                    if len(fields[0]) == 0 or len(fields[1]) == 0 or len(fields[2]) == 0:
-                        print(sys.argv[0] + ": Error parsing CSV file on line " + str(num) + ". Lines must be in the format '<method>,<username>,<password>'. Additional fields after those are ignored.")
+                    # If something is wrong display error.
+                    if field_error != '':
+                        type_error = 'empty!'
+                        if field_error == 'method':
+                            type_error = 'not ptc or google instead we got \'' + fields[0] + '\'!'
+                        print(sys.argv[0] + ": Error parsing CSV file on line " + str(num) + ". We found " + str(num_fields) + " fields, so your input should have looked like '" + csv_input[num_fields] + "'\nBut you gave us '" + line + "', your " + field_error + " was " + type_error)
                         sys.exit(1)
-
-                    # Add the account to the list
-                    args.auth_service.append(fields[0].strip())
-                    args.username.append(fields[1].strip())
-                    args.password.append(fields[2].strip())
 
         errors = []
 
@@ -295,7 +358,7 @@ def get_args():
         # Decide which scanning mode to use
         if args.spawnpoint_scanning:
             args.scheduler = 'SpawnScan'
-        elif args.spawnpoints_only:
+        elif args.skip_empty:
             args.scheduler = 'HexSearchSpawnpoint'
         else:
             args.scheduler = 'HexSearch'

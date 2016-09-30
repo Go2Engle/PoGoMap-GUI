@@ -93,19 +93,6 @@ class Pokemon(BaseModel):
         indexes = ((('latitude', 'longitude'), False),)
 
     @staticmethod
-    def get_encountered_pokemon(encounter_id):
-        query = (Pokemon
-                 .select()
-                 .where((Pokemon.encounter_id == b64encode(str(encounter_id))) &
-                        (Pokemon.disappear_time > datetime.utcnow()))
-                 .dicts()
-                 )
-        pokemon = []
-        for a in query:
-            pokemon.append(a)
-        return pokemon
-
-    @staticmethod
     def get_active(swLat, swLng, neLat, neLng):
         if swLat is None or swLng is None or neLat is None or neLng is None:
             query = (Pokemon
@@ -600,9 +587,8 @@ def construct_pokemon_dict(pokemons, p, encounter_result, d_t):
         'longitude': p['longitude'],
         'disappear_time': d_t,
     }
-    if encounter_result is not None:
-        ecounter_info = encounter_result['responses']['ENCOUNTER']
-        pokemon_info = ecounter_info['wild_pokemon']['pokemon_data']
+    if encounter_result is not None and 'wild_pokemon' in encounter_result['responses']['ENCOUNTER']:
+        pokemon_info = encounter_result['responses']['ENCOUNTER']['wild_pokemon']['pokemon_data']
         attack = pokemon_info.get('individual_attack', 0)
         defense = pokemon_info.get('individual_defense', 0)
         stamina = pokemon_info.get('individual_stamina', 0)
@@ -614,6 +600,8 @@ def construct_pokemon_dict(pokemons, p, encounter_result, d_t):
             'move_2': pokemon_info['move_2'],
         })
     else:
+        if encounter_result is not None and 'wild_pokemon' not in encounter_result['responses']['ENCOUNTER']:
+            log.warning("Error encountering {}, status code: {}".format(p['encounter_id'], encounter_result['responses']['ENCOUNTER']['status']))
         pokemons[p['encounter_id']].update({
             'individual_attack': None,
             'individual_defense': None,
@@ -629,14 +617,24 @@ def parse_map(args, map_dict, step_location, db_update_queue, wh_update_queue, a
     pokestops = {}
     gyms = {}
     skipped = 0
+    encountered_pokemon = []
 
     cells = map_dict['responses']['GET_MAP_OBJECTS']['map_cells']
     for cell in cells:
         if config['parse_pokemon']:
-            for p in cell.get('wild_pokemons', []):
+            # pre-build a list of encountered pokemon
+            encounter_ids = [b64encode(str(p['encounter_id'])) for p in cell.get('wild_pokemons', [])]
+            if encounter_ids:
+                query = (Pokemon
+                         .select()
+                         .where((Pokemon.disappear_time > datetime.utcnow()) & (Pokemon.encounter_id << encounter_ids))
+                         .dicts()
+                         )
+                encountered_pokemon = [(p['encounter_id'], p['spawnpoint_id']) for p in query]
 
+            for p in cell.get('wild_pokemons', []):
                 # Don't parse pokemon we've already encountered. Avoids IVs getting nulled out on rescanning.
-                if Pokemon.get_encountered_pokemon(p['encounter_id']):
+                if (b64encode(str(p['encounter_id'])), p['spawn_point_id']) in encountered_pokemon:
                     skipped += 1
                     continue
 
@@ -655,8 +653,8 @@ def parse_map(args, map_dict, step_location, db_update_queue, wh_update_queue, a
 
                 # Scan for IVs and moves
                 encounter_result = None
-                if (args.encounter and p['pokemon_data']['pokemon_id'] in args.encounter_whitelist or
-                        p['pokemon_data']['pokemon_id'] not in args.encounter_blacklist and not args.encounter_whitelist):
+                if (args.encounter and (p['pokemon_data']['pokemon_id'] in args.encounter_whitelist or
+                                        p['pokemon_data']['pokemon_id'] not in args.encounter_blacklist and not args.encounter_whitelist)):
                     time.sleep(args.encounter_delay)
                     encounter_result = api.encounter(encounter_id=p['encounter_id'],
                                                      spawn_point_id=p['spawn_point_id'],
@@ -963,6 +961,7 @@ def clean_db_loop(args):
                          .delete()
                          .where((Pokemon.disappear_time <
                                 (datetime.utcnow() - timedelta(hours=args.purge_data)))))
+                query.execute()
 
             log.info('Regular database cleaning complete')
             time.sleep(60)
@@ -973,7 +972,13 @@ def clean_db_loop(args):
 def bulk_upsert(cls, data):
     num_rows = len(data.values())
     i = 0
-    step = 120
+
+    if args.db_type == 'mysql':
+        step = 120
+    else:
+        # SQLite has a default max number of parameters of 999,
+        # so we need to limit how many rows we insert for it.
+        step = 50
 
     while i < num_rows:
         log.debug('Inserting items %d to %d', i, min(i + step, num_rows))

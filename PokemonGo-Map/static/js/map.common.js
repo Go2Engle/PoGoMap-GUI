@@ -760,6 +760,10 @@ var StoreOptions = {
     default: 'none',
     type: StoreTypes.String
   },
+  'gymMarkerStyle': {
+    default: 'shield',
+    type: StoreTypes.String
+  },
   'zoomLevel': {
     default: 16,
     type: StoreTypes.Number
@@ -853,4 +857,9 @@ function setupPokemonMarker (item, map, isBounceDisabled) {
 function isTouchDevice () {
   // Should cover most browsers
   return 'ontouchstart' in window || navigator.maxTouchPoints
+}
+
+function isMobileDevice () {
+  //  Basic mobile OS (not browser) detection
+  return (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
 }
