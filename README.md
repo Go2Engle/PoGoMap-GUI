@@ -35,7 +35,6 @@ Tools being used by my GUI:
  - Google Chrome (https://www.google.com/chrome/browser/desktop/)
 
 ## Installation
-[![Install Video](http://i.imgur.com/mtmeRXD.png)](https://youtu.be/CwhVm35r2zo "Install Video")
 
 1. Download the Installer and Run as an administrator (https://github.com/engle2192/PoGoMap-GUI/releases/tag/AIO)
 2. Browse to the PoGoMap-GUI folder located on your desktop.
