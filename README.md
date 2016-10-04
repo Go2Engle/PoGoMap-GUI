@@ -36,6 +36,8 @@ Tools being used by my GUI:
 
 ## Installation
 
+Install video (https://youtu.be/LFIH1-bRG9Q)
+
 1. Download the Installer and Run as an administrator (https://github.com/engle2192/PoGoMap-GUI/releases/tag/AIO)
 2. Browse to the PoGoMap-GUI folder located on your desktop.
 3. Run PokemonGo-Map_Launcher.exe.
