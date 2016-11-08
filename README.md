@@ -1,5 +1,5 @@
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/PoGoMapGUI)
-# PoGoMap-GUI
+# THIS WILL NO LONGER BE UPDATED. SORRY, FULLY LOST ALL INTREST DUE TO CREATORS OF THIS GAME...
 
 ## NEWS
 First just wanna let everyone know I just created a forum which can be access at http://www.go2engle.com. Hopfully we can get some people posting in there that way there can be more discussion on errors and what not. I will also be looking for Mods for the forums as right now its only me answering questions. Could use some help if anyone is interested!(If anyone registerd today 9/20/16 before 4:30pm est and didnt get your registration email please visit the site and click the resend button. 2nd if you have just updated to 3.1.7 please be aware that you will need to run check accounts before starting your map after updating. This will spit your current and future accounts into a CSV file which will then be used to log in. This upgrade also wiped out your google maps API key( Sorry :( ). So you will also need to re-enter that before starting your map as well.
